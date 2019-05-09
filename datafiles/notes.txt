@@ -1,0 +1,17 @@
+CROSS-PLATFORM-NESS!
+
+This is intended to be cross-platform. I'm trying to stay away from any built-in functions and extensions that are Windows-only. HOWEVER!
+
+There's a DLL extension, which is clearly not cross-platform (unless you want to go to the effort of compiling it for a bunch of different devices, which I do not). It's there to compress and decompress, and I mostly mean decompress, the game data/map files using zlib so that they take up less space on the hard drive. If you're using Game Maker Studio 2 (see below), you can get rid of the extension entirely and use the now built-in buffer_de/compress functions, and they should work. If you want to keep on using Game Maker Studio 1 and are only interested in Windows, you can leave it alone. If, in some unlikely event, you want to keep on using Game Maker Studio 1 AND are interested in non-Windows platforms, things get complicated. You can write your own zlib decompression algorithm in GML, which sounds terrible and I don't advise you do, or you can get rid of the extension and set the compression level in the editor to zero (File > Settings - Data), which will produce significantly larger data and map files but will remove the need to decompress them.
+
+FOR THE PEOPLE USING THIS WITH GAME MAKER STUDIO 2
+
+I'll probably be importing this into GMS2 periodically to see if anything breaks in an unsually spectacular manner, but for the most part I'm going to be developing this in GMS1.
+
+When possible I'm going to try to write code that will be easy for the GMS2 importer to handle, such as using matrices over the d3d_transform functions, but this is not always possible. (See: the lack of the Camera system, how object depth is handled, etc.)
+
+Known Issues, and/or Things You Need To Do:
+
+ - The font(s) may not draw correctly when you first import them. I'm pretty sure this is either because fonts are handled slightly differently in GMS2 than they were in previous versions, or there might currently be a bug in the importer, because I've seen this happen in some other projects that I imported to GMS2.
+
+ - There is a macro called GMS_VERSION. It's currently set to 1. It's mostly to deal with things that I know will be a problem when you import this into GMS2 (or are currently a problem, but won't be). Nothing's going to explode if you don't remember to set it to 2 when you need to, probably, but you should do it anyway because it takes two seconds and is probably safer.

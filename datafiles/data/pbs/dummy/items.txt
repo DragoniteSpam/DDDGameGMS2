@@ -1,0 +1,1 @@
+﻿1,REPEL,Repel,Repels,1,350,"An item that prevents weak monsters from appearing for 100 steps after its use.",2,0,0,

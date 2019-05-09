@@ -1,0 +1,3030 @@
+Converting GML script: MACRO: PATH_DUMMY_DATA
+Converted string - line 1: '.\data\dummy\' -> ".\\data\\dummy\\"
+
+Converting GML script: MACRO: IMPORT_EXTENSION_DATA
+Converted string - line 1: '.dddd' -> ".dddd"
+
+Converting GML script: MACRO: IMPORT_EXTENSION_MAP
+Converted string - line 1: '.dddm' -> ".dddm"
+
+Converting GML script: MACRO: LOG_FILE
+Converted string - line 1: 'log.txt' -> "log.txt"
+
+Converting GML script: MACRO: OPTIONS_INI
+Converted string - line 1: '.\ddd.ini' -> ".\\ddd.ini"
+
+Converting GML script: MACRO: PATH_AUTOTILE
+Converted string - line 1: '.\data\graphics\autotiles\' -> ".\\data\\graphics\\autotiles\\"
+
+Converting GML script: MACRO: PATH_BATTLER
+Converted string - line 1: '.\data\graphics\battlers\' -> ".\\data\\graphics\\battlers\\"
+
+Converting GML script: MACRO: PATH_DATA
+Converted string - line 1: '.\data\stuff\' -> ".\\data\\stuff\\"
+
+Converting GML script: MACRO: PATH_LANGUAGE
+Converted string - line 1: '.\data\strings.txt' -> ".\\data\\strings.txt"
+
+Converting GML script: MACRO: PATH_MAP
+Converted string - line 1: '.\data\stuff\maps\' -> ".\\data\\stuff\\maps\\"
+
+Converting GML script: MACRO: PATH_PBS_DUMMY
+Converted string - line 1: '.\data\pbs\dummy\' -> ".\\data\\pbs\\dummy\\"
+
+Converting GML script: MACRO: PATH_PBS
+Converted string - line 1: '.\data\pbs\' -> ".\\data\\pbs\\"
+
+Converting GML script: MACRO: PATH_FONT
+Converted string - line 1: '.\data\graphics\fonts\' -> ".\\data\\graphics\\fonts\\"
+
+Converting GML script: MACRO: PATH_TILESET
+Converted string - line 1: '.\data\graphics\tilesets\' -> ".\\data\\graphics\\tilesets\\"
+
+Converting GML script: MACRO: __SCRIBBLE_DATE
+Converted string - line 1: '2019/03/16' -> "2019/03/16"
+
+Converting GML script: MACRO: __SCRIBBLE_VERSION
+Converted string - line 1: '-3.2.3' -> "-3.2.3"
+
+Converting GML script: MACRO: SCRIBBLE_COMMAND_TAG_ARGUMENT
+Converted string - line 1: ',' -> ","
+
+Converting GML script: MACRO: SCRIBBLE_COMMAND_TAG_CLOSE
+Converted string - line 1: ']' -> "]"
+
+Converting GML script: MACRO: SCRIBBLE_COMMAND_TAG_OPEN
+Converted string - line 1: '[' -> "["
+
+Converting GML script: ${project_dir}\scripts\battle_add_team\battle_add_team.gml
+Converted description /// @description  BattleTeam battle_add_team(Pawn, SpriteSide);/// @param Pawn
+/// @param  SpriteSide
+
+Converting GML script: ${project_dir}\scripts\battle_add_position\battle_add_position.gml
+Converted description /// @description  void battle_add_position(Pawn, x, y, direction, offscreen distance, fade time, hud offscreen x, hud offscreen y, ability offscreen x, ability offscreen y);/// @param Pawn
+/// @param  x
+/// @param  y
+/// @param  direction
+/// @param  offscreen distance
+/// @param  fade time
+/// @param  hud offscreen x
+/// @param  hud offscreen y
+/// @param  ability offscreen x
+/// @param  ability offscreen y
+
+Converting GML script: ${project_dir}\scripts\battle_begin\battle_begin.gml
+Converted string - line 12: '.png' -> ".png"
+Converted string - line 13: '.png' -> ".png"
+Converted string - line 46: 'The battle has started!' -> "The battle has started!"
+
+Converting GML script: ${project_dir}\scripts\battle_end\battle_end.gml
+Converted description /// @description  void battle_end(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_action_check_replacements_before_turn\battle_action_check_replacements_before_turn.gml
+Converted string - line 14: '%0, come back!' -> "%0, come back!"
+Converted string - line 16: '%0 called back %1!' -> "%0 called back %1!"
+Converted string - line 26: 'Go, %0!' -> "Go, %0!"
+Converted string - line 28: '%0 sent out %1!' -> "%0 sent out %1!"
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_check_contestant\battle_round_action_check_contestant.gml
+Converted description /// @description  void battle_round_action_check_contestant(params);/// @param params
+Converted string - line 46: '%0 has no more healthy Pokémon!' -> "%0 has no more healthy Pokémon!"
+Converted string - line 61: '%0 is about to send in %1. Would you like to change Pokémon?' -> "%0 is about to send in %1. Would you like to change Pokémon?"
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_entry_abilities\battle_round_action_entry_abilities.gml
+Converted description /// @description  void battle_round_action_entry_abilities(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_change_contestant\battle_round_action_change_contestant.gml
+Converted description /// @description  void battle_round_action_change_contestant(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_input\battle_round_action_input.gml
+Converted description /// @description  void battle_round_action_input(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_text\battle_round_action_text.gml
+Converted description /// @description  void battle_round_action_text(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_execute\battle_round_action_execute.gml
+Converted description /// @description  void battle_round_action_execute(params);/// @param params
+Converted string - line 20: '%0 is paralyzed and unable to move!' -> "%0 is paralyzed and unable to move!"
+Converted string - line 45: '%0 snapped out of confusion!' -> "%0 snapped out of confusion!"
+Converted string - line 47: '%0 is confused!' -> "%0 is confused!"
+Converted string - line 55: '%0 hit himself in confusion!' -> "%0 hit himself in confusion!"
+Converted string - line 56: '%0 hit herself in confusion!' -> "%0 hit herself in confusion!"
+Converted string - line 57: '%0 hit itself in confusion!' -> "%0 hit itself in confusion!"
+Converted string - line 72: 'stat raise animations' -> "stat raise animations"
+Converted string - line 73: 'stat fall animations' -> "stat fall animations"
+Converted string - line 90: '%0 used %1!' -> "%0 used %1!"
+Converted string - line 145: 'A critical hit on %0' -> "A critical hit on %0"
+Converted string - line 147: 'A critical hit!' -> "A critical hit!"
+Converted string - line 176: '%0 avoided the attack!' -> "%0 avoided the attack!"
+Converted string - line 186: 'But it failed!' -> "But it failed!"
+Converted string - line 211: '%0, come back!' -> "%0, come back!"
+Converted string - line 213: '%0 called back %1!' -> "%0 called back %1!"
+Converted string - line 222: 'Go, %0!' -> "Go, %0!"
+Converted string - line 224: '%0 sent out %1!' -> "%0 sent out %1!"
+Converted string - line 237: '%0 fled! (Implement this later, please.)' -> "%0 fled! (Implement this later, please.)"
+Converted string - line 240: '%0 is just hanging around!' -> "%0 is just hanging around!"
+Converted string - line 250: '%0 was restored!' -> "%0 was restored!"
+Converted string - line 256: '%0 has already fainted!' -> "%0 has already fainted!"
+Converted string - line 268: '%0 has forcefully ended the battle. %1 wins!' -> "%0 has forcefully ended the battle. %1 wins!"
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_submit_leads\battle_round_action_submit_leads.gml
+Converted description /// @description  void battle_round_action_submit_leads(params);/// @param params
+Converted string - line 13: '%0 sent out %1!' -> "%0 sent out %1!"
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_retract_trainer\battle_round_action_anim_retract_trainer.gml
+Converted description /// @description  void battle_round_action_anim_retract_trainer(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_submit_contestant\battle_round_action_anim_submit_contestant.gml
+Converted description /// @description  void battle_round_action_anim_submit_contestant(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_retract_contestant\battle_round_action_anim_retract_contestant.gml
+Converted description /// @description  void battle_round_action_anim_retract_contestant(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_send_in_pokemon_walking\battle_round_action_anim_send_in_pokemon_walking.gml
+Converted description /// @description  void battle_round_action_anim_send_in_pokemon_walking(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_send_in_pokemon_hud\battle_round_action_anim_send_in_pokemon_hud.gml
+Converted description /// @description  void battle_round_action_anim_send_in_pokemon_hud(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_send_in_pokemon_ability\battle_round_action_anim_send_in_pokemon_ability.gml
+Converted description /// @description  void battle_round_action_anim_send_in_pokemon_ability(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_retract_pokemon_hud\battle_round_action_anim_retract_pokemon_hud.gml
+Converted description /// @description  void battle_round_action_anim_retract_pokemon_hud(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_retract_pokemon_ability\battle_round_action_anim_retract_pokemon_ability.gml
+Converted description /// @description  void battle_round_action_anim_retract_pokemon_ability(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_anim_trainer_intro\battle_round_action_anim_trainer_intro.gml
+Converted description /// @description  void battle_round_action_anim_trainer_intro(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_fade\battle_fade.gml
+Converted description /// @description  void battle_fade(params);/// @param params
+Converted string - line 12: 'time' -> "time"
+Converted string - line 13: 'starting' -> "starting"
+
+Converting GML script: ${project_dir}\scripts\battle_round_action_execute_faint_check\battle_round_action_execute_faint_check.gml
+Converted description /// @description  battle_round_action_execute_faint_check(queue, user, target, damage);/// @param queue
+/// @param  user
+/// @param  target
+/// @param  damage
+Converted string - line 13: '%0 fainted!' -> "%0 fainted!"
+Converted string - line 31: '%0 gained one experience point!' -> "%0 gained one experience point!"
+Converted string - line 33: '%0 gained %1 experience points!' -> "%0 gained %1 experience points!"
+Converted string - line 41: '%0 grew to level %1!' -> "%0 grew to level %1!"
+
+Converting GML script: ${project_dir}\scripts\battle_round_post_trap_damage\battle_round_post_trap_damage.gml
+Converted description /// @description  void battle_round_post_trap_damage(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_round_post_major_status_damage\battle_round_post_major_status_damage.gml
+Converted description /// @description  void battle_round_post_major_status_damage(params);/// @param params
+Converted string - line 7: '' -> ""
+Converted string - line 12: '%0 was hurt by poison!' -> "%0 was hurt by poison!"
+Converted string - line 17: '%0 was hurt by poison!' -> "%0 was hurt by poison!"
+Converted string - line 21: '%0 was hurt by his burn!' -> "%0 was hurt by his burn!"
+Converted string - line 22: '%0 was hurt by her burn!' -> "%0 was hurt by her burn!"
+Converted string - line 23: '%0 was hurt by its burn!' -> "%0 was hurt by its burn!"
+
+Converting GML script: ${project_dir}\scripts\battle_action_conclude\battle_action_conclude.gml
+Converted string - line 3: 'congratulations you broke the battle loop' -> "congratulations you broke the battle loop"
+Converted string - line 24: '' -> ""
+Converted string - line 28: ', ' -> ", "
+Converted string - line 30: ' and ' -> " and "
+Converted string - line 33: '%0 has defeated %1!' -> "%0 has defeated %1!"
+Converted string - line 39: 'Was given $%0 as prize money!' -> "Was given $%0 as prize money!"
+Converted string - line 50: '%0 dropped %1 in panic!' -> "%0 dropped %1 in panic!"
+Converted string - line 52: '%0 handed out %1 to the winner!' -> "%0 handed out %1 to the winner!"
+Converted string - line 58: '%0 zonked out!' -> "%0 zonked out!"
+Converted string - line 65: 'The battle ended in a draw...' -> "The battle ended in a draw..."
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_animation_move\battle_individual_action_animation_move.gml
+Converted description /// @description  void battle_individual_action_animation_move(BattleIndividualAction);/// @param BattleIndividualAction
+Converted string - line 14: 'color' -> "color"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_death\battle_individual_action_death.gml
+Converted description /// @description  void battle_individual_action_death(BattleIndividualAction);/// @param BattleIndividualAction
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_exp_gain\battle_individual_action_exp_gain.gml
+Converted description /// @description  void battle_individual_action_exp_gain(BattleIndividualAction);/// @param BattleIndividualAction
+Converted string - line 13: 'current' -> "current"
+Converted string - line 14: 'gain' -> "gain"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_level_gain\battle_individual_action_level_gain.gml
+Converted description /// @description  void battle_individual_action_level_gain(BattleIndividualAction);/// @param BattleIndividualAction
+Converted string - line 16: 'who' -> "who"
+Converted string - line 17: 'old level' -> "old level"
+Converted string - line 18: 'new level' -> "new level"
+Converted string - line 20: 'old hp' -> "old hp"
+Converted string - line 21: 'old atk' -> "old atk"
+Converted string - line 22: 'old def' -> "old def"
+Converted string - line 23: 'old spa' -> "old spa"
+Converted string - line 24: 'old spd' -> "old spd"
+Converted string - line 25: 'old spe' -> "old spe"
+Converted string - line 33: 'new hp' -> "new hp"
+Converted string - line 34: 'new atk' -> "new atk"
+Converted string - line 35: 'new def' -> "new def"
+Converted string - line 36: 'new spa' -> "new spa"
+Converted string - line 37: 'new spd' -> "new spd"
+Converted string - line 38: 'new spe' -> "new spe"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_question\battle_individual_action_question.gml
+Converted description /// @description  void battle_individual_action_question(params);/// @param params
+Converted string - line 10: 'Yes' -> "Yes"
+Converted string - line 10: 'No' -> "No"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_scroll_health\battle_individual_action_scroll_health.gml
+Converted description /// @description  void battle_individual_action_scroll_health(BattleIndividualAction);/// @param BattleIndividualAction
+Converted string - line 12: 'initial' -> "initial"
+Converted string - line 15: 'amount' -> "amount"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_refresh\battle_individual_action_refresh.gml
+Converted description /// @description  void battle_individual_action_refresh(BattleIndividualAction);/// @param BattleIndividualAction
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_set_major_status\battle_individual_action_set_major_status.gml
+Converted description /// @description  void battle_individual_action_set_major_status(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_set_flinch\battle_individual_action_set_flinch.gml
+Converted description /// @description  void battle_individual_action_set_flinch(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_set_confusion\battle_individual_action_set_confusion.gml
+Converted description /// @description  void battle_individual_action_set_confusion(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_set_replacement\battle_individual_action_set_replacement.gml
+Converted description /// @description  void battle_individual_action_set_replacement(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_stat_change_animation\battle_individual_action_stat_change_animation.gml
+Converted description /// @description  void battle_individual_action_stat_change_animation(params);/// @param params
+Converted string - line 15: 'mask sprite' -> "mask sprite"
+Converted string - line 16: 'mask speed x' -> "mask speed x"
+Converted string - line 17: 'mask speed y' -> "mask speed y"
+Converted string - line 18: 'sound' -> "sound"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_stat_set\battle_individual_action_stat_set.gml
+Converted description /// @description  void battle_individual_action_stat_set(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_switch_after_death\battle_individual_action_switch_after_death.gml
+Converted description /// @description  void battle_individual_action_switch_after_death(params);/// @param params
+Converted string - line 11: 'contestant slot to replace' -> "contestant slot to replace"
+Converted string - line 12: 'allowed to not send anybody in' -> "allowed to not send anybody in"
+Converted string - line 17: 'Who would you like to send in to replace %0?' -> "Who would you like to send in to replace %0?"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_switch_before_turn\battle_individual_action_switch_before_turn.gml
+Converted description /// @description  void battle_individual_action_switch_before_turn(params);/// @param params
+Converted string - line 15: 'contestant slot to replace' -> "contestant slot to replace"
+Converted string - line 16: 'allowed to not send anybody in' -> "allowed to not send anybody in"
+Converted string - line 18: 'Who would you like to send in to replace %0?' -> "Who would you like to send in to replace %0?"
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_text\battle_individual_action_text.gml
+Converted description /// @description  void battle_individual_action_text(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\battle_individual_action_wait\battle_individual_action_wait.gml
+Converted description /// @description  void battle_individual_action_wait(params);/// @param params
+
+Converting GML script: ${project_dir}\scripts\bia_apply_major_status\bia_apply_major_status.gml
+Converted description /// @description  boolean bia_apply_major_status(queue, nullable user, target, status, status turn, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  status
+/// @param  status turn
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_show_ability_card\bia_show_ability_card.gml
+Converted description /// @description  boolean bia_show_ability_card(queue, user);/// @param queue
+/// @param  user
+
+Converting GML script: ${project_dir}\scripts\bia_apply_flinch\bia_apply_flinch.gml
+Converted description /// @description  boolean bia_apply_flinch(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_confusion\bia_apply_confusion.gml
+Converted description /// @description  boolean bia_apply_confusion(queue, nullable user, target, turns, nullable DataMove, [message]);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  turns
+/// @param  nullable DataMove
+/// @param  [message]
+Converted string - line 19: '%0 became confused!' -> "%0 became confused!"
+
+Converting GML script: ${project_dir}\scripts\bia_apply_accuracy_decrease_1\bia_apply_accuracy_decrease_1.gml
+Converted description /// @description  boolean bia_apply_accuracy_decrease_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_attack_decrease_1\bia_apply_attack_decrease_1.gml
+Converted description /// @description  boolean bia_apply_attack_decrease_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_attack_raise_1\bia_apply_attack_raise_1.gml
+Converted description /// @description  boolean bia_apply_attack_raise_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_defense_decrease_1\bia_apply_defense_decrease_1.gml
+Converted description /// @description  boolean bia_apply_defense_decrease_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_sp_attack_raise_1\bia_apply_sp_attack_raise_1.gml
+Converted description /// @description  boolean bia_apply_sp_attack_raise_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_sp_defense_decrease_1\bia_apply_sp_defense_decrease_1.gml
+Converted description /// @description  boolean bia_apply_sp_defense_decrease_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_speed_decrease_1\bia_apply_speed_decrease_1.gml
+Converted description /// @description  boolean bia_apply_speed_decrease_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\bia_apply_speed_raise_1\bia_apply_speed_raise_1.gml
+Converted description /// @description  boolean bia_apply_speed_raise_1(queue, nullable user, target, nullable DataMove);/// @param queue
+/// @param  nullable user
+/// @param  target
+/// @param  nullable DataMove
+
+Converting GML script: ${project_dir}\scripts\add_battle_round_action\add_battle_round_action.gml
+Converted description /// @description  BattleRoundAction add_battle_round_action(script, param0 .. paramn);/// @param script
+/// @param  param0 .. paramn
+
+Converting GML script: ${project_dir}\scripts\add_battle_individual_action\add_battle_individual_action.gml
+Converted description /// @description  BattleIndividualAction add_battle_individual_action(script, param0, .. paramn);/// @param script
+/// @param  param0
+/// @param  .. paramn
+
+Converting GML script: ${project_dir}\scripts\battle_input_ai\battle_input_ai.gml
+Converted description /// @description  void battle_input_ai(pokemon);/// @param pokemon
+
+Converting GML script: ${project_dir}\scripts\battle_input_player\battle_input_player.gml
+Converted description /// @description  void battle_input_player(team, pokemon);/// @param team
+/// @param  pokemon
+Converted string - line 11: 'What will %0 do?' -> "What will %0 do?"
+
+Converting GML script: ${project_dir}\scripts\battle_get_valid_targets\battle_get_valid_targets.gml
+Converted description /// @description  list battle_get_valid_targets(user, move index=-1);/// @param user
+/// @param  move index=-1
+
+Converting GML script: ${project_dir}\scripts\battle_ai_can_choose_move\battle_ai_can_choose_move.gml
+Converted description /// @description  double battle_ai_can_choose_move(user, index);/// @param user
+/// @param  index
+
+Converting GML script: ${project_dir}\scripts\battle_ai_choose_move_old\battle_ai_choose_move_old.gml
+Converted description /// @description  BattleExecutableAction battle_ai_choose_move_old(user);/// @param user
+
+Converting GML script: ${project_dir}\scripts\battle_ai_choose_move\battle_ai_choose_move.gml
+Converted description /// @description  BattleExecutableAction battle_ai_choose_move(user);/// @param user
+
+Converting GML script: ${project_dir}\scripts\battle_ai_move_score\battle_ai_move_score.gml
+Converted description /// @description  double battle_ai_move_score(move id, user, target, [skill]);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  [skill]
+
+Converting GML script: ${project_dir}\scripts\battle_ai_withdraw\battle_ai_withdraw.gml
+Converted description /// @description  int battle_ai_withdraw(BattlePokemon, always?);/// @param BattlePokemon
+/// @param  always?
+
+Converting GML script: ${project_dir}\scripts\battle_ai_item\battle_ai_item.gml
+Converted description /// @description  int battle_ai_item(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\baim_no_effect\baim_no_effect.gml
+Converted description /// @description  double baim_no_effect(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_trap\baim_trap.gml
+Converted description /// @description  double baim_trap(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_poison_target\baim_poison_target.gml
+Converted description /// @description  double baim_poison_target(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_burn_target\baim_burn_target.gml
+Converted description /// @description  double baim_burn_target(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_paralyze_target\baim_paralyze_target.gml
+Converted description /// @description  double baim_paralyze_target(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_flinch\baim_flinch.gml
+Converted description /// @description  double baim_flinch(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_user_heal_half\baim_user_heal_half.gml
+Converted description /// @description  double baim_user_heal_half(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_reflect\baim_reflect.gml
+Converted description /// @description  double baim_reflect(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_confuse\baim_confuse.gml
+Converted description /// @description  double baim_confuse(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_user_attack_raise_1\baim_user_attack_raise_1.gml
+Converted description /// @description  double baim_user_attack_raise_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_user_sp_attack_raise_1\baim_user_sp_attack_raise_1.gml
+Converted description /// @description  double baim_user_sp_attack_raise_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_user_speed_raise_1\baim_user_speed_raise_1.gml
+Converted description /// @description  double baim_user_speed_raise_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_target_defense_decrease_1\baim_target_defense_decrease_1.gml
+Converted description /// @description  double baim_target_defense_decrease_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_target_sp_defense_decrease_1\baim_target_sp_defense_decrease_1.gml
+Converted description /// @description  double baim_target_sp_defense_decrease_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_target_accuracy_decrease_1\baim_target_accuracy_decrease_1.gml
+Converted description /// @description  double baim_target_accuracy_decrease_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\baim_target_speed_decrease_1\baim_target_speed_decrease_1.gml
+Converted description /// @description  double baim_target_speed_decrease_1(move id, user, target, skill, move score);/// @param move id
+/// @param  user
+/// @param  target
+/// @param  skill
+/// @param  move score
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_grand\battle_input_processing_grand.gml
+Converted string - line 2: 'Fight!' -> "Fight!"
+Converted string - line 2: 'Item' -> "Item"
+Converted string - line 2: 'Switch' -> "Switch"
+Converted string - line 2: 'Flee' -> "Flee"
+Converted string - line 5: 'Idle' -> "Idle"
+Converted string - line 8: '[Auto-heal]' -> "[Auto-heal]"
+Converted string - line 9: '[Auto-KO]' -> "[Auto-KO]"
+Converted string - line 10: '[Auto-Victory]' -> "[Auto-Victory]"
+Converted string - line 18: '' -> ""
+Converted string - line 27: '%0 has no available items!' -> "%0 has no available items!"
+Converted string - line 57: 'Your team is trapped and unable to flee!' -> "Your team is trapped and unable to flee!"
+Converted string - line 73: ' has chosen to idle for ' -> " has chosen to idle for "
+Converted string - line 79: ' has chosen to auto-full-heal ' -> " has chosen to auto-full-heal "
+Converted string - line 85: ' has chosen to auto-KO all foes with ' -> " has chosen to auto-KO all foes with "
+Converted string - line 91: ' has chosen to end the battle with ' -> " has chosen to end the battle with "
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_item\battle_input_processing_item.gml
+Converted string - line 12: '(Back)' -> "(Back)"
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_item_internal\battle_input_processing_item_internal.gml
+Converted string - line 8: '%0 x %1' -> "%0 x %1"
+Converted string - line 10: '%0' -> "%0"
+Converted string - line 15: '(Back)' -> "(Back)"
+Converted string - line 26: '' -> ""
+Converted string - line 39: 'item to use' -> "item to use"
+Converted string - line 60: ' has chosen to use a(n) ' -> " has chosen to use a(n) "
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_move\battle_input_processing_move.gml
+Converted string - line 16: '' -> ""
+Converted string - line 32: ' has no valid moves, struggling' -> " has no valid moves, struggling"
+Converted string - line 56: 'There is no PP left for that move!' -> "There is no PP left for that move!"
+Converted string - line 71: ' has chosen the move ' -> " has chosen the move "
+Converted string - line 71: ' for ' -> " for "
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_switch\battle_input_processing_switch.gml
+Converted description /// @description  void battle_input_processing_switch(battle input processing script);/// @param battle input processing script
+Converted string - line 17: '(Back)' -> "(Back)"
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_level_stat_delta\battle_input_processing_level_stat_delta.gml
+Converted string - line 1: 'who' -> "who"
+Converted string - line 16: 'new hp' -> "new hp"
+Converted string - line 16: 'old hp' -> "old hp"
+Converted string - line 17: 'new atk' -> "new atk"
+Converted string - line 17: 'old atk' -> "old atk"
+Converted string - line 18: 'new def' -> "new def"
+Converted string - line 18: 'old def' -> "old def"
+Converted string - line 19: 'new spa' -> "new spa"
+Converted string - line 19: 'old spa' -> "old spa"
+Converted string - line 20: 'new spd' -> "new spd"
+Converted string - line 20: 'old spd' -> "old spd"
+Converted string - line 21: 'new spe' -> "new spe"
+Converted string - line 21: 'old spe' -> "old spe"
+Converted string - line 23: '%0: +%1' -> "%0: +%1"
+Converted string - line 23: 'new level' -> "new level"
+Converted string - line 23: 'old level' -> "old level"
+Converted string - line 24: '+%0 HP' -> "+%0 HP"
+Converted string - line 25: '+%0 Attack' -> "+%0 Attack"
+Converted string - line 26: '+%0 Defense' -> "+%0 Defense"
+Converted string - line 27: '+%0 Sp. Attack' -> "+%0 Sp. Attack"
+Converted string - line 28: '+%0 Sp. Defense' -> "+%0 Sp. Defense"
+Converted string - line 29: '+%0 Speed' -> "+%0 Speed"
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_level_stat_total\battle_input_processing_level_stat_total.gml
+Converted string - line 1: 'who' -> "who"
+Converted string - line 2: 'old level' -> "old level"
+Converted string - line 3: 'new level' -> "new level"
+Converted string - line 18: '%0: +%1' -> "%0: +%1"
+Converted string - line 18: 'new level' -> "new level"
+Converted string - line 18: 'old level' -> "old level"
+Converted string - line 19: '%0 HP' -> "%0 HP"
+Converted string - line 19: 'new hp' -> "new hp"
+Converted string - line 20: '%0 Attack' -> "%0 Attack"
+Converted string - line 20: 'new atk' -> "new atk"
+Converted string - line 21: '%0 Defense' -> "%0 Defense"
+Converted string - line 21: 'new def' -> "new def"
+Converted string - line 22: '%0 Sp. Attack' -> "%0 Sp. Attack"
+Converted string - line 22: 'new spa' -> "new spa"
+Converted string - line 23: '%0 Sp. Defense' -> "%0 Sp. Defense"
+Converted string - line 23: 'new spd' -> "new spd"
+Converted string - line 24: '%0 Speed' -> "%0 Speed"
+Converted string - line 24: 'new spe' -> "new spe"
+Converted string - line 28: ' has viewed the stat/level screen for ' -> " has viewed the stat/level screen for "
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_reset\battle_input_processing_reset.gml
+Converted description /// @description  void battle_input_processing_reset([reset input processing?], [stage]);/// @param [reset input processing?]
+/// @param  [stage]
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_control_switch_before_turn\battle_input_processing_control_switch_before_turn.gml
+Converted description /// @description  void battle_input_processing_control_switch_before_turn();
+Converted string - line 8: 'allowed to not send anybody in' -> "allowed to not send anybody in"
+Converted string - line 16: 'You need to select somebody to send in!' -> "You need to select somebody to send in!"
+Converted string - line 22: '%0 is unable to fight!' -> "%0 is unable to fight!"
+Converted string - line 24: '%0 is already fighting!' -> "%0 is already fighting!"
+Converted string - line 29: 'contestant slot to replace' -> "contestant slot to replace"
+Converted string - line 40: 'You need to select somebody to send in!' -> "You need to select somebody to send in!"
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_control_switch_item\battle_input_processing_control_switch_item.gml
+Converted description /// @description  void battle_input_processing_control_switch_item();
+Converted string - line 8: 'item to use' -> "item to use"
+Converted string - line 18: ' has chosen to use a(n) ' -> " has chosen to use a(n) "
+
+Converting GML script: ${project_dir}\scripts\battle_input_processing_control_switch_normal\battle_input_processing_control_switch_normal.gml
+Converted description /// @description  void battle_input_processing_control_switch_normal();
+Converted string - line 10: '%0 is already in battle!' -> "%0 is already in battle!"
+Converted string - line 12: '%0 is unable to fight!' -> "%0 is unable to fight!"
+Converted string - line 19: ' has chosen to switch to ' -> " has chosen to switch to "
+Converted string - line 19: '.' -> "."
+
+Converting GML script: ${project_dir}\scripts\battle_debug\battle_debug.gml
+Converted description /// @description  void battle_debug(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\add_battle_executable_action\add_battle_executable_action.gml
+Converted description /// @description  BattleExecutableAction add_battle_executable_action(action, user, targets, value);/// @param action
+/// @param  user
+/// @param  targets
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\battle_is_on_field\battle_is_on_field.gml
+Converted description /// @description  boolean battle_is_on_field(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\battle_remove_entrapments\battle_remove_entrapments.gml
+Converted description /// @description  battle_remove_entrapments(trapping position);/// @param trapping position
+
+Converting GML script: ${project_dir}\scripts\battle_get_hit\battle_get_hit.gml
+Converted description /// @description  array battle_get_hit(move, user, targets, effects list);/// @param move
+/// @param  user
+/// @param  targets
+/// @param  effects list
+
+Converting GML script: ${project_dir}\scripts\battle_get_standing_targets\battle_get_standing_targets.gml
+Converted description /// @description  boolean battle_get_standing_targets(move, user, targets);/// @param move
+/// @param  user
+/// @param  targets
+
+Converting GML script: ${project_dir}\scripts\battle_continue\battle_continue.gml
+Converted description /// @description  boolean battle_continue();
+
+Converting GML script: ${project_dir}\scripts\battle_prioritize\battle_prioritize.gml
+Converted description /// @description  void battle_prioritize(BattleExecutableAction);/// @param BattleExecutableAction
+
+Converting GML script: ${project_dir}\scripts\ba_retract_contestant\ba_retract_contestant.gml
+Converted string - line 6: 'mask alpha' -> "mask alpha"
+Converted string - line 8: 'mask alpha' -> "mask alpha"
+Converted string - line 8: 'mask alpha' -> "mask alpha"
+
+Converting GML script: ${project_dir}\scripts\ba_submit_contestant\ba_submit_contestant.gml
+Converted string - line 6: 'mask alpha' -> "mask alpha"
+Converted string - line 8: 'mask alpha' -> "mask alpha"
+Converted string - line 8: 'mask alpha' -> "mask alpha"
+
+Converting GML script: ${project_dir}\scripts\ba_fade\ba_fade.gml
+Converted string - line 1: 'time' -> "time"
+Converted string - line 5: 'starting' -> "starting"
+
+Converting GML script: ${project_dir}\scripts\ba_stat_change\ba_stat_change.gml
+Converted string - line 6: 'mask speed x' -> "mask speed x"
+Converted string - line 7: 'mask speed y' -> "mask speed y"
+Converted string - line 11: 'mask sprite' -> "mask sprite"
+Converted string - line 11: 'mask sprite' -> "mask sprite"
+Converted string - line 12: 'mask alpha' -> "mask alpha"
+Converted string - line 13: 'mask x' -> "mask x"
+Converted string - line 14: 'mask y' -> "mask y"
+Converted string - line 15: 'sound' -> "sound"
+Converted string - line 17: 'mask alpha' -> "mask alpha"
+Converted string - line 17: 'mask alpha' -> "mask alpha"
+Converted string - line 20: 'mask alpha' -> "mask alpha"
+Converted string - line 20: 'mask alpha' -> "mask alpha"
+Converted string - line 30: 'mask x' -> "mask x"
+Converted string - line 30: 'mask x' -> "mask x"
+Converted string - line 31: 'mask y' -> "mask y"
+Converted string - line 31: 'mask y' -> "mask y"
+
+Converting GML script: ${project_dir}\scripts\ba_move_basic\ba_move_basic.gml
+Converted description /// @description  void ba_move_basic();
+Converted string - line 31: 'hit flash' -> "hit flash"
+Converted string - line 46: 'hit flash' -> "hit flash"
+
+Converting GML script: ${project_dir}\scripts\ba_move_punch\ba_move_punch.gml
+Converted description /// @description  void ba_move_basic();
+Converted string - line 31: 'hit flash' -> "hit flash"
+Converted string - line 46: 'hit flash' -> "hit flash"
+
+Converting GML script: ${project_dir}\scripts\ba_move_swords_dance\ba_move_swords_dance.gml
+Converted description /// @description  void ba_move_swords_dance();
+Converted string - line 18: 'setup' -> "setup"
+Converted string - line 27: 'sword ' -> "sword "
+Converted string - line 31: 'setup' -> "setup"
+Converted string - line 34: 'sword ' -> "sword "
+
+Converting GML script: ${project_dir}\scripts\ba_move_quick_attack\ba_move_quick_attack.gml
+Converted description /// @description  void ba_move_quick_attack();
+Converted string - line 42: 'hit' -> "hit"
+Converted string - line 61: 'hit' -> "hit"
+
+Converting GML script: ${project_dir}\scripts\ba_move_claw\ba_move_claw.gml
+Converted description /// @description  void ba_move_claw();
+Converted string - line 32: 'claw' -> "claw"
+Converted string - line 47: 'claw' -> "claw"
+Converted string - line 47: 'color' -> "color"
+Converted string - line 54: 'claw 2 se' -> "claw 2 se"
+Converted string - line 56: 'claw 2 se' -> "claw 2 se"
+
+Converting GML script: ${project_dir}\scripts\ba_scroll_health\ba_scroll_health.gml
+Converted string - line 2: 'amount' -> "amount"
+Converted string - line 12: 'initial' -> "initial"
+Converted string - line 18: 'initial' -> "initial"
+
+Converting GML script: ${project_dir}\scripts\ba_exp_gain\ba_exp_gain.gml
+Converted string - line 1: 'gain' -> "gain"
+Converted string - line 2: 'current' -> "current"
+Converted string - line 11: 'gained experience would overflow the next level;' -> "gained experience would overflow the next level;"
+Converted string - line 13: ' has to be split up through battle_round_action_execute' -> " has to be split up through battle_round_action_execute"
+
+Converting GML script: ${project_dir}\scripts\bg_draw_drawable\bg_draw_drawable.gml
+Converted description /// @description  void BattleDrawable.bg_draw_drawable();
+
+Converting GML script: ${project_dir}\scripts\bg_draw_hud\bg_draw_hud.gml
+Converted description /// @description  void BattleHUD.bg_draw_hud();
+Converted string - line 28: 'Lv. %0' -> "Lv. %0"
+Converted string - line 48: '/' -> "/"
+
+Converting GML script: ${project_dir}\scripts\bg_draw_hud_ability\bg_draw_hud_ability.gml
+Converted description /// @description  void BattleHUDAbility.bg_draw_hud_ability();
+
+Converting GML script: ${project_dir}\scripts\bm_stat_change\bm_stat_change.gml
+Converted string - line 4: 'mask sprite' -> "mask sprite"
+Converted string - line 4: 'mask x' -> "mask x"
+Converted string - line 4: 'mask y' -> "mask y"
+Converted string - line 4: 'mask alpha' -> "mask alpha"
+
+Converting GML script: ${project_dir}\scripts\bm_retract_submit\bm_retract_submit.gml
+Converted string - line 4: 'mask alpha' -> "mask alpha"
+
+Converting GML script: ${project_dir}\scripts\be_double_power_if_diving\be_double_power_if_diving.gml
+Converted description /// @description  void be_double_power_if_diving(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_no_effect\be_no_effect.gml
+Converted description /// @description  void be_no_effect(user, targetm, move id);/// @param user
+/// @param  targetm
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_rollout\be_rollout.gml
+Converted description /// @description  void be_rollout(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_not_implemented\be_not_implemented.gml
+Converted description /// @description  void be_not_implemented(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+Converted string - line 10: '(%0 has an effect that has not been implemented yet.)' -> "(%0 has an effect that has not been implemented yet.)"
+
+Converting GML script: ${project_dir}\scripts\be_trap_damage_finite_turns\be_trap_damage_finite_turns.gml
+Converted description /// @description  void be_trap_damage_finite_turns(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_trap_infinite_turns\be_trap_infinite_turns.gml
+Converted description /// @description  void be_trap_infinite_turns(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+Converted string - line 13: '%0 was trapped by %1!' -> "%0 was trapped by %1!"
+
+Converting GML script: ${project_dir}\scripts\be_always_hit_if_user_has_poison_type\be_always_hit_if_user_has_poison_type.gml
+Converted description /// @description  void be_always_hit_if_user_has_poison_type(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_user_heal_half\be_user_heal_half.gml
+Converted description /// @description  void be_user_heal_half(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+Converted string - line 16: '%0 is already healthy!' -> "%0 is already healthy!"
+
+Converting GML script: ${project_dir}\scripts\be_recoil_025\be_recoil_025.gml
+Converted description /// @description  void be_recoil_025(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+Converted string - line 13: '%0 was hurt by the recoil!' -> "%0 was hurt by the recoil!"
+
+Converting GML script: ${project_dir}\scripts\be_confuse\be_confuse.gml
+Converted description /// @description  void be_confuse(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_flinch\be_flinch.gml
+Converted description /// @description  void be_flinch(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_badly_poison_target\be_badly_poison_target.gml
+Converted description /// @description  void be_badly_poison_target(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_paralyze_target\be_paralyze_target.gml
+Converted description /// @description  void be_paralyze_target(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_poison_target\be_poison_target.gml
+Converted description /// @description  void be_poison_target(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_burn_target\be_burn_target.gml
+Converted description /// @description  void be_burn_target(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_reflect\be_reflect.gml
+Converted description /// @description  void be_reflect(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\be_user_attack_raise_1\be_user_attack_raise_1.gml
+Converted description /// @description  void be_user_attack_raise_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_user_sp_attack_raise_1\be_user_sp_attack_raise_1.gml
+Converted description /// @description  void be_user_sp_attack_raise_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_user_speed_raise_1\be_user_speed_raise_1.gml
+Converted description /// @description  void be_user_speed_raise_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_target_accuracy_decrease_1\be_target_accuracy_decrease_1.gml
+Converted description /// @description  void be_target_accuracy_decrease_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_target_defense_decrease_1\be_target_defense_decrease_1.gml
+Converted description /// @description  void be_target_defense_decrease_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_target_sp_defense_decrease_1\be_target_sp_defense_decrease_1.gml
+Converted description /// @description  void be_target_sp_defense_decrease_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_target_speed_decrease_1\be_target_speed_decrease_1.gml
+Converted description /// @description  void be_target_speed_decrease_1(user, target, move id);/// @param user
+/// @param  target
+/// @param  move id
+
+Converting GML script: ${project_dir}\scripts\be_help_stat_raise\be_help_stat_raise.gml
+Converted string - line 6: 'stat raise animations' -> "stat raise animations"
+Converted string - line 9: 'stat raise animations' -> "stat raise animations"
+
+Converting GML script: ${project_dir}\scripts\be_help_stat_fall\be_help_stat_fall.gml
+Converted string - line 6: 'stat fall animations' -> "stat fall animations"
+Converted string - line 9: 'stat fall animations' -> "stat fall animations"
+
+Converting GML script: ${project_dir}\scripts\babl_trap_steel\babl_trap_steel.gml
+Converted description /// @description  boolean babl_trap_steel(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\babl_contact_paralyze_user\babl_contact_paralyze_user.gml
+Converted description /// @description  void babl_contact_paralyze_user(user, target, ability, move);/// @param user
+/// @param  target
+/// @param  ability
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\babl_round_end_shed_skin\babl_round_end_shed_skin.gml
+Converted description /// @description  void babl_round_end_shed_skin(queue, BattlePokemon, ability);/// @param queue
+/// @param  BattlePokemon
+/// @param  ability
+
+Converting GML script: ${project_dir}\scripts\babl_enter_intimidate\babl_enter_intimidate.gml
+Converted description /// @description  void babl_enter_intimidate(queue, BattlePokemon);/// @param queue
+/// @param  BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\bi_no_use\bi_no_use.gml
+Converted description /// @description  BattleExecutableAction bi_no_use(user, item);/// @param user
+/// @param  item
+Converted string - line 8: '%0 does not have an implemented effect yet!' -> "%0 does not have an implemented effect yet!"
+
+Converting GML script: ${project_dir}\scripts\bi_use_full_restore\bi_use_full_restore.gml
+Converted description /// @description  BattleExecutableAction bi_use_full_restore(user, item index);/// @param user
+/// @param  item index
+Converted string - line 11: '%0 is pretty healthy already!' -> "%0 is pretty healthy already!"
+
+Converting GML script: ${project_dir}\scripts\bi_post_turn_nothing\bi_post_turn_nothing.gml
+Converted description /// @description  void bi_post_turn_nothing(queue, BattlePokemon, item);/// @param queue
+/// @param  BattlePokemon
+/// @param  item
+
+Converting GML script: ${project_dir}\scripts\bi_damage_mod_default\bi_damage_mod_default.gml
+Converted description /// @description  double bi_damage_mod_default(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\bi_damage_mod_grass\bi_damage_mod_grass.gml
+Converted description /// @description  double bi_damage_mod_grass(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\bi_damage_mod_fire\bi_damage_mod_fire.gml
+Converted description /// @description  double bi_damage_mod_fire(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\bi_damage_mod_electric\bi_damage_mod_electric.gml
+Converted description /// @description  double bi_damage_mod_electric(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\bi_damage_mod_water\bi_damage_mod_water.gml
+Converted description /// @description  double bi_damage_mod_water(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\bi_damage_mod_normal\bi_damage_mod_normal.gml
+Converted description /// @description  double bi_damage_mod_normal(user, target, move);/// @param user
+/// @param  target
+/// @param  move
+
+Converting GML script: ${project_dir}\scripts\bi_post_turn_leftovers\bi_post_turn_leftovers.gml
+Converted description /// @description  void bi_post_turn_leftovers(queue, BattlePokemon, item);/// @param queue
+/// @param  BattlePokemon
+/// @param  item
+Converted string - line 14: '%0 restored a bit of health with his %1!' -> "%0 restored a bit of health with his %1!"
+Converted string - line 15: '%0 restored a bit of health with her %1!' -> "%0 restored a bit of health with her %1!"
+Converted string - line 16: '%0 restored a bit of health with its %1!' -> "%0 restored a bit of health with its %1!"
+
+Converting GML script: ${project_dir}\scripts\bi_action_full_restore\bi_action_full_restore.gml
+Converted description /// @description  void bi_action_full_restore(queue, user, item);/// @param queue
+/// @param  user
+/// @param  item
+Converted string - line 6: '%0 used a(n) %1 on %2!' -> "%0 used a(n) %1 on %2!"
+
+Converting GML script: ${project_dir}\scripts\bi_action_no_use\bi_action_no_use.gml
+Converted description /// @description  void bi_action_no_use(queue, user, item);/// @param queue
+/// @param  user
+/// @param  item
+Converted string - line 6: 'But it had no effect!' -> "But it had no effect!"
+
+Converting GML script: ${project_dir}\scripts\clear\clear.gml
+Converted string - line 1: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\add_ability\add_ability.gml
+Converted description /// @description  DataAbility add_ability(name, summary, internal name);/// @param name
+/// @param  summary
+/// @param  internal name
+
+Converting GML script: ${project_dir}\scripts\add_egg_group\add_egg_group.gml
+Converted description /// @description  DataEggGroup add_egg_group(name, restricted?, unrestricted?);/// @param name
+/// @param  restricted?
+/// @param  unrestricted?
+
+Converting GML script: ${project_dir}\scripts\add_evolution_method\add_evolution_method.gml
+Converted description /// @description  void add_evolution_method(name, script, pbs internal name);/// @param name
+/// @param  script
+/// @param  pbs internal name
+
+Converting GML script: ${project_dir}\scripts\add_individual_evolution\add_individual_evolution.gml
+Converted description /// @description  void add_individual_evolution(target, type, value);/// @param target
+/// @param  type
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\add_item\add_item.gml
+Converted description /// @description  DataItem add_item(name, plural, pocket, price, overworld, battle, special, value, ai flags, summary, internal name);/// @param name
+/// @param  plural
+/// @param  pocket
+/// @param  price
+/// @param  overworld
+/// @param  battle
+/// @param  special
+/// @param  value
+/// @param  ai flags
+/// @param  summary
+/// @param  internal name
+
+Converting GML script: ${project_dir}\scripts\add_item_pocket\add_item_pocket.gml
+Converted description /// @description  DataItemPocket add_item_pocket(name, color, icon, sound effect);/// @param name
+/// @param  color
+/// @param  icon
+/// @param  sound effect
+
+Converting GML script: ${project_dir}\scripts\add_weapon_type\add_weapon_type.gml
+Converted description /// @description  DataWeaponType add_weapon_type(name);/// @param name
+
+Converting GML script: ${project_dir}\scripts\add_map\add_map.gml
+Converted description /// @description  DataMap add_map(name, internal name, tileset index);/// @param name
+/// @param  internal name
+/// @param  tileset index
+
+Converting GML script: ${project_dir}\scripts\add_move\add_move.gml
+Converted description /// @description  DataMove add_move(name, type, category, pp, power, accuracy, priority, target, description, animation, effects[], effect odds[], flags, ai codes[], internal name);/// @param name
+/// @param  type
+/// @param  category
+/// @param  pp
+/// @param  power
+/// @param  accuracy
+/// @param  priority
+/// @param  target
+/// @param  description
+/// @param  animation
+/// @param  effects[]
+/// @param  effect odds[]
+/// @param  flags
+/// @param  ai codes[]
+/// @param  internal name
+
+Converting GML script: ${project_dir}\scripts\add_nature\add_nature.gml
+Converted description /// @description  DataMove add_nature(name, hp, atk, def, spam spd, spe);/// @param name
+/// @param  hp
+/// @param  atk
+/// @param  def
+/// @param  spam spd
+/// @param  spe
+
+Converting GML script: ${project_dir}\scripts\add_nature_stats\add_nature_stats.gml
+Converted description /// @description  DataMove add_nature_stats(name, [stat raised], [stat lowered]);/// @param name
+/// @param  [stat raised]
+/// @param  [stat lowered]
+
+Converting GML script: ${project_dir}\scripts\add_pokemon\add_pokemon.gml
+Converted description /// @description  DataPokemon add_pokemon(name, types, base stats, gender rate, growth rate, base exp, ev rewards, catch rate, happiness, abilities, hidden abilities, moves, egg moves, egg groups, egg steps, height, weight, color, shape, habitat, regional indices, kind, evolutions, wild item distribution, form  name, incense, summary, pbs internal name);/// @param name
+/// @param  types
+/// @param  base stats
+/// @param  gender rate
+/// @param  growth rate
+/// @param  base exp
+/// @param  ev rewards
+/// @param  catch rate
+/// @param  happiness
+/// @param  abilities
+/// @param  hidden abilities
+/// @param  moves
+/// @param  egg moves
+/// @param  egg groups
+/// @param  egg steps
+/// @param  height
+/// @param  weight
+/// @param  color
+/// @param  shape
+/// @param  habitat
+/// @param  regional indices
+/// @param  kind
+/// @param  evolutions
+/// @param  wild item distribution
+/// @param  form  name
+/// @param  incense
+/// @param  summary
+/// @param  pbs internal name
+
+Converting GML script: ${project_dir}\scripts\add_trainer\add_trainer.gml
+Converted description /// @description  DataTrainer add_trainer(name, class, version, items, party);/// @param name
+/// @param  class
+/// @param  version
+/// @param  items
+/// @param  party
+
+Converting GML script: ${project_dir}\scripts\add_trainer_class\add_trainer_class.gml
+Converted description /// @description  DataMove add_trainer_class(name, reward, battle bgm, victory bgm, intro me, ai, ai notes, internal name, index);/// @param name
+/// @param  reward
+/// @param  battle bgm
+/// @param  victory bgm
+/// @param  intro me
+/// @param  ai
+/// @param  ai notes
+/// @param  internal name
+/// @param  index
+
+Converting GML script: ${project_dir}\scripts\add_type\add_type.gml
+Converted description /// @description  DataType add_type(name, is special?, color, total types, pbs internal name);/// @param name
+/// @param  is special?
+/// @param  color
+/// @param  total types
+/// @param  pbs internal name
+
+Converting GML script: ${project_dir}\scripts\const_evolution_methods\const_evolution_methods.gml
+Converted description /// @description  array const_evolution_methods();
+Converted string - line 41: 'Happiness' -> "Happiness"
+Converted string - line 41: 'HAPPINESS' -> "HAPPINESS"
+Converted string - line 42: 'Happiness: Day' -> "Happiness: Day"
+Converted string - line 42: 'HAPPINESSDAY' -> "HAPPINESSDAY"
+Converted string - line 43: 'Happiness: Night' -> "Happiness: Night"
+Converted string - line 43: 'HAPPINESSNIGHT' -> "HAPPINESSNIGHT"
+Converted string - line 44: 'Level' -> "Level"
+Converted string - line 44: 'LEVEL' -> "LEVEL"
+Converted string - line 45: 'Trade' -> "Trade"
+Converted string - line 45: 'TRADE' -> "TRADE"
+Converted string - line 46: 'Trade: Item' -> "Trade: Item"
+Converted string - line 46: 'TRADEITEM' -> "TRADEITEM"
+Converted string - line 47: 'Item' -> "Item"
+Converted string - line 47: 'ITEM' -> "ITEM"
+Converted string - line 48: 'Attack > Defense' -> "Attack > Defense"
+Converted string - line 48: 'ATTACKGREATER' -> "ATTACKGREATER"
+Converted string - line 49: 'Attack = Defense' -> "Attack = Defense"
+Converted string - line 49: 'ATKDEFEQUAL' -> "ATKDEFEQUAL"
+Converted string - line 50: 'Attack < Defense' -> "Attack < Defense"
+Converted string - line 50: 'DEFENSEGREATER' -> "DEFENSEGREATER"
+Converted string - line 51: 'Silcoon' -> "Silcoon"
+Converted string - line 51: 'SILCOON' -> "SILCOON"
+Converted string - line 52: 'Cascoon' -> "Cascoon"
+Converted string - line 52: 'CASCOON' -> "CASCOON"
+Converted string - line 53: 'Ninjask' -> "Ninjask"
+Converted string - line 53: 'NINJASK' -> "NINJASK"
+Converted string - line 54: 'Shedinja' -> "Shedinja"
+Converted string - line 54: 'SHEDINJA' -> "SHEDINJA"
+Converted string - line 55: 'Beauty' -> "Beauty"
+Converted string - line 55: 'BEAUTY' -> "BEAUTY"
+Converted string - line 56: 'Item: Male' -> "Item: Male"
+Converted string - line 56: 'ITEMMALE' -> "ITEMMALE"
+Converted string - line 57: 'Item: Female' -> "Item: Female"
+Converted string - line 57: 'ITEMFEMALE' -> "ITEMFEMALE"
+Converted string - line 58: 'Hold Item: Day' -> "Hold Item: Day"
+Converted string - line 58: 'DAYHOLDITEM' -> "DAYHOLDITEM"
+Converted string - line 59: 'Hold Item: Night' -> "Hold Item: Night"
+Converted string - line 59: 'NIGHTHOLDITEM' -> "NIGHTHOLDITEM"
+Converted string - line 60: 'Has Move' -> "Has Move"
+Converted string - line 60: 'HASMOVE' -> "HASMOVE"
+Converted string - line 61: 'Has In Party' -> "Has In Party"
+Converted string - line 61: 'HASINPARTY' -> "HASINPARTY"
+Converted string - line 62: 'Level: Male' -> "Level: Male"
+Converted string - line 62: 'LEVELMALE' -> "LEVELMALE"
+Converted string - line 63: 'Level: Female' -> "Level: Female"
+Converted string - line 63: 'LEVELFEMALE' -> "LEVELFEMALE"
+Converted string - line 64: 'Location' -> "Location"
+Converted string - line 64: 'LOCATION' -> "LOCATION"
+Converted string - line 65: 'Trade: Species' -> "Trade: Species"
+Converted string - line 65: 'TRADESPECIES' -> "TRADESPECIES"
+Converted string - line 66: 'Level: Day' -> "Level: Day"
+Converted string - line 66: 'LEVELDAY' -> "LEVELDAY"
+Converted string - line 67: 'Level: Night' -> "Level: Night"
+Converted string - line 67: 'LEVELNIGHT' -> "LEVELNIGHT"
+Converted string - line 68: 'Level: Dark in Party' -> "Level: Dark in Party"
+Converted string - line 68: 'LEVELDARKINPARTY' -> "LEVELDARKINPARTY"
+Converted string - line 69: 'Level: Rain' -> "Level: Rain"
+Converted string - line 69: 'LEVELRAIN' -> "LEVELRAIN"
+Converted string - line 70: 'Happiness: Has Move of Type' -> "Happiness: Has Move of Type"
+Converted string - line 70: 'HAPPINESSMOVETYPE' -> "HAPPINESSMOVETYPE"
+
+Converting GML script: ${project_dir}\scripts\const_egg_groups\const_egg_groups.gml
+Converted description /// @description  array const_egg_groups();
+Converted string - line 24: 'Monster' -> "Monster"
+Converted string - line 25: 'Water 1' -> "Water 1"
+Converted string - line 26: 'Bug' -> "Bug"
+Converted string - line 27: 'Flying' -> "Flying"
+Converted string - line 28: 'Field' -> "Field"
+Converted string - line 29: 'Fairy' -> "Fairy"
+Converted string - line 30: 'Grass' -> "Grass"
+Converted string - line 31: 'Human-like' -> "Human-like"
+Converted string - line 32: 'Water 3' -> "Water 3"
+Converted string - line 33: 'Mineral' -> "Mineral"
+Converted string - line 34: 'Amorphous' -> "Amorphous"
+Converted string - line 35: 'Water 2' -> "Water 2"
+Converted string - line 36: 'Ditto' -> "Ditto"
+Converted string - line 37: 'Dragon' -> "Dragon"
+Converted string - line 38: 'Undiscovered' -> "Undiscovered"
+
+Converting GML script: ${project_dir}\scripts\const_item_pockets\const_item_pockets.gml
+Converted description /// @description  array const_item_pockets();
+Converted string - line 18: 'Items' -> "Items"
+Converted string - line 19: 'Medicine' -> "Medicine"
+Converted string - line 20: 'Balls' -> "Balls"
+Converted string - line 21: 'TMs/HMs' -> "TMs/HMs"
+Converted string - line 22: 'Berries' -> "Berries"
+Converted string - line 23: 'Mail' -> "Mail"
+Converted string - line 24: 'Battle Items' -> "Battle Items"
+Converted string - line 25: 'Key Items' -> "Key Items"
+
+Converting GML script: ${project_dir}\scripts\const_natures\const_natures.gml
+Converted string - line 31: 'Hardy' -> "Hardy"
+Converted string - line 32: 'Lonely' -> "Lonely"
+Converted string - line 33: 'Brave' -> "Brave"
+Converted string - line 34: 'Adamant' -> "Adamant"
+Converted string - line 35: 'Naughty' -> "Naughty"
+Converted string - line 36: 'Bold' -> "Bold"
+Converted string - line 37: 'Docile' -> "Docile"
+Converted string - line 38: 'Relaxed' -> "Relaxed"
+Converted string - line 39: 'Impish' -> "Impish"
+Converted string - line 40: 'Lax' -> "Lax"
+Converted string - line 41: 'Timid' -> "Timid"
+Converted string - line 42: 'Hasty' -> "Hasty"
+Converted string - line 43: 'Serious' -> "Serious"
+Converted string - line 44: 'Jolly' -> "Jolly"
+Converted string - line 45: 'Naive' -> "Naive"
+Converted string - line 46: 'Modest' -> "Modest"
+Converted string - line 47: 'Mild' -> "Mild"
+Converted string - line 48: 'Quiet' -> "Quiet"
+Converted string - line 49: 'Bashful' -> "Bashful"
+Converted string - line 50: 'Rash' -> "Rash"
+Converted string - line 51: 'Calm' -> "Calm"
+Converted string - line 52: 'Gentle' -> "Gentle"
+Converted string - line 53: 'Sassy' -> "Sassy"
+Converted string - line 54: 'Careful' -> "Careful"
+Converted string - line 55: 'Quirky' -> "Quirky"
+
+Converting GML script: ${project_dir}\scripts\const_mesh\const_mesh.gml
+Converted description /// @description  map const_mesh_load_vrax(filename);/// @param filename
+
+Converting GML script: ${project_dir}\scripts\add_pokemon_add_evolutions\add_pokemon_add_evolutions.gml
+Converted description /// @description  void add_pokemon_add_evolutions(DataPokemon, array);/// @param DataPokemon
+/// @param  array
+
+Converting GML script: ${project_dir}\scripts\create_instantiated_event\create_instantiated_event.gml
+Converted description /// @description  DataInstantiatedEvent create_instantiated_event(name);/// @param name
+
+Converting GML script: ${project_dir}\scripts\const_mesh_load_vrax\const_mesh_load_vrax.gml
+Converted description /// @description  map const_mesh_load_vrax(filename);/// @param filename
+Converted string - line 6: 'assets file not found: ' -> "assets file not found: "
+Converted string - line 6: '. using the dummy assets file instead.' -> ". using the dummy assets file instead."
+Converted string - line 7: 'assets.vrax' -> "assets.vrax"
+
+Converting GML script: ${project_dir}\scripts\const_mesh_next\const_mesh_next.gml
+Converted description /// @description  array const_mesh_next(buffer, grid size);/// @param buffer
+/// @param  grid size
+
+Converting GML script: ${project_dir}\scripts\pbs_read_types\pbs_read_types.gml
+Converted description /// @description  array pbs_read_types(filename);/// @param filename
+Converted string - line 20: 'Name' -> "Name"
+Converted string - line 20: 'Normal' -> "Normal"
+Converted string - line 21: 'InternalName' -> "InternalName"
+Converted string - line 21: 'NORMAL' -> "NORMAL"
+Converted string - line 23: 'IsSpecialType' -> "IsSpecialType"
+Converted string - line 23: 'false' -> "false"
+Converted string - line 32: 'Weaknesses' -> "Weaknesses"
+Converted string - line 32: '' -> ""
+Converted string - line 32: ',' -> ","
+Converted string - line 33: 'Resistances' -> "Resistances"
+Converted string - line 33: '' -> ""
+Converted string - line 33: ',' -> ","
+Converted string - line 34: 'Immunities' -> "Immunities"
+Converted string - line 34: '' -> ""
+Converted string - line 34: ',' -> ","
+
+Converting GML script: ${project_dir}\scripts\pbs_read_pokemon\pbs_read_pokemon.gml
+Converted description /// @description  array pbs_read_pokemon(filename);/// @param filename
+Converted string - line 54: 'Name' -> "Name"
+Converted string - line 54: 'Bulbasaur' -> "Bulbasaur"
+Converted string - line 55: 'InternalName' -> "InternalName"
+Converted string - line 55: 'BULBASAUR' -> "BULBASAUR"
+Converted string - line 61: 'Type1' -> "Type1"
+Converted string - line 61: 'NORMAL' -> "NORMAL"
+Converted string - line 64: 'Type2' -> "Type2"
+Converted string - line 64: 'QMARKS' -> "QMARKS"
+Converted string - line 69: 'BaseStats' -> "BaseStats"
+Converted string - line 69: '50,50,50,50,50,50' -> "50,50,50,50,50,50"
+Converted string - line 69: ',' -> ","
+Converted string - line 74: 'GenderRate' -> "GenderRate"
+Converted string - line 74: 'Genderless' -> "Genderless"
+Converted string - line 77: 'alwaysmale' -> "alwaysmale"
+Converted string - line 80: 'femaleoneeighth' -> "femaleoneeighth"
+Converted string - line 83: 'female25percent' -> "female25percent"
+Converted string - line 86: 'female50percent' -> "female50percent"
+Converted string - line 89: 'female75percent' -> "female75percent"
+Converted string - line 92: 'femaleseveneighths' -> "femaleseveneighths"
+Converted string - line 95: 'alwaysfemale' -> "alwaysfemale"
+Converted string - line 98: 'genderless' -> "genderless"
+Converted string - line 104: 'GrowthRate' -> "GrowthRate"
+Converted string - line 104: 'Parabolic' -> "Parabolic"
+Converted string - line 107: 'fast' -> "fast"
+Converted string - line 110: 'medium' -> "medium"
+Converted string - line 111: 'mediumfast' -> "mediumfast"
+Converted string - line 114: 'slow' -> "slow"
+Converted string - line 116: 'parabolic' -> "parabolic"
+Converted string - line 117: 'mediumslow' -> "mediumslow"
+Converted string - line 120: 'erratic' -> "erratic"
+Converted string - line 123: 'fluctuating' -> "fluctuating"
+Converted string - line 129: 'BaseEXP' -> "BaseEXP"
+Converted string - line 130: 'EffortPoints' -> "EffortPoints"
+Converted string - line 130: '0,1,0,0,1,0' -> "0,1,0,0,1,0"
+Converted string - line 130: ',' -> ","
+Converted string - line 134: 'Rareness' -> "Rareness"
+Converted string - line 135: 'Happiness' -> "Happiness"
+Converted string - line 137: 'Abilities' -> "Abilities"
+Converted string - line 137: 'SWIFTSWIM' -> "SWIFTSWIM"
+Converted string - line 137: ',' -> ","
+Converted string - line 138: 'HiddenAbility' -> "HiddenAbility"
+Converted string - line 138: 'SWIFTSWIM' -> "SWIFTSWIM"
+Converted string - line 138: ',' -> ","
+Converted string - line 148: 'Moves' -> "Moves"
+Converted string - line 148: '' -> ""
+Converted string - line 148: ',' -> ","
+Converted string - line 156: 'EggMoves' -> "EggMoves"
+Converted string - line 156: '' -> ""
+Converted string - line 156: ',' -> ","
+Converted string - line 162: 'Compatibility' -> "Compatibility"
+Converted string - line 162: 'Undiscovered' -> "Undiscovered"
+Converted string - line 162: ',' -> ","
+Converted string - line 168: 'StepsToHatch' -> "StepsToHatch"
+Converted string - line 169: 'Height' -> "Height"
+Converted string - line 170: 'Weight' -> "Weight"
+Converted string - line 171: 'Color' -> "Color"
+Converted string - line 171: 'Blue' -> "Blue"
+Converted string - line 175: 'Shape' -> "Shape"
+Converted string - line 177: 'Habitat' -> "Habitat"
+Converted string - line 177: 'Grassland' -> "Grassland"
+Converted string - line 180: 'cave' -> "cave"
+Converted string - line 183: 'forest' -> "forest"
+Converted string - line 186: 'grassland' -> "grassland"
+Converted string - line 189: 'mountain' -> "mountain"
+Converted string - line 192: 'roughterrain' -> "roughterrain"
+Converted string - line 195: 'sea' -> "sea"
+Converted string - line 198: 'urban' -> "urban"
+Converted string - line 201: 'watersedge' -> "watersedge"
+Converted string - line 204: 'rare' -> "rare"
+Converted string - line 210: 'RegionalNumbers' -> "RegionalNumbers"
+Converted string - line 210: '1,1' -> "1,1"
+Converted string - line 210: ',' -> ","
+Converted string - line 211: 'Kind' -> "Kind"
+Converted string - line 211: 'Seed' -> "Seed"
+Converted string - line 216: 'Pokedex' -> "Pokedex"
+Converted string - line 216: 'the quick brown fox jumped over the lazy dog' -> "the quick brown fox jumped over the lazy dog"
+Converted string - line 224: 'WildItemCommon' -> "WildItemCommon"
+Converted string - line 224: '' -> ""
+Converted string - line 225: 'WildItemUncommon' -> "WildItemUncommon"
+Converted string - line 225: '' -> ""
+Converted string - line 226: 'WildItemRare' -> "WildItemRare"
+Converted string - line 226: '' -> ""
+Converted string - line 240: 'FormName' -> "FormName"
+Converted string - line 240: '' -> ""
+Converted string - line 241: 'Incense' -> "Incense"
+Converted string - line 241: '' -> ""
+Converted string - line 253: 'Evolutions' -> "Evolutions"
+Converted string - line 253: '' -> ""
+Converted string - line 255: ',' -> ","
+
+Converting GML script: ${project_dir}\scripts\pbs_read_moves\pbs_read_moves.gml
+Converted description /// @description  array pbs_read_moves(filename);/// @param filename
+Converted string - line 9: 'A' -> "A"
+Converted string - line 10: 'Z' -> "Z"
+Converted string - line 13: ',' -> ","
+Converted string - line 15: '' -> ""
+Converted string - line 16: '' -> ""
+Converted string - line 28: '' -> ""
+Converted string - line 47: '00' -> "00"
+Converted string - line 51: '01' -> "01"
+Converted string - line 54: '02' -> "02"
+Converted string - line 57: '04' -> "04"
+Converted string - line 60: '08' -> "08"
+Converted string - line 63: '10' -> "10"
+Converted string - line 66: '20' -> "20"
+Converted string - line 69: '40' -> "40"
+Converted string - line 72: '80' -> "80"
+Converted string - line 75: '100' -> "100"
+Converted string - line 78: '200' -> "200"
+Converted string - line 81: '400' -> "400"
+Converted string - line 84: '800' -> "800"
+Converted string - line 101: 'physical' -> "physical"
+Converted string - line 105: 'special' -> "special"
+Converted string - line 108: 'status' -> "status"
+
+Converting GML script: ${project_dir}\scripts\pbs_read_trainer_classes\pbs_read_trainer_classes.gml
+Converted description /// @description  array pbs_read_trainer_classes(filename);/// @param filename
+Converted string - line 10: ',' -> ","
+Converted string - line 12: '' -> ""
+Converted string - line 13: '' -> ""
+Converted string - line 34: 'male' -> "male"
+Converted string - line 37: 'female' -> "female"
+Converted string - line 40: 'genderless' -> "genderless"
+
+Converting GML script: ${project_dir}\scripts\pbs_read_trainers\pbs_read_trainers.gml
+Converted description /// @description  array pbs_read_trainer_classes(filename);/// @param filename
+Converted string - line 32: 'not a trainer class in pbs trainers.txt: ' -> "not a trainer class in pbs trainers.txt: "
+Converted string - line 35: '' -> ""
+Converted string - line 43: ',' -> ","
+Converted string - line 53: ',' -> ","
+Converted string - line 70: ',' -> ","
+Converted string - line 72: '' -> ""
+Converted string - line 113: 'bad nature in pbs trainers.txt: ' -> "bad nature in pbs trainers.txt: "
+Converted string - line 113: ' of ' -> " of "
+Converted string - line 117: 'shiny' -> "shiny"
+Converted string - line 123: 'm' -> "m"
+Converted string - line 125: 'f' -> "f"
+Converted string - line 132: 'bad ability in pbs trainers.txt: ' -> "bad ability in pbs trainers.txt: "
+Converted string - line 132: ' of ' -> " of "
+Converted string - line 139: 'bad move in pbs trainers.txt: ' -> "bad move in pbs trainers.txt: "
+Converted string - line 139: ' of ' -> " of "
+Converted string - line 146: 'bad move in pbs trainers.txt: ' -> "bad move in pbs trainers.txt: "
+Converted string - line 146: ' of ' -> " of "
+Converted string - line 153: 'bad move in pbs trainers.txt: ' -> "bad move in pbs trainers.txt: "
+Converted string - line 153: ' of ' -> " of "
+Converted string - line 160: 'bad move in pbs trainers.txt: ' -> "bad move in pbs trainers.txt: "
+Converted string - line 160: ' of ' -> " of "
+Converted string - line 167: 'bad item in pbs trainers.txt: ' -> "bad item in pbs trainers.txt: "
+Converted string - line 167: ' of ' -> " of "
+Converted string - line 178: 'not a pokémon species in pbs trainers.txt: ' -> "not a pokémon species in pbs trainers.txt: "
+Converted string - line 203: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\pbs_read_items\pbs_read_items.gml
+Converted description /// @description  array pbs_read_items(filename);/// @param filename
+Converted string - line 10: ',' -> ","
+Converted string - line 12: '' -> ""
+Converted string - line 13: '' -> ""
+Converted string - line 14: '' -> ""
+Converted string - line 17: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\pbs_read_abilities\pbs_read_abilities.gml
+Converted description /// @description  array pbs_read_items(filename);/// @param filename
+Converted string - line 10: ',' -> ","
+
+Converting GML script: ${project_dir}\scripts\pbs_read_move_function_code\pbs_read_move_function_code.gml
+Converted description /// @description  array pbs_read_move_function_code(hex string);/// @param hex string
+Converted string - line 102: 'Unimplemented function code: ' -> "Unimplemented function code: "
+Converted string - line 102: ' (0x' -> " (0x"
+Converted string - line 102: ')' -> ")"
+
+Converting GML script: ${project_dir}\scripts\pbs_read_move_ai_code\pbs_read_move_ai_code.gml
+Converted description /// @description  array pbs_read_move_ai_code(hex string);/// @param hex string
+
+Converting GML script: ${project_dir}\scripts\pbs_read_item_overworld_code\pbs_read_item_overworld_code.gml
+Converted description /// @description  ItemOverworldUsability pbs_read_item_overworld_code(number);/// @param number
+
+Converting GML script: ${project_dir}\scripts\pbs_read_item_battle_code\pbs_read_item_battle_code.gml
+Converted description /// @description  ItemOverworldUsability pbs_read_item_battle_code(number);/// @param number
+
+Converting GML script: ${project_dir}\scripts\pbs_read_item_pocket\pbs_read_item_pocket.gml
+Converted description /// @description  ItemPocket pbs_read_item_pocket(number);/// @param number
+
+Converting GML script: ${project_dir}\scripts\pbs_read_item_ai_flags\pbs_read_item_ai_flags.gml
+Converted description /// @description  ItemPocket pbs_read_item_ai_flags(internal name);/// @param internal name
+
+Converting GML script: ${project_dir}\scripts\pbs_read_item_values\pbs_read_item_values.gml
+Converted description /// @description  ItemPocket pbs_read_item_values(internal name, default value);/// @param internal name
+/// @param  default value
+
+Converting GML script: ${project_dir}\scripts\pbs_cleanup\pbs_cleanup.gml
+Converted string - line 9: 'METALCLAW' -> "METALCLAW"
+Converted string - line 24: 'STATIC' -> "STATIC"
+Converted string - line 30: 'INNERFOCUS' -> "INNERFOCUS"
+Converted string - line 36: 'SYNCHRONIZE' -> "SYNCHRONIZE"
+Converted string - line 44: 'MAGNETPULL' -> "MAGNETPULL"
+Converted string - line 50: 'LEVITATE' -> "LEVITATE"
+Converted string - line 56: 'BLAZE' -> "BLAZE"
+Converted string - line 61: 'OVERGROW' -> "OVERGROW"
+Converted string - line 67: 'INTIMIDATE' -> "INTIMIDATE"
+Converted string - line 73: 'SHEDSKIN' -> "SHEDSKIN"
+Converted string - line 81: 'MIRACLESEED' -> "MIRACLESEED"
+Converted string - line 87: 'CHARCOAL' -> "CHARCOAL"
+Converted string - line 93: 'MAGNET' -> "MAGNET"
+Converted string - line 99: 'MYSTICWATER' -> "MYSTICWATER"
+Converted string - line 105: 'SILKSCARF' -> "SILKSCARF"
+Converted string - line 111: 'LEFTOVERS' -> "LEFTOVERS"
+Converted string - line 117: 'FULLRESTORE' -> "FULLRESTORE"
+
+Converting GML script: ${project_dir}\scripts\set_type_matchups\set_type_matchups.gml
+Converted description /// @description  void set_type_matchups(type, typea, matchupa .. typen, matchupn);/// @param type
+/// @param  typea
+/// @param  matchupa .. typen
+/// @param  matchupn
+
+Converting GML script: ${project_dir}\scripts\get_pokemon_battle_sprite\get_pokemon_battle_sprite.gml
+Converted description /// @description  sprite get_pokemon_battle_sprite(BattlePokemon, side);/// @param BattlePokemon
+/// @param  side
+
+Converting GML script: ${project_dir}\scripts\get_pokemon_sprite_hash\get_pokemon_sprite_hash.gml
+Converted description /// @description  sprite get_pokemon_sprite_hash(BattlePokemon, side, [ignore female?]);/// @param BattlePokemon
+/// @param  side
+/// @param  [ignore female?]
+Converted string - line 18: 'f' -> "f"
+Converted string - line 21: 's' -> "s"
+Converted string - line 24: 'b' -> "b"
+Converted string - line 28: '_' -> "_"
+Converted string - line 32: '.png' -> ".png"
+Converted string - line 35: 'found neither female nor default sprite for: ' -> "found neither female nor default sprite for: "
+Converted string - line 35: ' shiny=' -> " shiny="
+Converted string - line 36: ' front=' -> " front="
+Converted string - line 36: ' form=' -> " form="
+Converted string - line 37: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\get_asset_from_name\get_asset_from_name.gml
+Converted description /// @description  int get_asset_from_name(array, name);/// @param array
+/// @param  name
+
+Converting GML script: ${project_dir}\scripts\get_ability_from_name\get_ability_from_name.gml
+Converted description /// @description  int get_ability_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_egg_group_from_name\get_egg_group_from_name.gml
+Converted description /// @description  int get_egg_group_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_evolution_method_from_name\get_evolution_method_from_name.gml
+Converted description /// @description  int get_evolution_method_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_generic_from_name\get_generic_from_name.gml
+Converted description /// @description  int get_generic_from_name(array, name, [use internal name?]);/// @param array
+/// @param  name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_item_from_name\get_item_from_name.gml
+Converted description /// @description  int get_item_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_item_pocket_from_name\get_item_pocket_from_name.gml
+Converted description /// @description  int get_item_pocket_from_name(name);/// @param name
+
+Converting GML script: ${project_dir}\scripts\get_move_from_name\get_move_from_name.gml
+Converted description /// @description  int get_move_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_nature_from_name\get_nature_from_name.gml
+Converted description /// @description  int get_nature_from_name(name);/// @param name
+
+Converting GML script: ${project_dir}\scripts\get_pokemon_from_name\get_pokemon_from_name.gml
+Converted description /// @description  int get_pokemon_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_map_from_name\get_map_from_name.gml
+Converted description /// @description  int get_map_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_trainer_class_from_name\get_trainer_class_from_name.gml
+Converted description /// @description  int get_trainer_class_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_trainer_from_data\get_trainer_from_data.gml
+Converted description /// @description  int get_trainer_from_data(name, class id, [version]);/// @param name
+/// @param  class id
+/// @param  [version]
+
+Converting GML script: ${project_dir}\scripts\get_trainer_from_name\get_trainer_from_name.gml
+Converted description /// @description  int get_trainer_from_name(name, class name, [version]);/// @param name
+/// @param  class name
+/// @param  [version]
+
+Converting GML script: ${project_dir}\scripts\get_type_from_name\get_type_from_name.gml
+Converted description /// @description  int get_type_from_name(name, [use internal name?]);/// @param name
+/// @param  [use internal name?]
+
+Converting GML script: ${project_dir}\scripts\get_color_from_name\get_color_from_name.gml
+Converted description /// @description  color get_color_from_name(name);/// @param name
+Converted string - line 7: 'black' -> "black"
+Converted string - line 9: 'blue' -> "blue"
+Converted string - line 11: 'brown' -> "brown"
+Converted string - line 13: 'gray' -> "gray"
+Converted string - line 15: 'green' -> "green"
+Converted string - line 17: 'pink' -> "pink"
+Converted string - line 19: 'purple' -> "purple"
+Converted string - line 21: 'red' -> "red"
+Converted string - line 23: 'white' -> "white"
+Converted string - line 25: 'yellow' -> "yellow"
+
+Converting GML script: ${project_dir}\scripts\get_map\get_map.gml
+Converted description /// @description  string get_map(index);/// @param index
+
+Converting GML script: ${project_dir}\scripts\const_class_battle_bgm\const_class_battle_bgm.gml
+Converted description /// @description  array const_class_battle_bgm();
+
+Converting GML script: ${project_dir}\scripts\const_class_battle_sprites\const_class_battle_sprites.gml
+Converted description /// @description  array const_class_battle_sprites();
+
+Converting GML script: ${project_dir}\scripts\const_class_intro_me\const_class_intro_me.gml
+Converted description /// @description  array const_class_intro_me();
+
+Converting GML script: ${project_dir}\scripts\const_class_overworld_sprites\const_class_overworld_sprites.gml
+Converted description /// @description  array const_class_overworld_sprites();
+
+Converting GML script: ${project_dir}\scripts\const_class_victory_bgm\const_class_victory_bgm.gml
+Converted description /// @description  array const_class_victory_bgm();
+
+Converting GML script: ${project_dir}\scripts\get_active_map\get_active_map.gml
+Converted description /// @description  DataMap get_active_map();
+
+Converting GML script: ${project_dir}\scripts\get_active_texture\get_active_texture.gml
+Converted description /// @description  DataMap get_active_texture();
+
+Converting GML script: ${project_dir}\scripts\get_active_tileset\get_active_tileset.gml
+Converted description /// @description  DataMap get_active_tileset();
+
+Converting GML script: ${project_dir}\scripts\map_add_contents\map_add_contents.gml
+Converted description /// @description  void map_add_contents(DataMap, Entity, xx, yy, zz);/// @param DataMap
+/// @param  Entity
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\map_add_dynamic\map_add_dynamic.gml
+Converted description /// @description  Entity map_add_dynamic(DataMap, Entity, [xx, yy, zz]);/// @param DataMap
+/// @param  Entity
+/// @param  [xx
+/// @param  yy
+/// @param  zz]
+
+Converting GML script: ${project_dir}\scripts\map_add_static\map_add_static.gml
+Converted description /// @description  Entity map_add_static(DataMap, Entity, [xx, yy, zz]);/// @param DataMap
+/// @param  Entity
+/// @param  [xx
+/// @param  yy
+/// @param  zz]
+
+Converting GML script: ${project_dir}\scripts\map_construct_grids\map_construct_grids.gml
+Converted description /// @description  void map_construct_grids(DataMap, x, y, z);/// @param DataMap
+/// @param  x
+/// @param  y
+/// @param  z
+
+Converting GML script: ${project_dir}\scripts\map_get_at\map_get_at.gml
+Converted description /// @description  list map_get_at(DataMap, xx, yy, zz);/// @param DataMap
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\map_get_solid\map_get_solid.gml
+Converted description /// @description  boolean map_get_solid(DataMap, xx, yy, zz);/// @param DataMap
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\map_inbounds\map_inbounds.gml
+Converted description /// @description  boolean map_inbounds(DataMap, xx, yy, zz);/// @param DataMap
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\map_remove_contents\map_remove_contents.gml
+Converted description /// @description  void map_remove_contents(DataMap, Entity, xx, yy, zz);/// @param DataMap
+/// @param  Entity
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\tileset_create\tileset_create.gml
+Converted description /// @description  DataTileset tileset_create(picture file, passage, priority, flags, tags, autotiles[], at passage[], at priority[], at flags[], at tags[]);/// @param picture file
+/// @param  passage
+/// @param  priority
+/// @param  flags
+/// @param  tags
+/// @param  autotiles[]
+/// @param  at passage[]
+/// @param  at priority[]
+/// @param  at flags[]
+/// @param  at tags[]
+
+Converting GML script: ${project_dir}\scripts\tileset_create_master\tileset_create_master.gml
+Converted description /// @description  sprite tileset_create_master(tileset);/// @param tileset
+
+Converting GML script: ${project_dir}\scripts\load_data\load_data.gml
+Converted description /// @description  void load_data([file]);/// @param [file]
+Converted string - line 5: 'game.dddd' -> "game.dddd"
+Converted string - line 11: 'data file not found: ' -> "data file not found: "
+Converted string - line 11: '. using the dummy data file instead.' -> ". using the dummy data file instead."
+Converted string - line 12: 'game.dddd' -> "game.dddd"
+Converted string - line 105: 'PLAYERPAWN' -> "PLAYERPAWN"
+Converted string - line 105: 'Bilbo Baggins' -> "Bilbo Baggins"
+
+Converting GML script: ${project_dir}\scripts\load_data_link_attacks\load_data_link_attacks.gml
+Converted description /// @description  void load_data_link_attacks();
+
+Converting GML script: ${project_dir}\scripts\load_data_link_event_custom\load_data_link_event_custom.gml
+Converted description /// @description  void load_data_link_event_custom();
+
+Converting GML script: ${project_dir}\scripts\load_data_link_items\load_data_link_items.gml
+Converted description /// @description  void load_data_link_items();
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_attacks\load_data_parse_attacks.gml
+Converted description /// @description  void load_data_parse_attacks(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_classes\load_data_parse_classes.gml
+Converted description /// @description  void load_data_parse_classes(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_e_damage_types\load_data_parse_e_damage_types.gml
+Converted description /// @description  void load_data_parse_e_damage_types(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_elements\load_data_parse_elements.gml
+Converted description /// @description  void load_data_parse_elements(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_item_pockets\load_data_parse_item_pockets.gml
+Converted description /// @description  void load_data_parse_item_pockets(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_items\load_data_parse_items.gml
+Converted description /// @description  void load_data_parse_items(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_properties\load_data_parse_properties.gml
+Converted description /// @description  map load_data_parse_properties(datadata);/// @param datadata
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_weapon_styles\load_data_parse_weapon_styles.gml
+Converted description /// @description  void load_data_parse_weapon_styles(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_data_parse_weapon_types\load_data_parse_weapon_types.gml
+Converted description /// @description  void load_data_parse_weapon_types(all blobs);/// @param all blobs
+
+Converting GML script: ${project_dir}\scripts\load_autotiles_meta\load_autotiles_meta.gml
+Converted description /// @description  void load_autotiles_meta(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_data_instances\load_data_instances.gml
+Converted description /// @description  void load_data_instances(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_datadata\load_datadata.gml
+Converted description /// @description  void load_datadata(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_event_custom\load_event_custom.gml
+Converted description /// @description  void load_event_custom(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_events\load_events.gml
+Converted description /// @description  void load_events(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_global_meta\load_global_meta.gml
+Converted description /// @description  void load_global_meta(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_tilesets_meta\load_tilesets_meta.gml
+Converted description /// @description  void load_tilesets_meta(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_generic\load_generic.gml
+Converted description /// @description  load_generic(buffer, Struct, version);/// @param buffer
+/// @param  Struct
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_event_page\load_entity_event_page.gml
+Converted description /// @description  void load_entity_event_page(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_map_contents_meta\load_map_contents_meta.gml
+Converted description /// @description  void load_map_contents_meta(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_map_contents_batch\load_map_contents_batch.gml
+Converted description /// @description  void load_map_contents_batch(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_map_contents_dynamic\load_map_contents_dynamic.gml
+Converted description /// @description  void load_map_contents_dynamic(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity\load_entity.gml
+Converted description /// @description  bool load_entity(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_autotile\load_entity_autotile.gml
+Converted description /// @description  bool load_entity_autotile(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_effect\load_entity_effect.gml
+Converted description /// @description  bool load_entity_effect(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_event\load_entity_event.gml
+Converted description /// @description  bool load_entity_pawn(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_mesh\load_entity_mesh.gml
+Converted description /// @description  bool load_entity_mesh(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_pawn\load_entity_pawn.gml
+Converted description /// @description  bool load_entity_pawn(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_entity_tile\load_entity_tile.gml
+Converted description /// @description  bool load_entity_tile(buffer, Entity, version);/// @param buffer
+/// @param  Entity
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\load_move_route\load_move_route.gml
+Converted description /// @description  DataMoveRoute load_move_route(buffer, version);/// @param buffer
+/// @param  version
+
+Converting GML script: ${project_dir}\scripts\create_event\create_event.gml
+Converted description /// @description  DataEvent event_create(name);/// @param name
+
+Converting GML script: ${project_dir}\scripts\create_event_node\create_event_node.gml
+Converted description /// @description  DataEventNode event_create_node(Event, name, EventNodeType, parent);/// @param Event
+/// @param  name
+/// @param  EventNodeType
+/// @param  parent
+
+Converting GML script: ${project_dir}\scripts\guid_set\guid_set.gml
+Converted description /// @description  void guid_set(Data, value);/// @param Data
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\guid_get\guid_get.gml
+Converted description /// @description  Data guid_get(guid);/// @param guid
+
+Converting GML script: ${project_dir}\scripts\draw_rectangle_9s\draw_rectangle_9s.gml
+Converted description /// @description  void draw_rectangle_9s(sprite, x, y, width, height);/// @param sprite
+/// @param  x
+/// @param  y
+/// @param  width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\draw_selection_arrow\draw_selection_arrow.gml
+Converted description /// @description  void draw_selection_arrow(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\ds_list_max_width\ds_list_max_width.gml
+Converted description /// @description  double ds_list_max_width(list);/// @param list
+
+Converting GML script: ${project_dir}\scripts\draw_health_bar\draw_health_bar.gml
+Converted description /// @description  void draw_health_bar(x, y, x2, y2, f);/// @param x
+/// @param  y
+/// @param  x2
+/// @param  y2
+/// @param  f
+
+Converting GML script: ${project_dir}\scripts\draw_exp_bar\draw_exp_bar.gml
+Converted description /// @description  void draw_exp_bar(x, y, x2, y2, f);/// @param x
+/// @param  y
+/// @param  x2
+/// @param  y2
+/// @param  f
+
+Converting GML script: ${project_dir}\scripts\new_effect_2d\new_effect_2d.gml
+Converted description /// @description  Effect2D new_effect_2d(x, y, sprite, render, t_fadein, t_still, t_fadeout, [xscale], [yscale], [rotation], [color], [alpha], [animation rate], [animation_loop?], [xspeed], [yspeed], [damping]);/// @param x
+/// @param  y
+/// @param  sprite
+/// @param  render
+/// @param  t_fadein
+/// @param  t_still
+/// @param  t_fadeout
+/// @param  [xscale]
+/// @param  [yscale]
+/// @param  [rotation]
+/// @param  [color]
+/// @param  [alpha]
+/// @param  [animation rate]
+/// @param  [animation_loop?]
+/// @param  [xspeed]
+/// @param  [yspeed]
+/// @param  [damping]
+
+Converting GML script: ${project_dir}\scripts\new_effect_world\new_effect_world.gml
+Converted description /// @description  Effect2D new_effect_world(x, y, z, xrot, yrot, zrot, scale, sprite, render, t_fadein, t_still, t_fadeout, [xscale], [yscale], [rotation], [color], [alpha], [animation rate], [animation loop?], [xspeed], [yspeed], [zspeed], [damping]);/// @param x
+/// @param  y
+/// @param  z
+/// @param  xrot
+/// @param  yrot
+/// @param  zrot
+/// @param  scale
+/// @param  sprite
+/// @param  render
+/// @param  t_fadein
+/// @param  t_still
+/// @param  t_fadeout
+/// @param  [xscale]
+/// @param  [yscale]
+/// @param  [rotation]
+/// @param  [color]
+/// @param  [alpha]
+/// @param  [animation rate]
+/// @param  [animation loop?]
+/// @param  [xspeed]
+/// @param  [yspeed]
+/// @param  [zspeed]
+/// @param  [damping]
+
+Converting GML script: ${project_dir}\scripts\e3d_generic\e3d_generic.gml
+Converted description /// @description  void e3d_generic();
+
+Converting GML script: ${project_dir}\scripts\e3d_billboard\e3d_billboard.gml
+Converted description /// @description  void e3d_billboard();
+
+Converting GML script: ${project_dir}\scripts\draw_type\draw_type.gml
+Converted description /// @description  void draw_type(type, x, y);/// @param type
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\draw_major_status\draw_major_status.gml
+Converted description /// @description  void draw_major_status(status, x, y);/// @param status
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\draw_move_category\draw_move_category.gml
+Converted description /// @description  void draw_move_category(category, x, y);/// @param category
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\transform_add\transform_add.gml
+Converted description /// @description  matrix transform_add(x, y, z, xrot, yrot, zrot, xscale, yscale, zscale);/// @param x
+/// @param  y
+/// @param  z
+/// @param  xrot
+/// @param  yrot
+/// @param  zrot
+/// @param  xscale
+/// @param  yscale
+/// @param  zscale
+
+Converting GML script: ${project_dir}\scripts\transform_set\transform_set.gml
+Converted description /// @description  matrix transform_set(x, y, z, xrot, yrot, zrot, xscale, yscale, zscale);/// @param x
+/// @param  y
+/// @param  z
+/// @param  xrot
+/// @param  yrot
+/// @param  zrot
+/// @param  xscale
+/// @param  yscale
+/// @param  zscale
+
+Converting GML script: ${project_dir}\scripts\transform_reset\transform_reset.gml
+Converted description /// @description  void transform_reset();
+
+Converting GML script: ${project_dir}\scripts\draw_cursor\draw_cursor.gml
+Converted description /// @description  void draw_cursor(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\L\L.gml
+Converted description /// @description  string L(text, v0, .. vn);/// @param text
+/// @param  v0
+/// @param  .. vn
+Converted string - line 22: '%' -> "%"
+
+Converting GML script: ${project_dir}\scripts\action_priority\action_priority.gml
+Converted description /// @description  double action_priority(BattleExecutableAction);/// @param BattleExecutableAction
+
+Converting GML script: ${project_dir}\scripts\approach\approach.gml
+Converted description /// @description  double approach(initial, target, amount);/// @param initial
+/// @param  target
+/// @param  amount
+
+Converting GML script: ${project_dir}\scripts\battle_damage\battle_damage.gml
+Converted description /// @description  int battle_damage(DataMove, user, target, [critical?], [effects list], [ignore randomness]);/// @param DataMove
+/// @param  user
+/// @param  target
+/// @param  [critical?]
+/// @param  [effects list]
+/// @param  [ignore randomness]
+Converted string - line 96: 'you somehow managed to do a damage calculation on a status move, good job' -> "you somehow managed to do a damage calculation on a status move, good job"
+
+Converting GML script: ${project_dir}\scripts\boolean\boolean.gml
+Converted description /// @description  boolean boolean(string);/// @param string
+Converted string - line 7: 'true' -> "true"
+Converted string - line 8: '1' -> "1"
+Converted string - line 10: 'false' -> "false"
+Converted string - line 11: '0' -> "0"
+Converted string - line 15: 'you tried to read a boolean out of a non-boolean: ' -> "you tried to read a boolean out of a non-boolean: "
+
+Converting GML script: ${project_dir}\scripts\choose_gender\choose_gender.gml
+Converted description /// @description  value choose_gender(gender, male, female, default);/// @param gender
+/// @param  male
+/// @param  female
+/// @param  default
+
+Converting GML script: ${project_dir}\scripts\array_add\array_add.gml
+Converted description /// @description  value array_add(array, value);/// @param array
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\array_clear\array_clear.gml
+Converted description /// @description  void array_clear(array, value);/// @param array
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\array_clear_2d\array_clear_2d.gml
+Converted description /// @description  void array_clear_2d(array, value);/// @param array
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\array_compose\array_compose.gml
+Converted description /// @description  array_compose(argument0 .. argument1);/// @param argument0 .. argument1
+
+Converting GML script: ${project_dir}\scripts\array_sum\array_sum.gml
+Converted description /// @description  double array_sum(array);/// @param array
+
+Converting GML script: ${project_dir}\scripts\array_swap\array_swap.gml
+Converted description /// @description  void array_swap(array, a, b);/// @param array
+/// @param  a
+/// @param  b
+
+Converting GML script: ${project_dir}\scripts\ds_list_clone\ds_list_clone.gml
+Converted description /// @description  list ds_list_clone(list);/// @param list
+
+Converting GML script: ${project_dir}\scripts\ds_list_destroy_instances\ds_list_destroy_instances.gml
+Converted description /// @description  int ds_list_destroy_instances(queue);/// @param queue
+
+Converting GML script: ${project_dir}\scripts\vertex_point_complete\vertex_point_complete.gml
+Converted description /// @description  void vertex_point_complete(vbuff, x, y, z, nx, ny, nz, xtex, ytex, color, alpha);/// @param vbuff
+/// @param  x
+/// @param  y
+/// @param  z
+/// @param  nx
+/// @param  ny
+/// @param  nz
+/// @param  xtex
+/// @param  ytex
+/// @param  color
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\ds_list_swap\ds_list_swap.gml
+Converted description /// @description  void ds_list_swap(list, a, b);/// @param list
+/// @param  a
+/// @param  b
+
+Converting GML script: ${project_dir}\scripts\ds_list_to_array\ds_list_to_array.gml
+Converted description /// @description  array ds_list_to_array(list);/// @param list
+
+Converting GML script: ${project_dir}\scripts\read_language\read_language.gml
+Converted description /// @description  void read_language(map, language enum);/// @param map
+/// @param  language enum
+Converted string - line 21: ']' -> "]"
+Converted string - line 26: '[' -> "["
+Converted string - line 26: ']' -> "]"
+Converted string - line 26: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\ds_priority_destroy_instances\ds_priority_destroy_instances.gml
+Converted description /// @description  int ds_priority_destroy_instances(queue);/// @param queue
+
+Converting GML script: ${project_dir}\scripts\ds_queue_destroy_instances\ds_queue_destroy_instances.gml
+Converted description /// @description  int ds_queue_destroy_instances(queue);/// @param queue
+
+Converting GML script: ${project_dir}\scripts\array_max\array_max.gml
+Converted description /// @description  double array_max(array);/// @param array
+
+Converting GML script: ${project_dir}\scripts\array_max_index\array_max_index.gml
+Converted description /// @description  double array_max_index(array);/// @param array
+
+Converting GML script: ${project_dir}\scripts\array_standard_deviation\array_standard_deviation.gml
+Converted description /// @description  double array_standard_deviation(array);/// @param array
+
+Converting GML script: ${project_dir}\scripts\buffer_read_string\buffer_read_string.gml
+Converted description /// @description  String buffer_read_string(buffer);/// @param buffer
+Converted string - line 6: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\buffer_point_complete\buffer_point_complete.gml
+Converted description /// @description  void buffer_point_complete(buffer, x, y, z, nx, ny, nz, xtex, ytex, color, alpha);/// @param buffer
+/// @param  x
+/// @param  y
+/// @param  z
+/// @param  nx
+/// @param  ny
+/// @param  nz
+/// @param  xtex
+/// @param  ytex
+/// @param  color
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\sprite_save_fixed\sprite_save_fixed.gml
+Converted description /// @description  sprite_save_fixed(sprite, subimg, path)/// @param sprite
+/// @param  subimg
+/// @param  path
+
+Converting GML script: ${project_dir}\scripts\estimated_accuracy\estimated_accuracy.gml
+Converted description /// @description  double estimated_accuracy(DataMove, user, target);/// @param DataMove
+/// @param  user
+/// @param  target
+
+Converting GML script: ${project_dir}\scripts\ini_read_boolean\ini_read_boolean.gml
+Converted description /// @description  boolean ini_read_boolean(section, key, default);/// @param section
+/// @param  key
+/// @param  default
+
+Converting GML script: ${project_dir}\scripts\file_text_as_list\file_text_as_list.gml
+Converted description /// @description  list file_text_as_list(filename, ignore comments?);/// @param filename
+/// @param  ignore comments?
+Converted string - line 17: '#' -> "#"
+
+Converting GML script: ${project_dir}\scripts\instanceof\instanceof.gml
+Converted description /// @description  boolean instanceof(instance, object);/// @param instance
+/// @param  object
+
+Converting GML script: ${project_dir}\scripts\get_matchup\get_matchup.gml
+Converted description /// @description  double get_matchup(attacking, defending);/// @param attacking
+/// @param  defending
+
+Converting GML script: ${project_dir}\scripts\get_pawn_level\get_pawn_level.gml
+Converted description /// @description  double get_pawn_level(Pawn);/// @param Pawn
+
+Converting GML script: ${project_dir}\scripts\get_prize_money\get_prize_money.gml
+Converted description /// @description  double get_prize_money(Pawn);/// @param Pawn
+
+Converting GML script: ${project_dir}\scripts\get_progress_bar_scroll_rate\get_progress_bar_scroll_rate.gml
+Converted description /// @description  double get_progress_bar_scroll_rate(clear time, amount, max amount);/// @param clear time
+/// @param  amount
+/// @param  max amount
+
+Converting GML script: ${project_dir}\scripts\get_progress_bar_scroll_time\get_progress_bar_scroll_time.gml
+Converted description /// @description  double get_progress_bar_scroll_time(clear time, amount, max amount);/// @param clear time
+/// @param  amount
+/// @param  max amount
+
+Converting GML script: ${project_dir}\scripts\hex\hex.gml
+Converted description /// @description  int hex(string);/// @param string
+Converted string - line 7: '0' -> "0"
+Converted string - line 8: '9' -> "9"
+Converted string - line 9: 'A' -> "A"
+Converted string - line 10: 'F' -> "F"
+Converted string - line 24: 'bad input for hex(str): ' -> "bad input for hex(str): "
+
+Converting GML script: ${project_dir}\scripts\is_clamped\is_clamped.gml
+Converted description /// @description  boolean is_clamped(n, a, b);/// @param n
+/// @param  a
+/// @param  b
+
+Converting GML script: ${project_dir}\scripts\item_get_flag\item_get_flag.gml
+Converted description /// @description  boolean item_get_flag(DataItem, flag);/// @param DataItem
+/// @param  flag
+
+Converting GML script: ${project_dir}\scripts\move_get_flag\move_get_flag.gml
+Converted description /// @description  boolean move_get_flag(DataMove, flag);/// @param DataMove
+/// @param  flag
+
+Converting GML script: ${project_dir}\scripts\pack\pack.gml
+Converted description /// @description  int pack(bool0, bool1, ...);/// @param bool0
+/// @param  bool1
+/// @param  ...
+
+Converting GML script: ${project_dir}\scripts\split\split.gml
+Converted description /// @description  array split(string, delimiter, [as real?,] [block quotes?]);/// @param string
+/// @param  delimiter
+/// @param  [as real?
+/// @param ] [block quotes?]
+Converted string - line 7: '\' -> "\\"
+Converted string - line 8: '' -> ""
+Converted string - line 36: '' -> ""
+Converted string - line 44: '' -> ""
+Converted string - line 50: '"' -> "\""
+Converted string - line 52: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\exp_reward\exp_reward.gml
+Converted description /// @description  int exp_reward(winner, loser);/// @param winner
+/// @param  loser
+
+Converting GML script: ${project_dir}\scripts\get_experience\get_experience.gml
+Converted description /// @description  int get_experience(level, growth rate);/// @param level
+/// @param  growth rate
+
+Converting GML script: ${project_dir}\scripts\get_level\get_level.gml
+Converted description /// @description  int get_level(experience, growth rate);/// @param experience
+/// @param  growth rate
+
+Converting GML script: ${project_dir}\scripts\get_nature_modifier\get_nature_modifier.gml
+Converted description /// @description  double get_nature_modifier(nature, stat);/// @param nature
+/// @param  stat
+
+Converting GML script: ${project_dir}\scripts\math_mod\math_mod.gml
+Converted description /// @description  double math_mod(BattlePokemon, Stat);/// @param BattlePokemon
+/// @param  Stat
+
+Converting GML script: ${project_dir}\scripts\recalculate_all_stats\recalculate_all_stats.gml
+Converted description /// @description  void recalculate_all_stats(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\recalculate_stat\recalculate_stat.gml
+Converted description /// @description  int recalculate_stat(BattlePokemon, stat);/// @param BattlePokemon
+/// @param  stat
+
+Converting GML script: ${project_dir}\scripts\get_status_class\get_status_class.gml
+Converted description /// @description  MajorStatus get_status_class(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\string_minimal\string_minimal.gml
+Converted description /// @description  string string_minimal(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\string_commas\string_commas.gml
+Converted description /// @description  string string_commas(n, ignore if only four digits?);/// @param n
+/// @param  ignore if only four digits?
+Converted string - line 13: '' -> ""
+Converted string - line 17: ',' -> ","
+
+Converting GML script: ${project_dir}\scripts\string_pad\string_pad.gml
+Converted description /// @description  String string_pad(value, zeroes);/// @param value
+/// @param  zeroes
+Converted string - line 8: '0' -> "0"
+
+Converting GML script: ${project_dir}\scripts\unpack\unpack.gml
+Converted description /// @description  int unpack(int, n);/// @param int
+/// @param  n
+
+Converting GML script: ${project_dir}\scripts\vector2\vector2.gml
+Converted description /// @description  array vector2(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\world_to_2d\world_to_2d.gml
+Converted description /// @description  array world_to_2d(targetx, targety, targetz);/// @param targetx
+/// @param  targety
+/// @param  targetz
+
+Converting GML script: ${project_dir}\scripts\debug_write\debug_write.gml
+Converted description /// @description  void debug_write();
+
+Converting GML script: ${project_dir}\scripts\transform_entity_point\transform_entity_point.gml
+Converted description /// @description  vec3 transform_entity_point(Entity, x, y, z);/// @param Entity
+/// @param  x
+/// @param  y
+/// @param  z
+
+Converting GML script: ${project_dir}\scripts\ternary\ternary.gml
+Converted description /// @description  ternary(condition, true, false);/// @param condition
+/// @param  true
+/// @param  false
+
+Converting GML script: ${project_dir}\scripts\menu_input\menu_input.gml
+Converted description /// @description  int menu_input(n, list size);/// @param n
+/// @param  list size
+
+Converting GML script: ${project_dir}\scripts\draw_menu_from_list\draw_menu_from_list.gml
+Converted description /// @description  void draw_menu_from_list(list, selected index, [color list]);/// @param list
+/// @param  selected index
+/// @param  [color list]
+
+Converting GML script: ${project_dir}\scripts\draw_moves_list\draw_moves_list.gml
+Converted description /// @description  void draw_moves_list(BattlePokemon, selected index);/// @param BattlePokemon
+/// @param  selected index
+Converted string - line 12: '---' -> "---"
+Converted string - line 31: '(Back)' -> "(Back)"
+Converted string - line 73: '/' -> "/"
+
+Converting GML script: ${project_dir}\scripts\draw_moves_details\draw_moves_details.gml
+Converted description /// @description  void draw_moves_details(move index);/// @param move index
+Converted string - line 29: 'Type:' -> "Type:"
+Converted string - line 31: '  ' -> "  "
+Converted string - line 33: 'Category:' -> "Category:"
+Converted string - line 35: '  ' -> "  "
+Converted string - line 38: 'N/A' -> "N/A"
+Converted string - line 40: '%' -> "%"
+Converted string - line 42: 'Accuracy: %0' -> "Accuracy: %0"
+Converted string - line 44: 'N/A' -> "N/A"
+Converted string - line 48: 'Power: %0' -> "Power: %0"
+
+Converting GML script: ${project_dir}\scripts\draw_pokemon_details\draw_pokemon_details.gml
+Converted description /// @description  void draw_pokemon_details(BattlePokemon);/// @param BattlePokemon
+Converted string - line 36: ' (' -> " ("
+Converted string - line 36: ')' -> ")"
+Converted string - line 55: 'Lv.' -> "Lv."
+Converted string - line 55: ' ' -> " "
+Converted string - line 58: '%0#to next' -> "%0#to next"
+Converted string - line 62: 'Item:' -> "Item:"
+Converted string - line 64: ' ' -> " "
+Converted string - line 66: '(none)' -> "(none)"
+Converted string - line 71: 'Ability:' -> "Ability:"
+Converted string - line 72: ' ' -> " "
+Converted string - line 84: 'HP:' -> "HP:"
+Converted string - line 84: 'Attack:' -> "Attack:"
+Converted string - line 84: 'Defense:' -> "Defense:"
+Converted string - line 84: 'Sp. Attack:' -> "Sp. Attack:"
+Converted string - line 84: 'Sp. Defense:' -> "Sp. Defense:"
+Converted string - line 84: 'Speed:' -> "Speed:"
+Converted string - line 94: '/' -> "/"
+Converted string - line 107: ' (+' -> " (+"
+Converted string - line 107: ')' -> ")"
+Converted string - line 110: ' (' -> " ("
+Converted string - line 110: ')' -> ")"
+Converted string - line 113: '' -> ""
+Converted string - line 124: 'Moves' -> "Moves"
+Converted string - line 127: '---' -> "---"
+Converted string - line 148: ' ' -> " "
+Converted string - line 148: 'nature' -> "nature"
+
+Converting GML script: ${project_dir}\scripts\message\message.gml
+Converted description /// @description  void message(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\question\question.gml
+Converted description /// @description  void question(string, option0, id0, .. optionn, idn);/// @param string
+/// @param  option0
+/// @param  id0
+/// @param  .. optionn
+/// @param  idn
+
+Converting GML script: ${project_dir}\scripts\scr_false\scr_false.gml
+Converted description /// @description  boolean scr_false(argument0..argumentn);/// @param argument0..argumentn
+
+Converting GML script: ${project_dir}\scripts\scr_true\scr_true.gml
+Converted description /// @description  boolean scr_true(argument0..argumentn);/// @param argument0..argumentn
+
+Converting GML script: ${project_dir}\scripts\wait\wait.gml
+Converted description /// @description  void wait(seconds, [continue after wait?]);/// @param seconds
+/// @param  [continue after wait?]
+
+Converting GML script: ${project_dir}\scripts\singleton\singleton.gml
+Converted string - line 2: 'you broke the singleton: ' -> "you broke the singleton: "
+
+Converting GML script: ${project_dir}\scripts\null\null.gml
+Converted description /// @description  void null(argument0..argumentn);/// @param argument0..argumentn
+
+Converting GML script: ${project_dir}\scripts\debug\debug.gml
+Converted description /// @description  void debug(v1, v2, .. vn);/// @param v1
+/// @param  v2
+/// @param  .. vn
+
+Converting GML script: ${project_dir}\scripts\debug_silent\debug_silent.gml
+Converted description /// @description  void debug_silent(v1, v2, .. vn);/// @param v1
+/// @param  v2
+/// @param  .. vn
+
+Converting GML script: ${project_dir}\scripts\set_resolution\set_resolution.gml
+Converted description /// @description  void set_resolution(width, height, fullscreen);/// @param width
+/// @param  height
+/// @param  fullscreen
+
+Converting GML script: ${project_dir}\scripts\get_press_a\get_press_a.gml
+Converted description /// @description  boolean get_press_a([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_press_b\get_press_b.gml
+Converted description /// @description  boolean get_press_b([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_press_select\get_press_select.gml
+Converted description /// @description  boolean get_press_select([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_press_start\get_press_start.gml
+Converted description /// @description  boolean get_press_start([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_press_x\get_press_x.gml
+Converted description /// @description  boolean get_press_x([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_press_y\get_press_y.gml
+Converted description /// @description  boolean get_press_y([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_release_a\get_release_a.gml
+Converted description /// @description  boolean get_release_a([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_release_b\get_release_b.gml
+Converted description /// @description  boolean get_release_b([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_release_select\get_release_select.gml
+Converted description /// @description  boolean get_release_select([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_release_start\get_release_start.gml
+Converted description /// @description  boolean get_release_start([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_release_x\get_release_x.gml
+Converted description /// @description  boolean get_release_x([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_release_y\get_release_y.gml
+Converted description /// @description  boolean get_release_y([clear?]);/// @param [clear?]
+
+Converting GML script: ${project_dir}\scripts\get_stick_angle\get_stick_angle.gml
+Converted description /// @description  double get_stick_angle(r, u);/// @param r
+/// @param  u
+
+Converting GML script: ${project_dir}\scripts\get_stick_magnitude\get_stick_magnitude.gml
+Converted description /// @description  double get_stick_magnitude(r, u);/// @param r
+/// @param  u
+
+Converting GML script: ${project_dir}\scripts\match_cardinal_direction\match_cardinal_direction.gml
+Converted description /// @description  double match_cardinal_direction(angle, magnitude, dir);/// @param angle
+/// @param  magnitude
+/// @param  dir
+
+Converting GML script: ${project_dir}\scripts\batch_tile\batch_tile.gml
+Converted description /// @description  void batch_tile(vertex buffer, EntityTile, xx, yy, zz);/// @param vertex buffer
+/// @param  EntityTile
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\batch_mesh\batch_mesh.gml
+Converted description /// @description  void batch_mesh(vertex buffer, EntityMesh, xx, yy, zz);/// @param vertex buffer
+/// @param  EntityMesh
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\map_batch_all\map_batch_all.gml
+Converted description /// @description  void map_batch_all([DataMap]);/// @param [DataMap]
+
+Converting GML script: ${project_dir}\scripts\render_pawn\render_pawn.gml
+Converted description /// @description  void render_pawn(Pawn, xx, yy, zz);/// @param Pawn
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\render_mesh\render_mesh.gml
+Converted description /// @description  void render_mesh(EntityMesh, xx, yy, zz);/// @param EntityMesh
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\instance_create_tile\instance_create_tile.gml
+Converted description /// @description  EntityTile instance_create_tile(tile x, tile y, [other parameters that should be dealt with later]);/// @param tile x
+/// @param  tile y
+/// @param  [other parameters that should be dealt with later]
+
+Converting GML script: ${project_dir}\scripts\instance_create_mesh\instance_create_mesh.gml
+Converted description /// @description  EntityMesh instance_create_mesh(MeshName);/// @param MeshName
+
+Converting GML script: ${project_dir}\scripts\contents_add_range\contents_add_range.gml
+Converted description /// @description  void contents_add_range(DataMap, Entity, xx, yy, zz);/// @param DataMap
+/// @param  Entity
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\contents_add_single\contents_add_single.gml
+Converted description /// @description  void contents_add_single(DataMap, Entity, xx, yy, zz);/// @param DataMap
+/// @param  Entity
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\contents_remove_range\contents_remove_range.gml
+Converted description /// @description  void contents_remove_range(DataMap, Entity, xx, yy, zz);/// @param DataMap
+/// @param  Entity
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\contents_remove_single\contents_remove_single.gml
+Converted description /// @description  void contents_remove_single(DataMap, Entity, xx, yy, zz);/// @param DataMap
+/// @param  Entity
+/// @param  xx
+/// @param  yy
+/// @param  zz
+
+Converting GML script: ${project_dir}\scripts\update_player\update_player.gml
+Converted description /// @description  void update_player(entity);/// @param entity
+
+Converting GML script: ${project_dir}\scripts\update_dynamic_post\update_dynamic_post.gml
+Converted description /// @description  void update_dynamic_post(thing);/// @param thing
+
+Converting GML script: ${project_dir}\scripts\update_dynamic_new_cell\update_dynamic_new_cell.gml
+Converted description /// @description  void update_dynamic_new_cell(Entity);/// @param Entity
+
+Converting GML script: ${project_dir}\scripts\update_dynamic_non_player\update_dynamic_non_player.gml
+Converted description /// @description  void update_dynamic_non_player(Entity);/// @param Entity
+
+Converting GML script: ${project_dir}\scripts\add_trainer_pokemon\add_trainer_pokemon.gml
+Converted description /// @description  BattlePokemon add_trainer_pokemon(species, level, [item], [moves], [ability], [gender], [form], [shiny?], [nature], [ivs], [evs], [happiness], [name], [shadow?], [ball]);/// @param species
+/// @param  level
+/// @param  [item]
+/// @param  [moves]
+/// @param  [ability]
+/// @param  [gender]
+/// @param  [form]
+/// @param  [shiny?]
+/// @param  [nature]
+/// @param  [ivs]
+/// @param  [evs]
+/// @param  [happiness]
+/// @param  [name]
+/// @param  [shadow?]
+/// @param  [ball]
+
+Converting GML script: ${project_dir}\scripts\attach_pokemon_to_trainer\attach_pokemon_to_trainer.gml
+Converted description /// @description  void attach_pokemon_to_trainer(DataTrainer, BattlePokemon, [position]);/// @param DataTrainer
+/// @param  BattlePokemon
+/// @param  [position]
+
+Converting GML script: ${project_dir}\scripts\trainer_add_item\trainer_add_item.gml
+Converted description /// @description  void trainer_add_item(DataTrainer, item index, [count]);/// @param DataTrainer
+/// @param  item index
+/// @param  [count]
+
+Converting GML script: ${project_dir}\scripts\trainer_remove_item\trainer_remove_item.gml
+Converted description /// @description  void trainer_remove_item(DataTrainer, item index, [count]);/// @param DataTrainer
+/// @param  item index
+/// @param  [count]
+
+Converting GML script: ${project_dir}\scripts\trainer_has_item\trainer_has_item.gml
+Converted description /// @description  ItemStack trainer_has_item(DataTrainer, item index);/// @param DataTrainer
+/// @param  item index
+
+Converting GML script: ${project_dir}\scripts\trainer_item_total\trainer_item_total.gml
+Converted description /// @description  int trainer_item_total(DataTrainer, item index);/// @param DataTrainer
+/// @param  item index
+
+Converting GML script: ${project_dir}\scripts\trainer_item_pocket_total\trainer_item_pocket_total.gml
+Converted description /// @description  int trainer_item_pocket_total(DataTrainer, ItemPocket);/// @param DataTrainer
+/// @param  ItemPocket
+
+Converting GML script: ${project_dir}\scripts\pawn_add_item\pawn_add_item.gml
+Converted description /// @description  void pawn_add_item(Pawn, item index, [count]);/// @param Pawn
+/// @param  item index
+/// @param  [count]
+
+Converting GML script: ${project_dir}\scripts\pawn_remove_item\pawn_remove_item.gml
+Converted description /// @description  void pawn_remove_item(Pawn, item index, [count]);/// @param Pawn
+/// @param  item index
+/// @param  [count]
+
+Converting GML script: ${project_dir}\scripts\pawn_item_total\pawn_item_total.gml
+Converted description /// @description  int pawn_item_total(Pawn);/// @param Pawn
+
+Converting GML script: ${project_dir}\scripts\pawn_item_pocket_total\pawn_item_pocket_total.gml
+Converted description /// @description  int pawn_item_pocket_total(Pawn, ItemPocket);/// @param Pawn
+/// @param  ItemPocket
+
+Converting GML script: ${project_dir}\scripts\pawn_has_item\pawn_has_item.gml
+Converted description /// @description  ItemStack pawn_has_item(Pawn, item index);/// @param Pawn
+/// @param  item index
+
+Converting GML script: ${project_dir}\scripts\alive\alive.gml
+Converted description /// @description  boolean alive(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\get_matchup_on\get_matchup_on.gml
+Converted description /// @description  double get_matchup_on(type, target, [applied effects list], [user]);/// @param type
+/// @param  target
+/// @param  [applied effects list]
+/// @param  [user]
+
+Converting GML script: ${project_dir}\scripts\get_matchup_on_pokemon\get_matchup_on_pokemon.gml
+Converted description /// @description  double get_matchup_on_pokemon(user, target);/// @param user
+/// @param  target
+
+Converting GML script: ${project_dir}\scripts\has_type\has_type.gml
+Converted description /// @description  boolean has_type(BattlePokemon, type);/// @param BattlePokemon
+/// @param  type
+
+Converting GML script: ${project_dir}\scripts\heal\heal.gml
+Converted description /// @description  void heal(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\heal_all\heal_all.gml
+Converted description /// @description  void heal_all(Pawn);/// @param Pawn
+
+Converting GML script: ${project_dir}\scripts\pokemon_auto_moves\pokemon_auto_moves.gml
+Converted description /// @description  void pokemon_auto_moves(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_auto_stats\pokemon_auto_stats.gml
+Converted description /// @description  void pokemon_auto_stats(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_reset_battle_stat_mods\pokemon_reset_battle_stat_mods.gml
+Converted description /// @description  void pokemon_reset_battle_stat_mods(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_reset_volatile_stat_mods\pokemon_reset_volatile_stat_mods.gml
+Converted description /// @description  void pokemon_reset_volatile_stat_mods(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_teach_move\pokemon_teach_move.gml
+Converted description /// @description  void pokemon_teach_move(BattlePokemon, move index, slot);/// @param BattlePokemon
+/// @param  move index
+/// @param  slot
+
+Converting GML script: ${project_dir}\scripts\team_alive\team_alive.gml
+Converted description /// @description  boolean team_alive(BattleTeam);/// @param BattleTeam
+
+Converting GML script: ${project_dir}\scripts\total_pp\total_pp.gml
+Converted description /// @description  int total_pp(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\total_move_pp\total_move_pp.gml
+Converted description /// @description  int total_pp(BattlePokemon, index);/// @param BattlePokemon
+/// @param  index
+
+Converting GML script: ${project_dir}\scripts\pokemon_can_have_status\pokemon_can_have_status.gml
+Converted description /// @description  boolean pokemon_can_have_status(BattlePokemon, MajorStatus);/// @param BattlePokemon
+/// @param  MajorStatus
+
+Converting GML script: ${project_dir}\scripts\pokemon_can_flinch\pokemon_can_flinch.gml
+Converted description /// @description  boolean pokemon_can_flinch(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_can_confuse\pokemon_can_confuse.gml
+Converted description /// @description  boolean pokemon_can_confuse(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_can_escape\pokemon_can_escape.gml
+Converted description /// @description  boolean pokemon_can_escape(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_can_lower_stat\pokemon_can_lower_stat.gml
+Converted description /// @description  boolean pokemon_can_lower_stat(BattlePokemon, Stat);/// @param BattlePokemon
+/// @param  Stat
+
+Converting GML script: ${project_dir}\scripts\pokemon_can_raise_stat\pokemon_can_raise_stat.gml
+Converted description /// @description  boolean pokemon_can_raise_stat(BattlePokemon, Stat);/// @param BattlePokemon
+/// @param  Stat
+
+Converting GML script: ${project_dir}\scripts\pokemon_hp_f\pokemon_hp_f.gml
+Converted description /// @description  double pokemon_hp_f(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pokemon_calculated_stat\pokemon_calculated_stat.gml
+Converted description /// @description  int pokemon_calculated_stat(BattlePokemon, Stat);/// @param BattlePokemon
+/// @param  Stat
+
+Converting GML script: ${project_dir}\scripts\pokemon_live_teammate_count\pokemon_live_teammate_count.gml
+Converted description /// @description  int pokemon_live_teammate_count(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\get_pokemon_level\get_pokemon_level.gml
+Converted description /// @description  int get_pokemon_level(BattlePokemon);/// @param BattlePokemon
+
+Converting GML script: ${project_dir}\scripts\pawn_create\pawn_create.gml
+Converted description /// @description  Pawn pawn_create(class internal name, name, [version], [object], [displayname]);/// @param class internal name
+/// @param  name
+/// @param  [version]
+/// @param  [object]
+/// @param  [displayname]
+Converted string - line 10: '' -> ""
+Converted string - line 34: ' ' -> " "
+
+Converting GML script: ${project_dir}\scripts\event_valid\event_valid.gml
+Converted description /// @description  boolean event_valid(Entity, DataInstantiatedEvent);/// @param Entity
+/// @param  DataInstantiatedEvent
+
+Converting GML script: ${project_dir}\scripts\sprite_add_autotile\sprite_add_autotile.gml
+Converted description /// @description  sprite sprite_add_autotile(name);/// @param name
+
+Converting GML script: ${project_dir}\scripts\script_begin_entry\script_begin_entry.gml
+Converted description /// @description  void script_begin_entry(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_begin_text\script_begin_text.gml
+Converted description /// @description  void script_begin_text(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_begin_custom\script_begin_custom.gml
+Converted description /// @description  void script_begin_custom(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_begin_custom_unknown\script_begin_custom_unknown.gml
+Converted description /// @description  void script_begin_custom_unknown(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_begin_custom_add_item\script_begin_custom_add_item.gml
+Converted description /// @description  void script_begin_custom_add_item(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_begin_custom_remove_item\script_begin_custom_remove_item.gml
+Converted description /// @description  void script_begin_custom_remove_item(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\cutscene_begin\cutscene_begin.gml
+Converted description /// @description  void cutscene_begin(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\cutscene_proceed\cutscene_proceed.gml
+Converted description /// @description  void cutscene_proceed();
+
+Converting GML script: ${project_dir}\scripts\script_draw_text\script_draw_text.gml
+Converted description /// @description  void script_draw_text(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_draw_custom\script_draw_custom.gml
+Converted description /// @description  void script_draw_custom(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_proceed_text\script_proceed_text.gml
+Converted description /// @description  void script_proceed_text(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\script_proceed_custom\script_proceed_custom.gml
+Converted description /// @description  void script_proceed_custom(DataEventNode, Entity);/// @param DataEventNode
+/// @param  Entity
+
+Converting GML script: ${project_dir}\scripts\__scribble_config\__scribble_config.gml
+Converted string - line 12: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,.-;:_+-*/\'\" -> "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,.-;:_+-*/\\'\\"
+Converted string - line 12: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\array_equals_safe\array_equals_safe.gml
+Converted description /// @description  array_equals_safe( a, b )/// @param  a
+/// @param  b
+
+Converting GML script: ${project_dir}\scripts\scribble_init_start\scribble_init_start.gml
+Converted description /// @description  void scribble_init_start(fontDirectory, texturePageSize)/// @param fontDirectory
+/// @param  texturePageSize
+Converted string - line 23: "scribble_init_start() should not be called twice!\n " -> "scribble_init_start() should not be called twice!\\n "
+Converted string - line 34: "\" -> "\\"
+Converted string - line 34: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\scribble_init_add_font\scribble_init_add_font.gml
+Converted description /// @description  something scribble_init_add_font(fontName)/// @param fontName
+Converted string - line 18: "scribble_init_add_font() should be called before scribble_init_end()\n " -> "scribble_init_add_font() should be called before scribble_init_end()\\n "
+
+Converting GML script: ${project_dir}\scripts\scribble_init_add_spritefont\scribble_init_add_spritefont.gml
+Converted description /// @description  something scribble_init_add_spritefont(fontName, [spaceWidth], [mapString], [separation])/// @param fontName
+/// @param  [spaceWidth]
+/// @param  [mapString]
+/// @param  [separation]
+
+Converting GML script: ${project_dir}\scripts\scribble_init_end\scribble_init_end.gml
+Converted description /// @description  void scribble_init_end();
+Converted string - line 475: '"' -> "\""
+Converted string - line 478: '"' -> "\""
+Converted string - line 483: '"' -> "\""
+Converted string - line 486: '"' -> "\""
+Converted string - line 491: '"' -> "\""
+Converted string - line 494: '"' -> "\""
+Converted string - line 499: '"' -> "\""
+Converted string - line 502: '"' -> "\""
+Converted string - line 507: '"' -> "\""
+Converted string - line 510: '"' -> "\""
+Converted string - line 515: '"' -> "\""
+Converted string - line 518: '"' -> "\""
+Converted string - line 523: '"' -> "\""
+Converted string - line 526: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\scribble_set_box_alignment\scribble_set_box_alignment.gml
+Converted description /// @description  void scribble_set_box_alignment(json, [halign], [valign])/// @param json
+/// @param  [halign]
+/// @param  [valign]
+
+Converting GML script: ${project_dir}\scripts\scribble_create\scribble_create.gml
+Converted description /// @description  list scribble_create(string, [minLineHeight], [maxLineWidth], [startingColour], [startingFont], [startingHAlign], [dataFieldsArray]);/// @param string
+/// @param  [minLineHeight]
+/// @param  [maxLineWidth]
+/// @param  [startingColour]
+/// @param  [startingFont]
+/// @param  [startingHAlign]
+/// @param  [dataFieldsArray]
+Converted string - line 86: "\n\r" -> "\\n\\r"
+Converted string - line 87: "\r\n" -> "\\r\\n"
+Converted string - line 88: "\n" -> "\\n"
+Converted string - line 89: "\n" -> "\\n"
+Converted string - line 90: "\r" -> "\\r"
+
+Converting GML script: ${project_dir}\scripts\scribble_step\scribble_step.gml
+Converted description /// @description  void scribble_step(json, [stepSize])/// @param json
+/// @param  [stepSize]
+Converted string - line 91: "Typewriter method not recognised.\nPlease use SCRIBBLE_TYPEWRITER_PER_CHARACTER or SCRIBBLE_TYPEWRITER_PER_LINE.\n " -> "Typewriter method not recognised.\\nPlease use SCRIBBLE_TYPEWRITER_PER_CHARACTER or SCRIBBLE_TYPEWRITER_PER_LINE.\\n "
+
+Converting GML script: ${project_dir}\scripts\scribble_draw\scribble_draw.gml
+Converted description /// @description  void scribble_draw(json, [x], [y], [xscale], [yscale], [angle], [colour], [alpha], [premultiplyAlpha])/// @param json
+/// @param  [x]
+/// @param  [y]
+/// @param  [xscale]
+/// @param  [yscale]
+/// @param  [angle]
+/// @param  [colour]
+/// @param  [alpha]
+/// @param  [premultiplyAlpha]
+
+Converting GML script: ${project_dir}\scripts\scribble_destroy\scribble_destroy.gml
+Converted description /// @description  void scribble_destroy(json);/// @param json
+
+Converting GML script: ${project_dir}\scripts\scribble_add_color\scribble_add_color.gml
+Converted description /// @description  void scribble_add_color(name, colour, [colourIsGameMakerBGR?]);/// @param name
+/// @param  colour
+/// @param  [colourIsGameMakerBGR?]
+
+Converting GML script: ${project_dir}\scripts\scribble_add_colour\scribble_add_colour.gml
+Converted description /// @description  void scribble_add_colour(name, colour, [colourIsGameMakerBGR]);/// @param name
+/// @param  colour
+/// @param  [colourIsGameMakerBGR]
+
+Converting GML script: ${project_dir}\scripts\scribble_get_box\scribble_get_box.gml
+Converted description /// @description  array scribble_get_box(json, [x], [y], [leftMargin], [topMargin], [rightMargin], [bottomMargin], [xscale], [yscale], [angle]);/// @param json
+/// @param  [x]
+/// @param  [y]
+/// @param  [leftMargin]
+/// @param  [topMargin]
+/// @param  [rightMargin]
+/// @param  [bottomMargin]
+/// @param  [xscale]
+/// @param  [yscale]
+/// @param  [angle]
+
+Converting GML script: ${project_dir}\scripts\scribble_typewriter_get_state\scribble_typewriter_get_state.gml
+Converted description /// @description  something scribble_typewriter_get_state(json);/// @param json
+
+Converting GML script: ${project_dir}\scripts\scribble_typewriter_in\scribble_typewriter_in.gml
+Converted description /// @description  void scribble_typewriter_in(json, [method], [speed], [smoothness]);/// @param json
+/// @param  [method]
+/// @param  [speed]
+/// @param  [smoothness]
+
+Converting GML script: ${project_dir}\scripts\scribble_typewriter_out\scribble_typewriter_out.gml
+Converted description /// @description  void scribble_typewriter_out(json, [method], [speed], [smoothness]);/// @param json
+/// @param  [method]
+/// @param  [speed]
+/// @param  [smoothness]
+
+Converting GML script: ${project_dir}\scripts\scribble_add_event\scribble_add_event.gml
+Error: variable 'variable_global_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description  void scribble_add_event(name, script);/// @param name
+/// @param  script
+Converted string - line 18: "Event names should be strings.\n(Input to script was " -> "Event names should be strings.\\n(Input to script was "
+Converted string - line 23: "Scripts should be numerical script indices e.g. scribble_add_event(example, your_script);\n(Input to script was " -> "Scripts should be numerical script indices e.g. scribble_add_event(example, your_script);\\n(Input to script was "
+
+Converting GML script: ${project_dir}\scripts\scribble_add_flag\scribble_add_flag.gml
+Converted description /// @description  void scribble_add_flag(name, index);/// @param name
+/// @param  index
+
+Converting GML script: ${project_dir}\scripts\scribble_get_glyph_property\scribble_get_glyph_property.gml
+Converted description /// @description  something scribble_get_glyph_property(fontName, character, property);/// @param fontName
+/// @param  character
+/// @param  property
+Converted string - line 23: "scribble_get_glyph_property() should be called after initialising Scribble.\n " -> "scribble_get_glyph_property() should be called after initialising Scribble.\\n "
+Converted string - line 28: "scribble_get_glyph_property() should be called after initialising Scribble.\n " -> "scribble_get_glyph_property() should be called after initialising Scribble.\\n "
+
+Converting GML script: ${project_dir}\scripts\scribble_set_glyph_property\scribble_set_glyph_property.gml
+Converted description /// @description  void scribble_set_glyph_property(fontName, character, property, value, [relative]);/// @param fontName
+/// @param  character
+/// @param  property
+/// @param  value
+/// @param  [relative]
+
+Converting GML script: ${project_dir}\scripts\script_help_begin_text\script_help_begin_text.gml
+Converted description /// @description  void script_help_text();
+
+Converting GML script: ${project_dir}\scripts\script_help_draw_text\script_help_draw_text.gml
+Converted description /// @description  void script_help_draw_text();
+
+Converting GML script: ${project_dir}\scripts\scr_help_has_item\scr_help_has_item.gml
+Converted description /// @description  int scr_help_has_item(guid);/// @param guid
+
+Converting GML script: ${project_dir}\scripts\scr_help_get_item_pocket_index\scr_help_get_item_pocket_index.gml
+Converted description /// @description  int scr_help_get_item_pocket_index(guid);/// @param guid
+
+Converting GML script: ${project_dir}\scripts\scr_help_add_item\scr_help_add_item.gml
+Converted description /// @description  scr_help_add_item(guid, quantity);/// @param guid
+/// @param  quantity
+
+Converting GML script: ${project_dir}\scripts\scr_help_remove_item\scr_help_remove_item.gml
+Converted description /// @description  scr_help_add_item(guid, quantity);/// @param guid
+/// @param  quantity
+
+Converting GML script: ${project_dir}\scripts\pause_game\pause_game.gml
+Converted description /// @description  void pause_game([stage = PauseStages.MAIN]);/// @param [stage = PauseStages.MAIN]
+
+Converting GML script: ${project_dir}\scripts\draw_pause\draw_pause.gml
+Converted description /// @description  void draw_pause();
+
+Converting GML script: ${project_dir}\scripts\draw_pause_main\draw_pause_main.gml
+Converted description /// @description  void draw_pause_main();
+
+Converting GML script: ${project_dir}\scripts\draw_pause_inventory\draw_pause_inventory.gml
+Converted description /// @description  void draw_pause_inventory();
+
+Font FGameSmall has been converted to font family Delfino (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\FGameSmall\FGameSmall.gms1.png
+Font FGameMedium has been converted to font family Delfino (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\FGameMedium\FGameMedium.gms1.png
+Font FGameLarge has been converted to font family Delfino (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\FGameLarge\FGameLarge.gms1.png
+Font FGameMediumLarge has been converted to font family Delfino (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\FGameMediumLarge\FGameMediumLarge.gms1.png
+Font FGameHuge has been converted to font family Delfino (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\FGameHuge\FGameHuge.gms1.png
+Converting GML script: ${project_dir}\objects\Battle\Create_0.gml
+Converted description /// @description  setup
+Converted string - line 30: 'stat raise animations' -> "stat raise animations"
+Converted string - line 31: 'stat fall animations' -> "stat fall animations"
+
+Converting GML script: ${project_dir}\objects\BattlePokemon\Create_0.gml
+Converted string - line 2: '' -> ""
+
+Converting GML script: ${project_dir}\objects\BattleTeam\Create_0.gml
+Converted string - line 1: 'Team' -> "Team"
+
+Converting GML script: ${project_dir}\objects\BattleDrawable\Step_0.gml
+Converted description /// @description  draw me
+
+Converting GML script: ${project_dir}\objects\PawnWild\Create_0.gml
+Converted string - line 3: 'Wild Pawn' -> "Wild Pawn"
+
+Converting GML script: ${project_dir}\objects\PawnPlayer\Create_0.gml
+Converted string - line 3: 'Player Pawn' -> "Player Pawn"
+
+Converting GML script: ${project_dir}\objects\Pawn\Create_0.gml
+Converted description /// @description  constants and stuff
+Converted string - line 20: 'AI Pawn' -> "AI Pawn"
+
+Converting GML script: ${project_dir}\objects\Entity\Create_0.gml
+Converted string - line 1: 'Entity' -> "Entity"
+
+Converting GML script: ${project_dir}\objects\EntityDynamic\Create_0.gml
+Converted description /// @description  entities that can move around
+
+Converting GML script: ${project_dir}\objects\EntityMesh\Create_0.gml
+Converted string - line 5: 'Mesh' -> "Mesh"
+Converted string - line 6: '' -> ""
+
+Converting GML script: ${project_dir}\objects\EntityTile\Create_0.gml
+Converted string - line 3: 'Tile' -> "Tile"
+
+Converting GML script: ${project_dir}\objects\DataIndividualEvolution\Create_0.gml
+Converted description /// @description  variables
+
+Converting GML script: ${project_dir}\objects\DataMap\Create_0.gml
+Converted string - line 1: 'Base Map' -> "Base Map"
+Converted string - line 2: 'BASEMAP' -> "BASEMAP"
+Converted string - line 3: 'you can walk around on it and stuff' -> "you can walk around on it and stuff"
+
+Converting GML script: ${project_dir}\objects\DataAbility\Create_0.gml
+Converted string - line 3: 'Base Ability' -> "Base Ability"
+Converted string - line 4: 'BASEABILITY' -> "BASEABILITY"
+Converted string - line 5: 'it does something probably' -> "it does something probably"
+
+Converting GML script: ${project_dir}\objects\DataEggGroup\Create_0.gml
+Converted string - line 3: 'Base Egg Group' -> "Base Egg Group"
+
+Converting GML script: ${project_dir}\objects\DataItem\Create_0.gml
+Converted description /// @description  constants and stuff
+Converted string - line 31: 'Base Item' -> "Base Item"
+Converted string - line 32: 'BASEITEM' -> "BASEITEM"
+Converted string - line 33: 'it doesnt do anything' -> "it doesnt do anything"
+Converted string - line 34: 'Base Items' -> "Base Items"
+
+Converting GML script: ${project_dir}\objects\DataClass\Create_0.gml
+Converted string - line 3: 'Base Class' -> "Base Class"
+Converted string - line 4: 'BASECLASS' -> "BASECLASS"
+
+Converting GML script: ${project_dir}\objects\DataWeaponStyle\Create_0.gml
+Converted string - line 3: 'Base Weapon Style' -> "Base Weapon Style"
+Converted string - line 4: 'BASEWEAPONSTYLE' -> "BASEWEAPONSTYLE"
+
+Converting GML script: ${project_dir}\objects\DataItemPocket\Create_0.gml
+Converted string - line 3: 'Items' -> "Items"
+
+Converting GML script: ${project_dir}\objects\DataMove\Create_0.gml
+Converted string - line 3: 'Base Move' -> "Base Move"
+Converted string - line 4: 'BASEMOVE' -> "BASEMOVE"
+Converted string - line 5: 'very basic' -> "very basic"
+
+Converting GML script: ${project_dir}\objects\DataMove\Destroy_0.gml
+Converted description /// @description  this will probably never happen but
+
+Converting GML script: ${project_dir}\objects\DataNature\Create_0.gml
+Converted string - line 3: 'Nature' -> "Nature"
+
+Converting GML script: ${project_dir}\objects\DataPokemon\Create_0.gml
+Converted string - line 3: 'Base Pokemon' -> "Base Pokemon"
+Converted string - line 4: 'Base' -> "Base"
+Converted string - line 5: 'very basic' -> "very basic"
+Converted string - line 51: '' -> ""
+Converted string - line 56: 'BASEPOKEMON' -> "BASEPOKEMON"
+
+Converting GML script: ${project_dir}\objects\DataTrainer\Create_0.gml
+Converted string - line 3: 'Pawn' -> "Pawn"
+
+Converting GML script: ${project_dir}\objects\DataTrainerClass\Create_0.gml
+Converted string - line 3: 'Pawn' -> "Pawn"
+Converted string - line 4: 'PAWN' -> "PAWN"
+
+Converting GML script: ${project_dir}\objects\DataType\Create_0.gml
+Converted string - line 3: 'Base Type' -> "Base Type"
+Converted string - line 4: 'BASETYPE' -> "BASETYPE"
+
+Converting GML script: ${project_dir}\objects\Struct\Create_0.gml
+Converted description /// @description  essential variables that all things need to have
+Converted string - line 3: '' -> ""
+Converted string - line 4: '' -> ""
+Converted string - line 7: '' -> ""
+
+Converting GML script: ${project_dir}\objects\DataInstantiatedEvent\Create_0.gml
+Converted description /// @description  This is analagous to an "event page" in RPG Maker
+
+Converting GML script: ${project_dir}\objects\DataEventNodeCustom\Create_0.gml
+Converted description /// @description  This is analagous to an "event page" in RPG Maker
+
+Converting GML script: ${project_dir}\objects\DebugBattleSpawner\Create_0.gml
+Converted string - line 3: 'PLAYERPAWN' -> "PLAYERPAWN"
+Converted string - line 4: 'PAWN_RIVAL' -> "PAWN_RIVAL"
+Converted string - line 6: 'PLAYERPAWN' -> "PLAYERPAWN"
+Converted string - line 6: 'Bilbo Baggins' -> "Bilbo Baggins"
+Converted string - line 8: 'PAWN_RIVAL' -> "PAWN_RIVAL"
+Converted string - line 8: 'Silver' -> "Silver"
+
+Converting GML script: ${project_dir}\objects\World\Create_0.gml
+Converted description /// @description  misc constants and enums - declare these first!
+Converted string - line 145: '' -> ""
+Converted string - line 220: 'types.txt' -> "types.txt"
+Converted string - line 221: 'abilities.txt' -> "abilities.txt"
+Converted string - line 222: 'moves.txt' -> "moves.txt"
+Converted string - line 223: 'items.txt' -> "items.txt"
+Converted string - line 224: 'monsters.txt' -> "monsters.txt"
+Converted string - line 225: 'trainertypes.txt' -> "trainertypes.txt"
+Converted string - line 226: 'trainers.txt' -> "trainers.txt"
+Converted string - line 283: 'data init took ' -> "data init took "
+Converted string - line 283: ' seconds' -> " seconds"
+Converted string - line 289: 'Self-Confusion' -> "Self-Confusion"
+Converted string - line 289: 'when you hit yourself in confusion' -> "when you hit yourself in confusion"
+Converted string - line 289: 'SELFCONFUSION' -> "SELFCONFUSION"
+Converted string - line 290: 'STRUGGLE' -> "STRUGGLE"
+Converted string - line 320: 'Sleep' -> "Sleep"
+Converted string - line 320: 'Poison' -> "Poison"
+Converted string - line 320: 'Burn' -> "Burn"
+Converted string - line 320: 'Paralyze' -> "Paralyze"
+Converted string - line 320: 'Freeze' -> "Freeze"
+Converted string - line 320: 'Faint' -> "Faint"
+Converted string - line 320: 'Pokerus' -> "Pokerus"
+Converted string - line 320: 'Poison' -> "Poison"
+Converted string - line 320: 'None' -> "None"
+Converted string - line 323: 'Sleep' -> "Sleep"
+Converted string - line 323: 'Poison' -> "Poison"
+Converted string - line 323: 'Burn' -> "Burn"
+Converted string - line 323: 'Paralysis' -> "Paralysis"
+Converted string - line 323: 'Freeze' -> "Freeze"
+Converted string - line 323: 'Faint' -> "Faint"
+Converted string - line 323: 'Pokerus' -> "Pokerus"
+Converted string - line 323: 'Poison' -> "Poison"
+Converted string - line 323: 'None' -> "None"
+Converted string - line 327: 'false' -> "false"
+Converted string - line 327: 'true' -> "true"
+Converted string - line 346: 'map file not found: ' -> "map file not found: "
+Converted string - line 346: '. using the dummy map file instead.' -> ". using the dummy map file instead."
+Converted string - line 347: 'MAP.dddm' -> "MAP.dddm"
+
+Converting GML script: ${project_dir}\objects\Camera\Draw_0.gml
+Converted description /// @description  3D stuff
+
+Converting GML script: buffer_zlib.gml
+Converted description /// @description  ()
+
+Converting GML script: buffer_zlib.gml
+Converted description /// @description  (buffer, offset, size, compression_level[1..9], ?out_buffer): Compresses a part of a buffer to a new or given buffer./// @param buffer
+/// @param  offset
+/// @param  size
+/// @param  compression_level[1..9]
+/// @param  ?out_buffer
+
+Converting GML script: buffer_zlib.gml
+Converted description /// @description  (buffer, offset, size, ?out_buffer): Decompresses a part of a buffer to a new or given buffer./// @param buffer
+/// @param  offset
+/// @param  size
+/// @param  ?out_buffer
+
+Missing audiogroup for sound: 'bgm_silence' - setting to default audio group
+Missing audiogroup for sound: 'se_move_swords_dance' - setting to default audio group
+Missing audiogroup for sound: 'se_hit' - setting to default audio group
+Missing audiogroup for sound: 'se_move_slash' - setting to default audio group
+Missing audiogroup for sound: 'se_battle_decrease' - setting to default audio group
+Missing audiogroup for sound: 'se_battle_increase' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'd3d/d3d_end.gml'
+Added compatibility script 'd3d/d3d_set_culling.gml'
+Added compatibility script 'd3d/d3d_set_hidden.gml'
+Added compatibility script 'd3d/d3d_set_projection_ext.gml'
+Added compatibility script 'd3d/d3d_start.gml'
+Added compatibility script 'd3d/d3d_transform_add_scaling.gml'
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_set_identity.gml'
+Added compatibility script 'd3d/d3d_transform_set_rotation_z.gml'
+Added compatibility script 'd3d/d3d_transform_vertex.gml'
+Added compatibility script 'draw/draw_enable_alphablend.gml'
+Added compatibility script 'draw/draw_set_alpha_test.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

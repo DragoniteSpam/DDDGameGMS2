@@ -1,0 +1,1 @@
+﻿1,TACKLE,Tackle,0,50,QMARKS,Physical,100,35,0,0,0,abef,A physical attack in which the user charges and slams into the target with its whole body.,0

@@ -1,0 +1,10 @@
+These files are here so that the game launches without crashing
+if you don't have access to the actual PBS files. You can also
+specify for the game to use them instead of loading the actual
+data if you're testing something unrelated to the battle system
+and don't want the game to spend ten seconds parsing them every
+time you run it (set macro USE_DUMMY_DATA to true).
+
+You don't need to distribute these files with the finished game,
+although they're only a couple of kilobytes so it shouldn't
+really matter.

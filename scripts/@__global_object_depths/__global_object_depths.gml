@@ -1,0 +1,145 @@
+// Initialise the global array that allows the lookup of the depth of a given object
+// GM2.0 does not have a depth on objects so on import from 1.x a global array is created
+// NOTE: MacroExpansion is used to insert the array initialisation at import time
+gml_pragma( "global", "__global_object_depths()");
+
+// insert the generated arrays here
+global.__objectDepths[0] = 0; // Battle
+global.__objectDepths[1] = 0; // BattleExecutableAction
+global.__objectDepths[2] = 0; // BattlePokemon
+global.__objectDepths[3] = 0; // BattleRoundAction
+global.__objectDepths[4] = 0; // BattleIndividualAction
+global.__objectDepths[5] = 0; // BattleAppliedEffect
+global.__objectDepths[6] = 0; // BattleTeam
+global.__objectDepths[7] = 0; // BattleDrawable
+global.__objectDepths[8] = 0; // BattleHUD
+global.__objectDepths[9] = 0; // BattleHUDAbility
+global.__objectDepths[10] = 0; // BattleAnimator
+global.__objectDepths[11] = 0; // PawnWild
+global.__objectDepths[12] = 0; // PawnPlayer
+global.__objectDepths[13] = 0; // Pawn
+global.__objectDepths[14] = 0; // Entity
+global.__objectDepths[15] = 0; // EntityAutoTile
+global.__objectDepths[16] = 0; // EntityDynamic
+global.__objectDepths[17] = 0; // EntityEffect
+global.__objectDepths[18] = 0; // EntityEvent
+global.__objectDepths[19] = 0; // EntityMesh
+global.__objectDepths[20] = 0; // EntityPawn
+global.__objectDepths[21] = 0; // EntityTile
+global.__objectDepths[22] = 0; // DataIndividualEvolution
+global.__objectDepths[23] = 0; // ItemStack
+global.__objectDepths[24] = 0; // DataMap
+global.__objectDepths[25] = 0; // DataAbility
+global.__objectDepths[26] = 0; // DataEggGroup
+global.__objectDepths[27] = 0; // DataEvolutionMethod
+global.__objectDepths[28] = 0; // DataItem
+global.__objectDepths[29] = 0; // DataClass
+global.__objectDepths[30] = 0; // DataEnum
+global.__objectDepths[31] = 0; // DataWeaponStyle
+global.__objectDepths[32] = 0; // DataItemPocket
+global.__objectDepths[33] = 0; // DataMove
+global.__objectDepths[34] = 0; // DataWeaponType
+global.__objectDepths[35] = 0; // DataNature
+global.__objectDepths[36] = 0; // DataPokemon
+global.__objectDepths[37] = 0; // DataTrainer
+global.__objectDepths[38] = 0; // DataTrainerClass
+global.__objectDepths[39] = 0; // DataType
+global.__objectDepths[40] = 0; // Struct
+global.__objectDepths[41] = 0; // DataTileset
+global.__objectDepths[42] = 0; // DataInstantiatedEvent
+global.__objectDepths[43] = 0; // DataEventNodeCustom
+global.__objectDepths[44] = 0; // DataData
+global.__objectDepths[45] = 0; // DataMoveRoute
+global.__objectDepths[46] = 0; // DataEvent
+global.__objectDepths[47] = 0; // DataEventNode
+global.__objectDepths[48] = 0; // DebugBattleSpawner
+global.__objectDepths[49] = 0; // DebugMapSpawner
+global.__objectDepths[50] = 0; // Effect2D
+global.__objectDepths[51] = 0; // Effect
+global.__objectDepths[52] = 0; // WorldEffect
+global.__objectDepths[53] = 0; // WorldEffect2D
+global.__objectDepths[54] = -100; // World
+global.__objectDepths[55] = 0; // Settings
+global.__objectDepths[56] = 0; // SettingsBattle
+global.__objectDepths[57] = 0; // SettingsInput
+global.__objectDepths[58] = 0; // SettingsGameplay
+global.__objectDepths[59] = 0; // Camera
+global.__objectDepths[60] = 0; // Controller
+global.__objectDepths[61] = 0; // Database
+global.__objectDepths[62] = 0; // Pause
+
+
+global.__objectNames[0] = "Battle";
+global.__objectNames[1] = "BattleExecutableAction";
+global.__objectNames[2] = "BattlePokemon";
+global.__objectNames[3] = "BattleRoundAction";
+global.__objectNames[4] = "BattleIndividualAction";
+global.__objectNames[5] = "BattleAppliedEffect";
+global.__objectNames[6] = "BattleTeam";
+global.__objectNames[7] = "BattleDrawable";
+global.__objectNames[8] = "BattleHUD";
+global.__objectNames[9] = "BattleHUDAbility";
+global.__objectNames[10] = "BattleAnimator";
+global.__objectNames[11] = "PawnWild";
+global.__objectNames[12] = "PawnPlayer";
+global.__objectNames[13] = "Pawn";
+global.__objectNames[14] = "Entity";
+global.__objectNames[15] = "EntityAutoTile";
+global.__objectNames[16] = "EntityDynamic";
+global.__objectNames[17] = "EntityEffect";
+global.__objectNames[18] = "EntityEvent";
+global.__objectNames[19] = "EntityMesh";
+global.__objectNames[20] = "EntityPawn";
+global.__objectNames[21] = "EntityTile";
+global.__objectNames[22] = "DataIndividualEvolution";
+global.__objectNames[23] = "ItemStack";
+global.__objectNames[24] = "DataMap";
+global.__objectNames[25] = "DataAbility";
+global.__objectNames[26] = "DataEggGroup";
+global.__objectNames[27] = "DataEvolutionMethod";
+global.__objectNames[28] = "DataItem";
+global.__objectNames[29] = "DataClass";
+global.__objectNames[30] = "DataEnum";
+global.__objectNames[31] = "DataWeaponStyle";
+global.__objectNames[32] = "DataItemPocket";
+global.__objectNames[33] = "DataMove";
+global.__objectNames[34] = "DataWeaponType";
+global.__objectNames[35] = "DataNature";
+global.__objectNames[36] = "DataPokemon";
+global.__objectNames[37] = "DataTrainer";
+global.__objectNames[38] = "DataTrainerClass";
+global.__objectNames[39] = "DataType";
+global.__objectNames[40] = "Struct";
+global.__objectNames[41] = "DataTileset";
+global.__objectNames[42] = "DataInstantiatedEvent";
+global.__objectNames[43] = "DataEventNodeCustom";
+global.__objectNames[44] = "DataData";
+global.__objectNames[45] = "DataMoveRoute";
+global.__objectNames[46] = "DataEvent";
+global.__objectNames[47] = "DataEventNode";
+global.__objectNames[48] = "DebugBattleSpawner";
+global.__objectNames[49] = "DebugMapSpawner";
+global.__objectNames[50] = "Effect2D";
+global.__objectNames[51] = "Effect";
+global.__objectNames[52] = "WorldEffect";
+global.__objectNames[53] = "WorldEffect2D";
+global.__objectNames[54] = "World";
+global.__objectNames[55] = "Settings";
+global.__objectNames[56] = "SettingsBattle";
+global.__objectNames[57] = "SettingsInput";
+global.__objectNames[58] = "SettingsGameplay";
+global.__objectNames[59] = "Camera";
+global.__objectNames[60] = "Controller";
+global.__objectNames[61] = "Database";
+global.__objectNames[62] = "Pause";
+
+
+// create another array that has the correct entries
+var len = array_length_1d(global.__objectDepths);
+global.__objectID2Depth = [];
+for( var i=0; i<len; ++i ) {
+	var objID = asset_get_index( global.__objectNames[i] );
+	if (objID >= 0) {
+		global.__objectID2Depth[ objID ] = global.__objectDepths[i];
+	} // end if
+} // end for

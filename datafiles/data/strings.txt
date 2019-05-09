@@ -1,0 +1,222 @@
+[default] and 
+[default]%0
+[default]%0 Attack
+[default]%0 avoided the attack!
+[default]%0 became confused!
+[default]%0 called back %1!
+[default]%0 can't be used in battle!
+[default]%0 Defense
+[default]%0 does not have an implemented effect yet!
+[default]%0 dropped %1 in panic!
+[default]%0 fainted!
+[default]%0 fell asleep by %1's %2 instead!
+[default]%0 fell asleep by %1's %2!
+[default]%0 fell asleep!
+[default]%0 fled! (Implement this later, please.)
+[default]%0 flinched and couldn't move!
+[default]%0 gained %1 experience points!
+[default]%0 gained one experience point!
+[default]%0 grew to level %1!
+[default]%0 handed out %1 to the winner!
+[default]%0 has already fainted!
+[default]%0 has defeated %1!
+[default]%0 has forcefully ended the battle. %1 wins!
+[default]%0 has no available items!
+[default]%0 has no more healthy Pokémon!
+[default]%0 hit herself in confusion!
+[default]%0 hit himself in confusion!
+[default]%0 hit itself in confusion!
+[default]%0 HP
+[default]%0 is about to send in %1. Would you like to change Pokémon?
+[default]%0 is already fighting!
+[default]%0 is already healthy!
+[default]%0 is already in battle!
+[default]%0 is confused!
+[default]%0 is just hanging around!
+[default]%0 is paralyzed and unable to move!
+[default]%0 is pretty healthy already!
+[default]%0 is trapped and can't get away!
+[default]%0 is unable to fight!
+[default]%0 restored a bit of health with her %1!
+[default]%0 restored a bit of health with his %1!
+[default]%0 restored a bit of health with its %1!
+[default]%0 sent out %1!
+[default]%0 snapped out of confusion!
+[default]%0 Sp. Attack
+[default]%0 Sp. Defense
+[default]%0 Speed
+[default]%0 used %1!
+[default]%0 used a(n) %1 on %2!
+[default]%0 was badly poisoned by %1's %2 instead!
+[default]%0 was badly poisoned by %1's %2!
+[default]%0 was badly poisoned!
+[default]%0 was burned by %1's %2 instead!
+[default]%0 was burned by %1's %2!
+[default]%0 was burned!
+[default]%0 was confused by %1's %2 instead!
+[default]%0 was confused by %1's %2!
+[default]%0 was frozen by %1's %2 instead!
+[default]%0 was frozen by %1's %2!
+[default]%0 was frozen!
+[default]%0 was hurt by her burn!
+[default]%0 was hurt by his burn!
+[default]%0 was hurt by its burn!
+[default]%0 was hurt by poison!
+[default]%0 was hurt by the recoil!
+[default]%0 was hurty by %1's %2!
+[default]%0 was paralyzed by %1's %2 instead!
+[default]%0 was paralyzed by %1's %2!
+[default]%0 was paralyzed!
+[default]%0 was poisoned by %1's %2 instead!
+[default]%0 was poisoned by %1's %2!
+[default]%0 was poisoned!
+[default]%0 was restored!
+[default]%0 was trapped by %1!
+[default]%0 was trapped by %1's %2!
+[default]%0 x %1
+[default]%0 zonked out!
+[default]%0#to next
+[default]%0's %1
+[default]%0's %1 cured her %2!
+[default]%0's %1 cured his %2!
+[default]%0's %1 cured its %2!
+[default]%0's %1 was cured!
+[default]%0's Accuracy fell!
+[default]%0's Accuracy won't go any lower!
+[default]%0's Attack fell!
+[default]%0's Attack rose!
+[default]%0's Attack won't go any higher!
+[default]%0's Attack won't go any lower!
+[default]%0's Defense fell!
+[default]%0's Defense won't go any lower!
+[default]%0's health was restored by %1 point!
+[default]%0's health was restored by %1 points!
+[default]%0's health was restored!
+[default]%0's Special Attack rose!
+[default]%0's Special Attack won't go any higher!
+[default]%0's Special Defense fell!
+[default]%0's Special Defense won't go any lower!
+[default]%0's Speed fell!
+[default]%0's Speed rose!
+[default]%0's Speed won't go any higher!
+[default]%0's Speed won't go any lower!
+[default]%0's Team
+[default]%0's team Defense increased!
+[default]%0, come back!
+[default]%0: +%1
+[default](%0 has an effect that has not been implemented yet.)
+[default](Back)
+[default](none)
+[default]+%0 Attack
+[default]+%0 Defense
+[default]+%0 HP
+[default]+%0 Sp. Attack
+[default]+%0 Sp. Defense
+[default]+%0 Speed
+[default][Auto-heal]
+[default][Auto-KO]
+[default][Auto-Victory]
+[default]A critical hit on %0
+[default]A critical hit!
+[default]Ability:
+[default]Accuracy: %0
+[default]Adamant
+[default]Amorphous
+[default]Attack:
+[default]Balls
+[default]Bashful
+[default]Battle Items
+[default]Berries
+[default]Bold
+[default]Brave
+[default]Bug
+[default]Burn
+[default]But it doesn't affect %0...
+[default]But it failed!
+[default]But it had no effect!
+[default]Calm
+[default]Careful
+[default]Category:
+[default]Defense:
+[default]Ditto
+[default]Docile
+[default]Dragon
+[default]Faint
+[default]Fairy
+[default]false
+[default]Field
+[default]Fight!
+[default]Flee
+[default]Flying
+[default]Freeze
+[default]Gentle
+[default]Go, %0!
+[default]Grass
+[default]Hardy
+[default]Hasty
+[default]HP:
+[default]Human-like
+[default]Idle
+[default]Impish
+[default]It's not very effective on %0...
+[default]It's not very effective...
+[default]It's super effective on %0!
+[default]It's super effective!
+[default]Item
+[default]Item:
+[default]Items
+[default]Jolly
+[default]Key Items
+[default]Lax
+[default]Lonely
+[default]Lv.
+[default]Lv. %0
+[default]Mail
+[default]Medicine
+[default]Mild
+[default]Mineral
+[default]Modest
+[default]Monster
+[default]Moves
+[default]N/A
+[default]Naive
+[default]nature
+[default]Naughty
+[default]No
+[default]None
+[default]Paralysis
+[default]Paralyze
+[default]Poison
+[default]Pokerus
+[default]Power: %0
+[default]Quiet
+[default]Quirky
+[default]Rash
+[default]Relaxed
+[default]Sassy
+[default]Serious
+[default]Sleep
+[default]Sp. Attack:
+[default]Sp. Defense:
+[default]Speed:
+[default]Switch
+[default]That's the battle loop! Hopefully at some point in the future there will be an overworld to return to or something. For now the game is just going to close.
+[default]The battle ended in a draw...
+[default]The battle has started!
+[default]There is no PP left for that move!
+[default]Timid
+[default]TMs/HMs
+[default]true
+[default]Type:
+[default]Undiscovered
+[default]Was given $%0 as prize money!
+[default]Water 1
+[default]Water 2
+[default]Water 3
+[default]We haven't implemented this type of battle item yet!
+[default]What will %0 do?
+[default]Who would you like to send in to replace %0?
+[default]Yes
+[default]You aren't allowed to flee during the demo!
+[default]You need to select somebody to send in!
+[default]Your team is trapped and unable to flee!

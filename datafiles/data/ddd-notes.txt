@@ -1,0 +1,22 @@
+lower priority:
+ - shared experience gain
+
+ - game should track what environment battles are initiated in, as determined by
+terrain tags: default, grassland, sand, rocky, moving water, still water, tall grass
+
+ - it'd be cool to get reflections working but not an immediate requirement
+
+Notes:
+
+ - in moves with compound effects (Dragon Dance, etc) the
+AI weighs certain variables differently than it does in the
+default Essentials AI. Situations where this makes a difference
+should be really rare, though.
+
+-----------------------------
+
+ - the aki overworld tileset is hard-coded into the draw mesh thing
+
+ - get rid of the xx, yy, zz, in all of the render_* and batch_*
+scripts and just have everything get drawn at the thing's xx, yy, zz
+because those are the values that they're going to be drawn at anyway
