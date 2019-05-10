@@ -87,7 +87,7 @@ with (instance_create(0, 0, BattlePokemon)){
             var n=min(array_length_1d(move_array), MOVE_LIMIT);
             // loop through the move array. if any of them are valid moves,
             // assign the move array to the pokémon and that's that.
-            for (var i=0; i<n i++){
+            for (var i=0; i<n; i++){
                 if (move_array[i]>-1){
                     array_clear(moves, -1);
                     // this isn't actually a nested loop since the outer one

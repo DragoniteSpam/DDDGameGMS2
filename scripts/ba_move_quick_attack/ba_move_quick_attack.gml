@@ -50,7 +50,7 @@ if (t<t_wait){
             var f=0.35;
             var relative_z=sprite_get_height(draw.sprite_index)*f*draw.scale*draw.yscale;
             var position=world_to_2d(draw.x, draw.y, draw.z+relative_z);
-            for (var j=0; j<particle_count j++){
+            for (var j=0; j<particle_count; j++){
                 var pxsp=random_range(particle_speed_min, particle_speed_max)*choose(-1, 1);
                 var pysp=random_range(particle_speed_min, particle_speed_max)*choose(-1, 1);
                 new_effect_2d(position[vec2.xx], position[vec2.yy], spr_part_sphere, e2d_generic, t_fadein, t_still, t_fadeout,
