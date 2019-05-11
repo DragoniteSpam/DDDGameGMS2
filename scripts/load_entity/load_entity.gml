@@ -46,23 +46,23 @@ if (argument2>=DataVersions.ENTITY_TRANSFORM){
     argument1.scale_zz=buffer_read(argument0, buffer_f32);
 }
 
-if (argument2>=DataVersions.OPTIONS_ON_ENTITIES_WORKS){
-    argument1.autonomous_movement=buffer_read(argument0, buffer_u8);
-    argument1.autonomous_movement_speed=buffer_read(argument0, buffer_u8);
-    argument1.autonomous_movement_frequency=buffer_read(argument0, buffer_u8);
-    if (argument2>=DataVersions.MOVE_ROUTES){
-        argument1.autonomous_movement_route=buffer_read(argument0, buffer_u32);
+if (argument2 >= DataVersions.OPTIONS_ON_ENTITIES_WORKS){
+    argument1.autonomous_movement = buffer_read(argument0, buffer_u8);
+    argument1.autonomous_movement_speed = buffer_read(argument0, buffer_u8);
+    argument1.autonomous_movement_frequency = buffer_read(argument0, buffer_u8);
+    if (argument2 >= DataVersions.MOVE_ROUTES){
+        argument1.autonomous_movement_route = buffer_read(argument0, buffer_u32);
     } else {
         // whoops
         buffer_read(argument0, buffer_u8)
     }
     
-    var n_move_routes=buffer_read(argument0, buffer_u8);
-    argument1.movement_routes=array_create(n_move_routes);
+    var n_move_routes = buffer_read(argument0, buffer_u8);
+    argument1.movement_routes = array_create(n_move_routes);
     
-    if (argument2>=DataVersions.MOVE_ROUTES){
-        for (var i=0; i<n_move_routes; i++){
-            argument1.movement_routes[i]=load_move_route(argument0, argument2);
+    if (argument2 >= DataVersions.MOVE_ROUTES){
+        for (var i = 0; i < n_move_routes; i++){
+            argument1.movement_routes[i] = load_move_route(argument0, argument2);
         }
     }
 }

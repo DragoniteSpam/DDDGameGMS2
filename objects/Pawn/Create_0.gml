@@ -15,18 +15,17 @@ enum Directions {
 
 event_inherited();
 
-load_script=load_entity_pawn;
+name = "Pawn";
+load_script = load_entity_pawn;
 
-name="Pawn";
-team=noone;
+frame = 0;
+overworld_sprite = b_chr_silver;
 
 // battle parameteres
-sentient=false;
+sentient = false;
+team = noone;
 
 // inherited
-render=render_pawn;
-contents_adder=contents_add_single;
-contents_remover=contents_remove_single;
-
-frame=0;
-
+render = render_pawn;
+contents_adder = contents_add_single;
+contents_remover = contents_remove_single;

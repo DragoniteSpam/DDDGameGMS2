@@ -1,28 +1,28 @@
 /// @description  void update_dynamic_non_player(Entity);
 /// @param Entity
 
-var thing=argument0;
-var autonomous=guid_get(thing.autonomous_movement_route);
-var n=array_length_1d(autonomous.steps);
+var thing = argument0;
+var autonomous = guid_get(thing.autonomous_movement_route);
 
-if (thing.movement_route_mode!=MoveRouteModes.OFF&&autonomous!=noone){
+if (thing.movement_route_mode != MoveRouteModes.OFF && autonomous != noone){
+    var n = array_length_1d(autonomous.steps);
     if (thing.movement_route_update){
-        var data=autonomous.steps[thing.movement_step];
+        var data = autonomous.steps[thing.movement_step];
         switch (data[@ 0]){
             case MoveRouteActions.MOVE_DOWN:
-                var howfar=data[@ 1];
-                thing.target_yy=thing.yy+howfar;
-                thing.movement_route_update=false;
+                var howfar = data[@ 1];
+                thing.target_yy = thing.yy + howfar;
+                thing.movement_route_update = false;
                 break;
             case MoveRouteActions.MOVE_UP:
-                var howfar=data[@ 1];
-                thing.target_yy=thing.yy-howfar;
-                thing.movement_route_update=false;
+                var howfar = data[@ 1];
+                thing.target_yy = thing.yy - howfar;
+                thing.movement_route_update = false;
                 break;
             case MoveRouteActions.MOVE_LEFT:
-                var howfar=data[@ 1];
-                thing.target_xx=thing.xx-howfar;
-                thing.movement_route_update=false;
+                var howfar = data[@ 1];
+                thing.target_xx = thing.xx - howfar;
+                thing.movement_route_update = false;
                 break;
             case MoveRouteActions.MOVE_RIGHT:
                 var howfar=data[@ 1];
