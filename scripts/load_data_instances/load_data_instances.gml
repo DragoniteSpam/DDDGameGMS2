@@ -34,7 +34,7 @@ for (var i=0; i<n_datadata; i++){
             }
         }
         
-        all_blobs[i]=blob_grid;
+        all_blobs[i] = blob_grid;
     }
 }
 

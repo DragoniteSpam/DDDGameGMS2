@@ -1,6 +1,10 @@
 /// @description  void load_data_parse_e_damage_types(all blobs);
 /// @param all blobs
 
+// enum data doesn't need to be known, since the members just have names - for now
+var catch = argument0;
+
+/*
 var property_map=load_data_parse_properties(Database.data_type_array[Database.e_damage_type]);
 
 var blob=argument0[Database.e_damage_type];
@@ -19,3 +23,4 @@ for (var i=0; i<n_instances; i++){
 
 ds_grid_destroy(blob);
 ds_map_destroy(property_map);
+*/

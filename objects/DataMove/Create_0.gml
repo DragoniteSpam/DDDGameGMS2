@@ -6,9 +6,7 @@ summary="very basic";
 
 type=Types.NORMAL;
 value=50;
-pp=20;
 accuracy=100;
-priority=0;
 target=MoveTargets.ADJACENT;
 category=MoveCategories.PHYSICAL;
 flags=0;
@@ -16,9 +14,6 @@ flags=0;
 effects=ds_list_create();
 effect_odds=ds_list_create();
 ai_score_modification=ds_list_create();
-
-animation=ba_move_basic;
-animation_blending_color=c_white;
 
 // ujrpg variables
 mp_cost=0;
