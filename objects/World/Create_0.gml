@@ -109,7 +109,7 @@ settings=instance_create(0, 0, Settings);
 vertex_format_begin();
 vertex_format_add_position_3d();
 vertex_format_add_normal();
-vertex_format_add_textcoord();
+vertex_format_add_texcoord();
 vertex_format_add_colour();
 // extra vertex data isn't stored here, at least for now
 vertex_format=vertex_format_end();
@@ -210,55 +210,6 @@ all_class_intro_me=const_class_intro_me();
 all_class_battle_sprites=const_class_battle_sprites();
 all_class_overworld_sprites=const_class_overworld_sprites();
 
-// core stuff - game specific
-
-all_evolution_methods=const_evolution_methods();            // dependencies: nothing
-all_egg_groups=const_egg_groups();                          // dependencies: nothing
-all_item_pockets=const_item_pockets();                      // dependencies: nothing
-all_natures=const_natures();                                // dependencies: nothing
-
-var path_types=PATH_PBS+"types.txt";
-var path_abilities=PATH_PBS+"abilities.txt";
-var path_moves=PATH_PBS+"moves.txt";
-var path_items=PATH_PBS+"items.txt";
-var path_pokemon=PATH_PBS+"monsters.txt";
-var path_trainer_classes=PATH_PBS+"trainertypes.txt";
-var path_trainers=PATH_PBS+"trainers.txt";
-
-if (!file_exists(path_types)||USE_DUMMY_DATA){
-    path_types=PATH_PBS_DUMMY+"types.txt";
-}
-if (!file_exists(path_abilities)||USE_DUMMY_DATA){
-    path_abilities=PATH_PBS_DUMMY+"abilities.txt";
-}
-if (!file_exists(path_moves)||USE_DUMMY_DATA){
-    path_moves=PATH_PBS_DUMMY+"moves.txt";
-}
-if (!file_exists(path_items)||USE_DUMMY_DATA){
-    path_items=PATH_PBS_DUMMY+"items.txt";
-}
-if (!file_exists(path_pokemon)||USE_DUMMY_DATA){
-    path_pokemon=PATH_PBS_DUMMY+"monsters.txt";
-}
-if (!file_exists(path_trainer_classes)||USE_DUMMY_DATA){
-    path_trainer_classes=PATH_PBS_DUMMY+"trainertypes.txt";
-}
-if (!file_exists(path_trainers)||USE_DUMMY_DATA){
-    path_trainers=PATH_PBS_DUMMY+"trainers.txt";
-}
-
-all_types=pbs_read_types(path_types);                       // dependencies: nothing
-all_abilities=pbs_read_abilities(path_abilities);           // dependencies: nothing
-
-all_moves=pbs_read_moves(path_moves);                       // dependencies: types
-all_items=pbs_read_items(path_items);                       // dependencies: moves
-all_pokemon=pbs_read_pokemon(path_pokemon);                 // dependencies: moves, types, evolutions, items, abilities
-
-all_trainer_classes=pbs_read_trainer_classes(path_trainer_classes);// dependencies: pawn stuff
-all_trainers=pbs_read_trainers(path_trainers);              // dependencies: natures, abilities, moves, items, pokémon, trainer classes
-
-pbs_cleanup();
-
 // core stuff - infrastructure
 
 // arrays get resized to (n) when the data is loaded just once
@@ -283,46 +234,8 @@ map_construct_grids(test_map, 64, 64, 8);*/
 debug("data init took "+string((get_timer()-t0)/MILLION)+" seconds");
 
 /*
- * hard-coding for now; later they should be part of a data file
- */
-
-move_confusion=array_add(all_moves, add_move("Self-Confusion", Types.QMARKS, MoveCategories.PHYSICAL, 0, 40, 0, 0, MoveTargets.USER, "when you hit yourself in confusion", ba_move_basic, array_compose(be_no_effect), array_compose(0), 0, ARRAY, "SELFCONFUSION"));
-move_struggle=get_move_from_name("STRUGGLE", true);
-
-if (array_length_1d(all_types)>1){
-    // color values came from bulbapedia
-    all_types[Types.NORMAL].color=$A8A878;
-    all_types[Types.FIGHTING].color=$C03028;
-    all_types[Types.FLYING].color=$A890F0;
-    all_types[Types.POISON].color=$A040A0;
-    all_types[Types.GROUND].color=$E0C068;
-    all_types[Types.ROCK].color=$B8A038;
-    all_types[Types.GHOST].color=$A8B820;
-    all_types[Types.STEEL].color=$705898;
-    all_types[Types.FIRE].color=$B8B8D0;
-    all_types[Types.WATER].color=$F08030;
-    all_types[Types.GRASS].color=$6890F0;
-    all_types[Types.ELECTRIC].color=$78C850;
-    all_types[Types.PSYCHIC].color=$F8D030;
-    all_types[Types.ICE].color=$F85888;
-    all_types[Types.DRAGON].color=$98D8D8;
-    all_types[Types.DARK].color=$705848;
-    //all_types[Types.FAIRY].color=$EE99AC; // fairy not implemented in the pbs but you can add it if you want
-    all_types[Types.QMARKS].color=$68A090;
-}
-
-/*
  * finish up the init stuff
  */
-
-// normally, the words that the game can use to reference an
-// arbitrary status condition
-major_status_names=array_compose(L("Sleep"), L("Poison"), L("Burn"), L("Paralyze"), L("Freeze"), L("Faint"), L("Pokerus"), L("Poison"), L("None"));
-// i'm on the verge of just using a switch when these words need to be summoned but i'll give
-// this one more shot
-major_status_things=array_compose(L("Sleep"), L("Poison"), L("Burn"), L("Paralysis"), L("Freeze"), L("Faint"), L("Pokerus"), L("Poison"), L("None"));
-// color tinting for rendering pokémon with the status
-major_status_colors=array_compose(c_white, merge_color(c_purple, c_white, 0.65), merge_color(c_red, c_white, 0.65), merge_color(c_yellow, c_white, 0.65), merge_color(c_aqua, c_white, 0.65), c_white, c_white, merge_color(c_purple, c_white, 0.55), c_white);
 
 tf=array_compose(L("false"), L("true"));
 dt=0;
@@ -361,15 +274,4 @@ scribble_init_end();
 
 instance_deactivate_object(Struct);
 instance_deactivate_object(Settings);
-// these may be generated on the fly as the player runs into random
-// encounters so you'll have to deactivate them there also.
-// it also means you can't ever say with (BattlePokemon).
-// i'm guessing that's going to be a problem every once in a while.
-instance_deactivate_object(BattlePokemon);
-// these get processed as needed in World.Step or World.Draw or something,
-// and only the ones that are visible on-screen or otherwise required by
-// the game
 instance_deactivate_object(Entity);
-
-/* */
-/*  */

@@ -27,8 +27,6 @@
 #macro PATH_DATA ".\\data\\stuff\\"
 #macro PATH_LANGUAGE ".\\data\\strings.txt"
 #macro PATH_MAP ".\\data\\stuff\\maps\\"
-#macro PATH_PBS_DUMMY ".\\data\\pbs\\dummy\\"
-#macro PATH_PBS ".\\data\\pbs\\"
 #macro PATH_FONT ".\\data\\graphics\\fonts\\"
 #macro PATH_TILESET ".\\data\\graphics\\tilesets\\"
 #macro PAWN_ANIMATION_FRAMES_PER_SECOND 4

@@ -101,10 +101,10 @@ if (buffer==-1){
             map_batch_all();
             
             // hard-code this until a mechanism for starting the game is introduced
-            if (player==noone){
-                player=pawn_create("PLAYERPAWN", "Bilbo Baggins", 1, PawnPlayer);
+            if (player == noone){
+                player = pawn_create(-1, "Bilbo Baggins", PawnPlayer, true);
                 map_add_dynamic(get_active_map(), player, 5, 6, 0);
-                Camera.following=player;
+                Camera.following = player;
             }
         } else {
             // properties that refer to data can refer to the instance ID instead of
