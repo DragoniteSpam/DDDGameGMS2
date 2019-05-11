@@ -5,3 +5,7 @@ datafiles/data/graphics/**/*.bmp
 datafiles/data/graphics/**/*.gif
 # the dummy files are allowed
 # please never use jpeg for game graphics
+
+datafiles/data/stuff/**/*.dddd
+datafiles/data/stuff/**/*.dddm
+datafiles/data/stuff/**/*.vrax
