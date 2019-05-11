@@ -77,6 +77,42 @@ Database.item_pocket=data_type_map[? "ItemPocket"];
 Database.weapon_style=data_type_map[? "WeaponStyle"];
 Database.weapon_type=data_type_map[? "WeaponType"];
 
+// this can probably be removed in production, or at least commented out, but since
+// these values being undefined in the data file has a way of screwing things up in
+// unexpected ways down the line i'd prefer to check them here before doing anything else
+
+var err_string = "";
+
+if (Database.attack == undefined){
+    err_string = err_string + "Attack\n";
+}
+if (Database.class == undefined){
+    err_string = err_string + "Class\n";
+}
+if (Database.e_damage_type == undefined){
+    err_string = err_string + "EDamageType\n";
+}
+if (Database.element == undefined){
+    err_string = err_string + "Element\n";
+}
+if (Database.item == undefined){
+    err_string = err_string + "Item\n";
+}
+if (Database.item_pocket == undefined){
+    err_string = err_string + "ItemPocket\n";
+}
+if (Database.weapon_style == undefined){
+    err_string = err_string + "WeaponStyle\n";
+}
+if (Database.weapon_type == undefined){
+    err_string = err_string + "WeaponType\n";
+}
+
+if (string_length(err_string) > 0){
+    show_error("Required data type(s) not found:\n" + err_string +"Please add them to the data file and try again.", true);
+    exit;
+}
+
 ds_map_destroy(data_type_map);
 
 enum DataTypes {
