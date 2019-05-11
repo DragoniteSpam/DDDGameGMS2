@@ -209,8 +209,8 @@ all_maps=ARRAY;
 all_event_custom=ARRAY;
 all_events=ARRAY;
 
-game_map_starting="";
-game_player_grid=true;
+game_map_starting = "";
+game_player_grid = true;
 
 // all_maps is a string of names, that's all - it's how you look up the map files when asked to
 // by events, etc
@@ -231,18 +231,15 @@ direction_map[? Directions.LEFT]=180;
 direction_map[? Directions.RIGHT]=0;
 direction_map[? Directions.UP]=90;
 
-//instance_create(0, 0, DebugMapSpawner);
-//instance_create(0, 0, DebugBattleSpawner);
-
 player=noone;
 load_data();
 
-var starting_map=PATH_MAP+World.game_map_starting+IMPORT_EXTENSION_MAP;
+var starting_map = PATH_MAP + World.game_map_starting + IMPORT_EXTENSION_MAP;
 if (file_exists(starting_map)){
     load_data(starting_map);
 } else {
-    debug("map file not found: "+starting_map+". using the dummy map file instead.");
-    load_data(PATH_DUMMY_DATA+"MAP.dddm");
+    debug("map file not found: " + starting_map + ". using the dummy map file instead.");
+    load_data(PATH_DUMMY_DATA + "MAP.dddm");
 }
 
 // scribble

@@ -22,7 +22,11 @@ if (version>=DataVersions.VRAX_REFERENCE){
 }
 
 if (version>=DataVersions.STARTING_MAP){
-    World.game_map_starting=buffer_read(argument0, buffer_string);
+    World.game_map_starting = buffer_read(argument0, buffer_string);
+    if (string_length(World.game_map_starting) == 0){
+        show_error("no starting map defined in data file. you should define a data file.", true);
+        exit;
+    }
 }
 
 if (version>=DataVersions.GAMEPLAY_GRID){
