@@ -599,27 +599,11 @@
             }
         },
         {
-            "Key": "250e6342-76d7-4a11-a96c-259a980d7418",
-            "Value": {
-                "id": "d2df986a-dfbc-4904-9f1b-aef251b2e644",
-                "resourcePath": "scripts\\const_class_overworld_sprites\\const_class_overworld_sprites.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "258917f7-c41d-4aa2-b866-65578f6a1517",
             "Value": {
                 "id": "3180a2bd-3bb4-4d2a-a3f3-4533a5c8f71a",
                 "resourcePath": "sprites\\b_chr_silver\\b_chr_silver.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "258afc96-f774-406e-b377-e8431870dab7",
-            "Value": {
-                "id": "1221b2de-29cf-4e9e-9c3e-384504be195f",
-                "resourcePath": "scripts\\const_class_intro_me\\const_class_intro_me.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -2047,14 +2031,6 @@
             }
         },
         {
-            "Key": "8f0c9137-1c86-4de1-9669-5861b482b72b",
-            "Value": {
-                "id": "0e5bccdf-471a-4ed8-a1a4-6d4af0b5ca67",
-                "resourcePath": "scripts\\get_class_battle_bgm\\get_class_battle_bgm.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "8fe07099-7da1-4e1d-be6c-c672ca1897e0",
             "Value": {
                 "id": "89d51993-ebac-42d3-afbc-2295b7e499b9",
@@ -2083,14 +2059,6 @@
             "Value": {
                 "id": "a21f64dc-d9d1-4fa7-a771-ef0419170bd4",
                 "resourcePath": "scripts\\scribble_typewriter_get_state\\scribble_typewriter_get_state.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "92ec61bf-4450-4599-817f-97ac16302afc",
-            "Value": {
-                "id": "74f0f201-e528-432e-8e34-de149873b32e",
-                "resourcePath": "scripts\\get_class_intro_me\\get_class_intro_me.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2967,14 +2935,6 @@
             }
         },
         {
-            "Key": "c9be6658-9374-4e40-bd69-4c2230218782",
-            "Value": {
-                "id": "5767c379-762f-40fd-9b6d-4e89dd41ab30",
-                "resourcePath": "scripts\\get_class_victory_bgm\\get_class_victory_bgm.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "caf72ab1-c0e5-426f-b07a-1e6e58db0aae",
             "Value": {
                 "id": "0a44bb5a-c1d8-4f24-83e3-a11a291c121f",
@@ -3036,14 +2996,6 @@
                 "id": "d717fb62-da3e-447f-827f-0d7cd036a823",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cd317e42-d26f-408b-80cb-1926ad086e80",
-            "Value": {
-                "id": "61c680ed-7a4f-4971-bf39-f978b4be4cb3",
-                "resourcePath": "scripts\\const_class_victory_bgm\\const_class_victory_bgm.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -3260,14 +3212,6 @@
                 "id": "0f77bc7a-73d8-4681-b709-691ad44877d0",
                 "resourcePath": "datafiles_yy\\data\\stuff\\game.dddd.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "dc6e40e3-be9e-4605-bf21-0b85d43999cd",
-            "Value": {
-                "id": "c2ab73c1-3942-4827-9cab-c71294deb699",
-                "resourcePath": "scripts\\const_class_battle_bgm\\const_class_battle_bgm.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -3535,27 +3479,11 @@
             }
         },
         {
-            "Key": "eb02240a-79bf-480a-9d0c-9062536c864b",
-            "Value": {
-                "id": "694dd703-e7c0-4706-a72b-48fc85a7dba2",
-                "resourcePath": "scripts\\const_class_battle_sprites\\const_class_battle_sprites.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ebedcd07-c407-4d0e-a03b-742df185a103",
             "Value": {
                 "id": "246a7fa4-c65e-4e13-93af-981f6b6debb8",
                 "resourcePath": "scripts\\const_mesh_next\\const_mesh_next.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ec0774f4-a170-4654-92ef-a3a891f70af9",
-            "Value": {
-                "id": "91fc31e2-3145-4af3-9fb0-8e4ed0ed39d2",
-                "resourcePath": "views\\ec0774f4-a170-4654-92ef-a3a891f70af9.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -3735,14 +3663,6 @@
             }
         },
         {
-            "Key": "f51181ab-c6ee-49d2-8380-7d3c4483acba",
-            "Value": {
-                "id": "1f9a9f4b-194c-404e-8d4d-d12e589cc9f6",
-                "resourcePath": "scripts\\get_class_battle_sprite\\get_class_battle_sprite.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f604d497-e488-4985-b7c5-ebf02f017956",
             "Value": {
                 "id": "83ac34ac-2aa1-49e1-8b91-701e351e1a84",
@@ -3831,14 +3751,6 @@
             }
         },
         {
-            "Key": "fe5378f5-f45f-4083-b60f-73605a81bfc0",
-            "Value": {
-                "id": "93afaf10-5aec-4baa-9c4b-568cde6276c5",
-                "resourcePath": "scripts\\get_class_overworld_sprite\\get_class_overworld_sprite.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ff18cb88-60a2-454e-aeb4-5784784690d5",
             "Value": {
                 "id": "02f7ec22-6e53-4277-a6dc-76eb82bda750",
@@ -3881,16 +3793,6 @@
         "e8e10595-dcef-4620-b2bd-499d99668909",
         "0c8be9f5-2362-4967-adeb-7251f693df58",
         "4124a7a6-ca16-46cf-b91d-6584d7a17270",
-        "dc6e40e3-be9e-4605-bf21-0b85d43999cd",
-        "eb02240a-79bf-480a-9d0c-9062536c864b",
-        "258afc96-f774-406e-b377-e8431870dab7",
-        "250e6342-76d7-4a11-a96c-259a980d7418",
-        "cd317e42-d26f-408b-80cb-1926ad086e80",
-        "8f0c9137-1c86-4de1-9669-5861b482b72b",
-        "f51181ab-c6ee-49d2-8380-7d3c4483acba",
-        "92ec61bf-4450-4599-817f-97ac16302afc",
-        "fe5378f5-f45f-4083-b60f-73605a81bfc0",
-        "c9be6658-9374-4e40-bd69-4c2230218782",
         "e4df09ea-3194-4b54-b484-4d66b266598e",
         "108fb75e-f959-410e-9c35-d13b663f62f3",
         "b73844f6-b973-46c8-85c8-dd27ae29cae0",

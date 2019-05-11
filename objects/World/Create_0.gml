@@ -1,4 +1,6 @@
-/// @description  misc constants and enums - declare these first!
+/// @description  game setup
+
+var t0=get_timer();
 
 enum vec2 {
     xx, yy
@@ -200,18 +202,6 @@ language_text_not_found=ds_map_create();
 
 all_guids=ds_map_create();
 
-var t0=get_timer();
-
-// pawn stuff
-
-all_class_battle_bgm=const_class_battle_bgm();
-all_class_victory_bgm=const_class_victory_bgm();
-all_class_intro_me=const_class_intro_me();
-all_class_battle_sprites=const_class_battle_sprites();
-all_class_overworld_sprites=const_class_overworld_sprites();
-
-// core stuff - infrastructure
-
 // arrays get resized to (n) when the data is loaded just once
 available_autotiles=array_compose(0);
 all_tilesets=array_compose(0);
@@ -227,11 +217,6 @@ game_player_grid=true;
 
 //active_map=noone;                           // this used to be an index; now it's just a value because only one map can be loaded at once
 all_mesh_map=noone;                         // defined in load_data()
-
-/*var test_map=add_map("Test", "TEST", "b_tileset_overworld.png");
-map_construct_grids(test_map, 64, 64, 8);*/
-
-debug("data init took "+string((get_timer()-t0)/MILLION)+" seconds");
 
 /*
  * finish up the init stuff
@@ -275,3 +260,5 @@ scribble_init_end();
 instance_deactivate_object(Struct);
 instance_deactivate_object(Settings);
 instance_deactivate_object(Entity);
+
+debug("setup took "+string((get_timer()-t0)/MILLION)+" seconds");
