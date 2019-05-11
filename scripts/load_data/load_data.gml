@@ -58,8 +58,14 @@ if (buffer==-1){
                 case SerializeThings.AUTOTILES_META:
                     load_autotiles_meta(buffer, version);
                     break;
+                case SerializeThings.AUTOTILES_FULL:
+                    load_autotiles_full(buffer, version);
+                    break;
                 case SerializeThings.TILESET_META:
                     load_tilesets_meta(buffer, version);
+                    break;
+                case SerializeThings.TILESET_ALL:
+                    load_tilesets_all(buffer, version);
                     break;
                 case SerializeThings.EVENTS:
                     load_events(buffer, version);
