@@ -31,7 +31,7 @@ for (var i=0; i<n_datadata; i++){
         
         if (data.is_enum){
             // nothing special was saved
-            data.properties[j]=array_compose(name, guid);
+            data.properties[j]=[name, guid];
         } else {
             var dtype=buffer_read(argument0, buffer_u8);
             buffer_read(argument0, buffer_f32);                     // range min
@@ -59,7 +59,7 @@ for (var i=0; i<n_datadata; i++){
                         break;
             }
             
-            data.properties[j]=array_compose(name, guid, btype);
+            data.properties[j]=[name, guid, btype];
         }
     }
     

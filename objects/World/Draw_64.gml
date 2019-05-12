@@ -1,6 +1,6 @@
 // UI stuff
 
-d3d_set_culling(false);
+gpu_set_cullmode(cull_noculling);
 
 if (Pause.stage!=PauseStages.HIDDEN){
     shader_set(shSepia);

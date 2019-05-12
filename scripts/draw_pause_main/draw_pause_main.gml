@@ -5,7 +5,7 @@ draw_set_colour(c_black);
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
-var text=array_compose(L("Party"), L("Items"), L("Encyclopedia"), L("Save"), L("Settings"), L("Back to Game"), L("Quit"));
+var text=[L("Party"), L("Items"), L("Encyclopedia"), L("Save"), L("Settings"), L("Back to Game"), L("Quit")];
 var n=array_length_1d(text);
 
 var index=Pause.cursor_main_index;

@@ -12,7 +12,7 @@ if (pocket_index==-1){
     
     if (guid_get(argument0).pocket.stackable){
         if (current==-1){
-            ds_list_add(pocket, array_compose(argument0, argument1));
+            ds_list_add(pocket, [argument0, argument1]);
         } else {
             var stack=pocket[| current];
             stack[@ 1]=stack[@ 1]+argument1;
@@ -22,7 +22,7 @@ if (pocket_index==-1){
         if (current>-1||argument1>1){
             debug("!!! Hey some developer is a big dumb idiot and you tried to give a key item more than once and they should go think about what they've done. event: "+guid_get(event_node_current.parent).name+"/"+event_node_current.name);
         } else {
-            ds_list_add(pocket, array_compose(argument0, 1));
+            ds_list_add(pocket, [argument0, 1]);
         }
     }
 }

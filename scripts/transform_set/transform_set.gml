@@ -9,7 +9,7 @@
 /// @param  yscale
 /// @param  zscale
 
-var matrix=matrix_build(argument0, argument1, argument2,
+var matrix = matrix_build(argument0, argument1, argument2,
     argument3, argument4, argument5,
     argument6, argument7, argument8);
 

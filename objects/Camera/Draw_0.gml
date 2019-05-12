@@ -1,8 +1,8 @@
 /// @description  3D stuff
 
 d3d_start();
-d3d_set_culling(true);
-d3d_set_hidden(true);
+gpu_set_cullmode(cull_counterclockwise);
+gpu_set_ztestenable(true);
 
 // todo GMS2 requires smooth shading to be handled by the shader(s) now,
 // so to make porting this to GMS2 as pain-free as possible I'd like to
@@ -10,10 +10,9 @@ d3d_set_hidden(true);
 
 draw_set_color(c_white);
 
-d3d_set_projection_ext(x, y, z,
-    xto, yto, zto,
-    xup, yup, zup,
-    fov, W/H, 1, 1000);
+camera_set_view_mat( camera_get_active(), matrix_build_lookat(x, y, z, xto, yto, zto, xup, yup, zup));
+camera_set_proj_mat( camera_get_active(), matrix_build_projection_perspective_fov(-fov, -W / H, 1, 1000));
+camera_apply( camera_get_active());
 
 //vertex_submit(World.model_floor, pr_trianglelist, sprite_get_texture(b_tex_temp, 0));
 // todo draw selectively based on the global mode (overworld, battle, something else)

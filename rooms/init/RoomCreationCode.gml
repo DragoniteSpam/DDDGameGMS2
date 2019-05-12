@@ -2,7 +2,6 @@
 
 show_debug_overlay(true);
 application_surface_draw_enable(false);
-draw_set_alpha_test(true);
 
 /*
  * The physical game window

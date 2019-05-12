@@ -72,13 +72,13 @@ enum ETypes {
     ENTITY_EVENT
 }
 
-etype_objects = array_compose(Entity,
+etype_objects = [Entity,
     EntityTile,
     EntityAutoTile,
     EntityMesh,
     /*Entity*/Pawn,
     EntityEffect,
-    EntityEvent);
+    EntityEvent];
 
 enum AvailableAutotileProperties {
     PICTURE, FRAMES, WIDTH
@@ -106,8 +106,11 @@ instance_create(0, 0, Pause);
 settings = instance_create(0, 0, Settings);
 
 /*
- * Vertex format(s)
+ * Vertex format(s), graphics settings
  */
+
+gpu_set_alphatestenable(true);
+gpu_set_alphatestref(20);
 
 vertex_format_begin();
 vertex_format_add_position_3d();
@@ -157,9 +160,9 @@ event_node_current=noone;       // DataEventNode
 event_node_object=noone;        // Entity who called the event
 event_node_index=0;             // some event nodes have multiple steps to save space
 
-event_node_begin=array_compose(script_begin_entry, script_begin_text, script_begin_custom);
-event_node_draw=array_compose(null, script_draw_text, script_draw_custom);
-event_node_proceed=array_compose(null, script_proceed_text,script_proceed_custom);
+event_node_begin = [script_begin_entry, script_begin_text, script_begin_custom];
+event_node_draw = [null, script_draw_text, script_draw_custom];
+event_node_proceed = [null, script_proceed_text,script_proceed_custom];
 
 scribble_text=noone;
 
@@ -177,25 +180,25 @@ enum EventNodeTypes {
 // we're going to need them for dialogue cutscenes and
 // stuff, probably, and I don't want to have two systems
 // that do the exact same thing.
-message_option_index=0;
+message_option_index = 0;
 // This is supposed to be the 'id' stored in message_option_ids
 // but you're allowed to hijack it for other purposes.
-message_option_result=-1;
+message_option_result = -1;
 
 /*
  * language
  * do this before you initialize anything involving text
  */
 
-language_codes=array_compose("default");    // it, ja, pt, etc.
-language_names=array_compose("English");
+language_codes = ["default"];    // it, ja, pt, etc.
+language_names = ["English"];
 
-language=Languages.ENGLISH;
+language = Languages.ENGLISH;
 
-language_text=array_compose(ds_map_create());
+language_text = [ds_map_create()];
 read_language();
 
-language_text_not_found=ds_map_create();
+language_text_not_found = ds_map_create();
 
 /*
  * data
@@ -204,8 +207,8 @@ language_text_not_found=ds_map_create();
 all_guids = ds_map_create();
 
 // arrays get resized to (n) when the data is loaded just once
-available_autotiles = array_compose(0);
-all_tilesets = array_compose(0);
+available_autotiles = [0];
+all_tilesets = [0];
 all_maps = [];
 all_event_custom = [];
 all_events = [];
@@ -223,7 +226,7 @@ all_mesh_map = noone;                         // defined in load_data()
  * finish up the init stuff
  */
 
-tf = array_compose(L("false"), L("true"));
+tf = [L("false"), L("true")];
 dt = 0;
 
 direction_map = ds_map_create();

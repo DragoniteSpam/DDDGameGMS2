@@ -1,7 +1,7 @@
 event_inherited();
 
-is_enum=false;
+is_enum = false;
 
-properties=array_compose(0);
-instances=array_compose(0);
+properties = [0];
+instances = [0];
 
