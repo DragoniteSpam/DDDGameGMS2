@@ -24,7 +24,7 @@ if (Controller.press_up){
 draw_rectangle_9s(spr_window9s_hgss, UI_MENU_START_X, UI_MENU_START_Y, UI_MENU_WIDTH, (n+2)*UI_MENU_SLOT_HEIGHT);
 
 for (var i=0; i<n; i++){
-    draw_text(UI_MENU_START_X+48, UI_MENU_START_Y+(i+1.5)*UI_MENU_SLOT_HEIGHT, string_hash_to_newline(text[i]));
+    draw_text(UI_MENU_START_X+48, UI_MENU_START_Y+(i+1.5)*UI_MENU_SLOT_HEIGHT, string(text[i]));
 }
 
 draw_cursor(UI_MENU_START_X+32, UI_MENU_START_Y+(index+1.5)*UI_MENU_SLOT_HEIGHT);

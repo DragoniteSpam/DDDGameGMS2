@@ -51,20 +51,20 @@ if (Controller.press_up){
 }
 
 draw_rectangle_9s(spr_window9s_hgss, UI_MENU_START_X, UI_MENU_START_Y, UI_MENU_WIDTH, (n + 4) * UI_MENU_SLOT_HEIGHT);
-draw_text(UI_MENU_START_X + 48, UI_MENU_START_Y + 1.5 * UI_MENU_SLOT_HEIGHT, string_hash_to_newline(header));
+draw_text(UI_MENU_START_X + 48, UI_MENU_START_Y + 1.5 * UI_MENU_SLOT_HEIGHT, string(header));
 
 for (var i = 0; i < n; i++){
     var xx = UI_MENU_START_X + 48;
     var yy = UI_MENU_START_Y + (i + 2.5) * UI_MENU_SLOT_HEIGHT;
     // todo icons?
-    draw_text(xx, yy, string_hash_to_newline(text[| i]));
+    draw_text(xx, yy, string(text[| i]));
     if (show_totals){
         var count_string = "x " + string(text_count[| i]);
-        draw_text(UI_MENU_START_X + UI_MENU_WIDTH - 48 - string_width(string_hash_to_newline(count_string)), yy, string_hash_to_newline(count_string));
+        draw_text(UI_MENU_START_X + UI_MENU_WIDTH - 48 - string_width(string(count_string)), yy, string(count_string));
     }
 }
 
-draw_text(UI_MENU_START_X + 48, UI_MENU_START_Y + (n + 2.5) * UI_MENU_SLOT_HEIGHT, string_hash_to_newline("Back"));
+draw_text(UI_MENU_START_X + 48, UI_MENU_START_Y + (n + 2.5) * UI_MENU_SLOT_HEIGHT, string("Back"));
 
 draw_cursor(UI_MENU_START_X + 32, UI_MENU_START_Y + (index + 2.5) * UI_MENU_SLOT_HEIGHT);
 

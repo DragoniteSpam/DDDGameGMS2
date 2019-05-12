@@ -5,7 +5,7 @@
 var winner=0;
 
 for (var i=0; i<ds_list_size(argument0); i++){
-    winner=max(winner, string_width(string_hash_to_newline(string(argument0[| i]))));
+    winner=max(winner, string_width(string(argument0[| i])));
 }
 
 return winner;
