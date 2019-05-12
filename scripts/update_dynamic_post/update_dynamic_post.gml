@@ -56,10 +56,12 @@ if (thing.moving){
         thing.moving = false;
         update_autonomous_movement = true;
         script_execute(thing.update_new_cell, thing);
+        debug("arrived");
     } else {
         thing.xx = thing.xx + fstep * sign(thing.target_xx - thing.xx);
         thing.yy = thing.yy + fstep * sign(thing.target_yy - thing.yy);
         thing.zz = thing.zz + fstep * sign(thing.target_zz - thing.zz);
+        debug("transit: "+string(thing.xx - thing.target_xx));
     }
     // todo stick this in Pawn.update_post (which should call this script as well)
     // because not all EntityDynamic are going to know what to do with animation frame

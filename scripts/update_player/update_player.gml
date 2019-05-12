@@ -13,7 +13,7 @@ if (Pause.stage == PauseStages.HIDDEN && argument0.movement_free && World.event_
     argument0.previous_zz = argument0.zz;
     
     if (get_press_a()){
-        // getting the argument0 that you're facing would be that much
+        // getting the thing that you're facing would be that much
         // easier if these could map to 
         var dir = World.direction_map[? argument0.map_direction];
         var what_is_here = map_get_at(get_active_map(), round(argument0.xx + dcos(dir)), round(argument0.yy - dsin(dir)), round(argument0.zz));
