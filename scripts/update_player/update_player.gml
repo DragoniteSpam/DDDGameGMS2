@@ -43,11 +43,14 @@ if (Pause.stage == PauseStages.HIDDEN && argument0.movement_free && World.event_
             if (Controller.right){
                 argument0.target_xx++;
             }
-            if (Controller.up){
-                argument0.target_yy--;
-            }
-            if (Controller.down){
-                argument0.target_yy++;
+            // horizontal movement takes precedence over vertical movement
+            if (argument0.xx == argument0.target_xx){
+                if (Controller.up){
+                    argument0.target_yy--;
+                }
+                if (Controller.down){
+                    argument0.target_yy++;
+                }
             }
         } else {
             var fstep = argument0.mspd * dt;
