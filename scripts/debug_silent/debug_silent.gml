@@ -5,11 +5,11 @@
 // logs a message without printing it to the console
 
 if (DEBUG){
-    var str="";
-    for (var i=0; i<argument_count; i++){
-        str=str+string(argument[i]);
+    var str = "";
+    for (var i = 0; i < argument_count; i++){
+        str = str + string(argument[i]);
     }
     
-    buffer_write(World.debug_log, buffer_text, str+N);
+    buffer_write(World.debug_log, buffer_text, str + "\n");
     World.debug_modified=true;
 }

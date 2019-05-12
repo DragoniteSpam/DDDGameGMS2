@@ -11,6 +11,6 @@ if (DEBUG){
     
     show_debug_message(str);
     
-    buffer_write(World.debug_log, buffer_text, str + N);
+    buffer_write(World.debug_log, buffer_text, str + "\n");
     World.debug_modified=true;
 }

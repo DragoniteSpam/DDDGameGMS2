@@ -20,7 +20,6 @@
 #macro MAX_LEVEL 100
 #macro MILLION 1000000
 #macro MOVE_LIMIT 4
-#macro N chr($0d)+chr($0a)
 #macro OPTIONS_INI ".\\ddd.ini"
 #macro PATH_AUTOTILE ".\\data\\graphics\\autotiles\\"
 #macro PATH_BATTLER ".\\data\\graphics\\battlers\\"
