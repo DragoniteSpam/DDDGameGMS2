@@ -16,6 +16,7 @@
 #macro IMPORT_EXTENSION_MAP ".dddm"
 #macro LOG_FILE "log.txt"
 #macro MAX_LEVEL 100
+#macro THOUSAND 1000
 #macro MILLION 1000000
 #macro MOVE_LIMIT 4
 #macro OPTIONS_INI ".\\ddd.ini"

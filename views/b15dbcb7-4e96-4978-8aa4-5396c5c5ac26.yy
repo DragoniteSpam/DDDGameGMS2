@@ -4,11 +4,11 @@
     "mvc": "1.1",
     "name": "b15dbcb7-4e96-4978-8aa4-5396c5c5ac26",
     "children": [
-        "a9774c68-7fe8-4769-9d07-66c14e9ec36b",
-        "03014ad4-15ec-4500-be49-b2bcefc061cc",
-        "7f9a9671-773a-4be7-a28c-e1468e29ce1c",
-        "d3ada015-b8aa-46f6-a86f-cefe62ccdb4a",
-        "e3c881a9-cb85-4a79-b9f2-c738d08585cf"
+        "bd68de7b-6749-4f44-bc7a-c47b2fc04d76",
+        "76d253c7-8513-43a1-a0a2-6fb3849dd5f9",
+        "dc0b1f59-dbff-490a-8773-ce0e42a8d4f8",
+        "38fb676d-f3f3-4eaf-926f-0d03a4fd3957",
+        "b013d9f6-7757-41d9-800a-fd31d0ef64ba"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "fonts",

@@ -1,6 +1,6 @@
 /// @description  game setup
 
-var t0=get_timer();
+var t0 = get_timer();
 
 enum vec2 {
     xx, yy
@@ -72,7 +72,7 @@ enum ETypes {
     ENTITY_EVENT
 }
 
-etype_objects=array_compose(Entity,
+etype_objects = array_compose(Entity,
     EntityTile,
     EntityAutoTile,
     EntityMesh,
@@ -88,9 +88,10 @@ enum AvailableAutotileProperties {
 /* */
 singleton();
 
-debug_last_write=0;
-debug_log=buffer_create(1<<16, buffer_grow, 1);
-debug_modified=false;
+debug_last_write = 0;
+debug_log = buffer_create(1 << 16, buffer_grow, 1);
+debug_modified = false;
+debug("let's get this rolling");
 
 instance_create(0, 0, Camera);
 instance_create(0, 0, Controller);
@@ -102,7 +103,7 @@ instance_create(0, 0, Pause);
  * battle, graphics, audio, maybe a few other things)
  */
 
-settings=instance_create(0, 0, Settings);
+settings = instance_create(0, 0, Settings);
 
 /*
  * Vertex format(s)
@@ -114,15 +115,15 @@ vertex_format_add_normal();
 vertex_format_add_texcoord();
 vertex_format_add_colour();
 // extra vertex data isn't stored here, at least for now
-vertex_format=vertex_format_end();
+vertex_format = vertex_format_end();
 
 /*
  * Default battlefield ground
  */
 
-var s=32;
+var s = 32;
 
-model_floor=vertex_create_buffer();
+model_floor = vertex_create_buffer();
 vertex_begin(model_floor, vertex_format);
 
 for (var i=0; i<=BATTLEFIELD_SIZE; i=i+s){
@@ -197,17 +198,17 @@ read_language();
 language_text_not_found=ds_map_create();
 
 /*
- * pbs, data
+ * data
  */
 
-all_guids=ds_map_create();
+all_guids = ds_map_create();
 
 // arrays get resized to (n) when the data is loaded just once
-available_autotiles=array_compose(0);
-all_tilesets=array_compose(0);
-all_maps=[];
-all_event_custom=[];
-all_events=[];
+available_autotiles = array_compose(0);
+all_tilesets = array_compose(0);
+all_maps = [];
+all_event_custom = [];
+all_events = [];
 
 game_map_starting = "";
 game_player_grid = true;
@@ -216,20 +217,20 @@ game_player_grid = true;
 // by events, etc
 
 //active_map=noone;                           // this used to be an index; now it's just a value because only one map can be loaded at once
-all_mesh_map=noone;                         // defined in load_data()
+all_mesh_map = noone;                         // defined in load_data()
 
 /*
  * finish up the init stuff
  */
 
-tf=array_compose(L("false"), L("true"));
-dt=0;
+tf = array_compose(L("false"), L("true"));
+dt = 0;
 
-direction_map=ds_map_create();
-direction_map[? Directions.DOWN]=270;
-direction_map[? Directions.LEFT]=180;
-direction_map[? Directions.RIGHT]=0;
-direction_map[? Directions.UP]=90;
+direction_map = ds_map_create();
+direction_map[? Directions.DOWN] = 270;
+direction_map[? Directions.LEFT] = 180;
+direction_map[? Directions.RIGHT] = 0;
+direction_map[? Directions.UP] = 90;
 
 player=noone;
 load_data();
@@ -244,7 +245,7 @@ if (file_exists(starting_map)){
 
 // scribble
 
-scribble_init_start(PATH_FONT, 4096, false);
+scribble_init_start(PATH_FONT, "FGameMedium", false);
 scribble_init_add_font("FGameMedium");              // the first font added is the default one
 scribble_init_add_font("FGameHuge");
 scribble_init_add_font("FGameLarge");
@@ -258,4 +259,4 @@ instance_deactivate_object(Struct);
 instance_deactivate_object(Settings);
 instance_deactivate_object(Entity);
 
-debug("setup took "+string((get_timer()-t0)/MILLION)+" seconds");
+debug("setup took " + string((get_timer() - t0)/THOUSAND) + " milliseconds");
