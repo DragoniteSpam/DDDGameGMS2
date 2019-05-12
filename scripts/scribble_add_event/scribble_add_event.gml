@@ -8,12 +8,6 @@
 var _name   = argument0;
 var _script = argument1;
 
-if ( !variable_global_exists("__scribble_init_complete") )
-{
-    show_error("Scribble:\nscribble_add_event() should be called after initialising Scribble.\n ", false);
-    exit;
-}
-
 if ( !is_string(_name) )
 {
     show_error("Scribble:\nEvent names should be strings.\n(Input to script was \"" + string(_name) + "\")\n ", false);

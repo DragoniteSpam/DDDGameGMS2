@@ -9,18 +9,6 @@
 /// @param [path]     File path for the font's .yy file, including the .yy extension, relative to the font directory defined by scribble_init_start()
 ///                   If not specified, Scribble will look in the root of the font directory
 
-if ( !variable_global_exists("__scribble_init_complete") )
-{
-    show_error("Scribble:\nscribble_init_add_font() should be called after scribble_init_start()\n ", true);
-    return undefined;
-}
-
-if (global.__scribble_init_complete)
-{
-    show_error("Scribble:\nscribble_init_add_font() should be called before scribble_init_end()\n ", true);
-    return undefined;
-}
-
 var _font = argument[0];
 var _path = global.__scribble_font_directory + ((argument_count > 1)? argument[1] : (_font + ".yy"));
 

@@ -246,16 +246,6 @@ if (file_exists(starting_map)){
     load_data(PATH_DUMMY_DATA + "MAP.dddm");
 }
 
-// scribble
-
-scribble_init_start(PATH_FONT, "FGameMedium", false);
-scribble_init_add_font("FGameMedium");              // the first font added is the default one
-scribble_init_add_font("FGameHuge");
-scribble_init_add_font("FGameLarge");
-scribble_init_add_font("FGameMediumLarge");
-scribble_init_add_font("FGameSmall");
-scribble_init_end();
-
 // turn a bunch of things off
 
 instance_deactivate_object(Struct);

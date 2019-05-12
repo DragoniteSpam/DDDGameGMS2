@@ -15,18 +15,6 @@ var _font      = argument0;
 var _character = argument1;
 var _property  = argument2;
 
-if ( !variable_global_exists("__scribble_init_complete") )
-{
-    show_error("Scribble:\nscribble_get_glyph_property() should be called after initialising Scribble.\n ", false);
-    exit;
-}
-
-if (!global.__scribble_init_complete)
-{
-    show_error("Scribble:\nscribble_get_glyph_property() should be called after initialising Scribble.\n ", false);
-    exit;
-}
-
 var _font_data = global.__scribble_font_data[? _font ];
 
 var _array = _font_data[ __SCRIBBLE_FONT.GLYPHS_ARRAY ];

@@ -43,20 +43,6 @@
 /// [rainbow]                           Set text to cycle through rainbow colours
 /// [/rainbow]                          Unset rainbow animation
 
-
-
-if (!SCRIBBLE_LOCK)
-{
-    show_error("Scribble:\nscribble_create() should be called after initialising Scribble.\n ", false);
-    exit;
-}
-
-if (!global.__scribble_init_complete)
-{
-    show_error("Scribble:\nscribble_create() should be called after initialising Scribble.\n ", false);
-    exit;
-}
-
 var _timer = get_timer();
 
 var _str              = argument[0];

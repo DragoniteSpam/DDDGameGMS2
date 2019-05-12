@@ -6,7 +6,8 @@
     "children": [
         "dca74db0-eff7-4695-a388-11fb9110e40f",
         "37a7351a-a7c4-4fce-91d9-c0e983aed00b",
-        "d361bc7b-8038-418d-aea0-7958120dc23b"
+        "d361bc7b-8038-418d-aea0-7958120dc23b",
+        "ac66ae15-72c4-4587-9926-1e2e51afdaf1"
     ],
     "filterType": "GMScript",
     "folderName": "scribble",

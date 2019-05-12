@@ -10,15 +10,7 @@
 
 var _timer = get_timer();
 
-if ( !variable_global_exists("__scribble_init_complete" ) )
-{
-    show_error("Scribble:\nscribble_init_end() should be called after scribble_init_start()\n ", false);
-    exit;
-}
-
 show_debug_message("\nScribble: Font initialisation started");
-
-
 
 var _old_x = x;
 var _old_y = y;
@@ -389,5 +381,3 @@ mask_index = _old_mask_index;
 
 show_debug_message("Scribble:   Font initialisation complete, took " + string((get_timer() - _timer)/THOUSAND) + "ms");
 show_debug_message("Scribble: Thanks for using Scribble!\n");
-
-global.__scribble_init_complete = true;
