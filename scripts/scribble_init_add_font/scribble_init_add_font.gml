@@ -1,5 +1,3 @@
-/// @description  something scribble_init_add_font(fontName)
-/// @param fontName
 /// Adds a standard font definition for Scribble
 ///
 /// Scribble requires all standard fonts to have their .yy file added as an included file
@@ -8,54 +6,67 @@
 /// (Including .yy files isn't necessary for spritefonts)
 ///
 /// @param fontName   String name of the font to add
+/// @param [path]     File path for the font's .yy file, including the .yy extension, relative to the font directory defined by scribble_init_start()
+///                   If not specified, Scribble will look in the root of the font directory
 
-if ( global.__scribble_init_complete == SCRIBBLE_INIT_START ) {
-    show_error( "scribble_init_add_font() should be called after scribble_init_start()", true );
+if ( !variable_global_exists("__scribble_init_complete") )
+{
+    show_error("Scribble:\nscribble_init_add_font() should be called after scribble_init_start()\n ", true);
     return undefined;
 }
 
-if ( global.__scribble_init_complete == SCRIBBLE_INIT_COMPLETE ) {
-    show_error( "scribble_init_add_font() should be called before scribble_init_end()\\n ", true );
+if (global.__scribble_init_complete)
+{
+    show_error("Scribble:\nscribble_init_add_font() should be called before scribble_init_end()\n ", true);
     return undefined;
 }
 
-var _font = argument0;
+var _font = argument[0];
+var _path = global.__scribble_font_directory + ((argument_count > 1)? argument[1] : (_font + ".yy"));
 
-if ( ds_map_exists( global.__scribble_font_data, _font ) ) {
-    show_error( "Font " + _font + " has already been defined", false );
+if ( ds_map_exists(global.__scribble_font_data, _font) )
+{
+    show_error("Scribble:\nFont \"" + _font + "\" has already been defined\n ", false);
     return undefined;
 }
 
-if ( !is_string( _font ) ) {
-    if ( is_real( _font ) ) {
-        show_error( "Fonts should be initialised using their name as a string. (Input was " + string( _font ) + ", which might be font " + font_get_name( _font ) + ")", false );
-    } else {
-        show_error( "Fonts should be initialised using their name as a string. (Input was an invalid datatype)", false );
+if ( !is_string(_font) )
+{
+    if ( is_real(_font) )
+    {
+        show_error("Scribble:\nFonts should be initialised using their name as a string.\n(Input was \"" + string(_font) + "\", which might be font \"" + font_get_name(_font) + "\")\n ", false);
+    }
+    else
+    {
+        show_error("Scribble:\nFonts should be initialised using their name as a string.\n(Input was an invalid datatype)\n ", false);
     }
     exit;
 }
 
-if ( asset_get_type( _font ) == asset_sprite ) {
-    show_error( "To add a spritefont, please use scribble_init_add_spritefont()", false );
-    return scribble_init_add_spritefont( _font );
+if (asset_get_type(_font) == asset_sprite)
+{
+    show_error("Scribble:\nTo add a spritefont, please use scribble_init_add_spritefont()\n ", false);
+    return scribble_init_add_spritefont(_font);
 }
 
-if ( global.__scribble_default_font == "" ) global.__scribble_default_font = _font;
+if (asset_get_type(_font) != asset_font)
+{
+    show_error("Scribble:\nFont \"" + _font + "\" not found in the project\n ", false);
+    return undefined;
+}
 
 var _data;
-_data[ __E_SCRIBBLE_FONT.NAME           ] = _font;
-_data[ __E_SCRIBBLE_FONT.TYPE           ] = asset_font;
-_data[ __E_SCRIBBLE_FONT.GLYPHS_MAP     ] = undefined;
-_data[ __E_SCRIBBLE_FONT.GLYPHS_ARRAY   ] = undefined;
-_data[ __E_SCRIBBLE_FONT.GLYPH_MIN      ] = 32;
-_data[ __E_SCRIBBLE_FONT.GLYPH_MAX      ] = 32;
-_data[ __E_SCRIBBLE_FONT.TEXTURE_WIDTH  ] = undefined;
-_data[ __E_SCRIBBLE_FONT.TEXTURE_HEIGHT ] = undefined;
-_data[ __E_SCRIBBLE_FONT.SPACE_WIDTH    ] = undefined;
-_data[ __E_SCRIBBLE_FONT.MAPSTRING      ] = undefined;
-_data[ __E_SCRIBBLE_FONT.SEPARATION     ] = undefined;
-_data[ __E_SCRIBBLE_FONT.SPRITE         ] = undefined;
-_data[ __E_SCRIBBLE_FONT.SPRITE_X       ] = undefined;
-_data[ __E_SCRIBBLE_FONT.SPRITE_Y       ] = undefined;
+_data[ __SCRIBBLE_FONT.NAME         ] = _font;
+_data[ __SCRIBBLE_FONT.PATH         ] = _path;
+_data[ __SCRIBBLE_FONT.TYPE         ] = __SCRIBBLE_FONT_TYPE.FONT;
+_data[ __SCRIBBLE_FONT.GLYPHS_MAP   ] = undefined;
+_data[ __SCRIBBLE_FONT.GLYPHS_ARRAY ] = undefined;
+_data[ __SCRIBBLE_FONT.GLYPH_MIN    ] = 32;
+_data[ __SCRIBBLE_FONT.GLYPH_MAX    ] = 32;
+_data[ __SCRIBBLE_FONT.TEXTURE      ] = undefined;
+_data[ __SCRIBBLE_FONT.SPACE_WIDTH  ] = undefined;
+_data[ __SCRIBBLE_FONT.MAPSTRING    ] = undefined;
+_data[ __SCRIBBLE_FONT.SEPARATION   ] = undefined;
 global.__scribble_font_data[? _font ] = _data;
 
+show_debug_message("Scribble: Added \"" + _font + "\" as a standard font");

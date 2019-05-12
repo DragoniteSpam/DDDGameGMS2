@@ -1,5 +1,5 @@
 {
-    "id": "240edf86-ecea-427d-9a3c-ee22368945b8",
+    "id": "127f9452-af18-4fe3-95c2-cc6a34e0138a",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scribble_typewriter_in",

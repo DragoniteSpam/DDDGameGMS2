@@ -244,7 +244,7 @@ if (file_exists(starting_map)){
 
 // scribble
 
-scribble_init_start(PATH_FONT, 4096);
+scribble_init_start(PATH_FONT, 4096, false);
 scribble_init_add_font("FGameMedium");              // the first font added is the default one
 scribble_init_add_font("FGameHuge");
 scribble_init_add_font("FGameLarge");

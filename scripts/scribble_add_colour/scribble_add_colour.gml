@@ -1,7 +1,3 @@
-/// @description  void scribble_add_colour(name, colour, [colourIsGameMakerBGR]);
-/// @param name
-/// @param  colour
-/// @param  [colourIsGameMakerBGR]
 /// Adds a custom colour for use as an in-line colour definition for scribble_create() 
 ///
 /// This script allows for the definition of a custom colour that can be referenced by name in scribble_create()
@@ -15,34 +11,49 @@
 
 var _name   = argument[0];
 var _colour = argument[1];
-var _native = false;
+var _native = ((argument_count > 2) && (argument[2] != undefined))? argument[2] : false;
 
-switch (argument_count){
-    case 3:
-        if ( argument[2] != undefined ) _native = argument[2];
-        break;
-}
-
-if ( global.__scribble_init_complete == SCRIBBLE_INIT_START ) {
-    show_error( "scribble_add_colour() should be called after initialising Scribble.", false );
+if ( !variable_global_exists("__scribble_init_complete") )
+{
+    show_error("Scribble:\nscribble_add_colour() should be called after initialising Scribble.\n ", false);
     exit;
 }
 
-if ( !is_string( _name ) ) {
-    show_error( "Custom colour names should be strings.", false );
+if ( !is_string(_name) )
+{
+    show_error("Scribble:\nCustom colour names should be strings.\n ", false);
     exit;
 }
 
-if ( !is_real( _colour ) ) {
-    show_error( "Custom colours should be specificed as 24-bit integers.", false );
+if ( !is_real(_colour) )
+{
+    show_error("Scribble:\nCustom colours should be specificed as 24-bit integers.\n ", false);
     exit;
 }
 
-if ( !_native ) {
-    _colour = make_colour_rgb( colour_get_blue( _colour ), colour_get_green( _colour ), colour_get_red( _colour ) );
+if (!_native)
+{
+    _colour = make_colour_rgb(colour_get_blue(_colour), colour_get_green(_colour), colour_get_red(_colour));
+}
+
+if ( ds_map_exists(global.__scribble_events, _name) )
+{
+    show_debug_message("Scribble: WARNING! Colour name \"" + _name + "\" has already been defined as an event" );
+    exit;
+}
+
+if ( ds_map_exists(global.__scribble_flags, _name) )
+{
+    show_debug_message("Scribble: WARNING! Colour name \"" + _name + "\" has already been defined as a flag" );
+    exit;
+}
+
+var _old_colour = global.__scribble_colours[? _name ];
+if ( is_real(_old_colour) )
+{
+    show_debug_message("Scribble: WARNING! Overwriting colour \"" + _name + "\" (" + string(colour_get_red(_old_colour)) + "," + string(colour_get_green(_old_colour)) + "," + string(colour_get_blue(_old_colour)) + ", u32=" + string(_old_colour) + ")");
 }
 
 global.__scribble_colours[? _name ] = _colour;
 
-debug_silent( "Scribble: Added colour name " + _name + " as colour " + string(colour_get_red(_colour)) + "," + string(colour_get_green(_colour)) + "," + string(colour_get_blue(_colour)) + " (" + string(_colour) + ")" );
-
+show_debug_message("Scribble: Added colour \"" + _name + "\" as " + string(colour_get_red(_colour)) + "," + string(colour_get_green(_colour)) + "," + string(colour_get_blue(_colour)) + ", u32=" + string(_colour));

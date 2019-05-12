@@ -4,11 +4,9 @@
     "mvc": "1.1",
     "name": "a34a4430-0516-4b39-a852-d9a1fc7f4c45",
     "children": [
-        "d5e64716-c4e4-4b5e-9c3b-7bd6947a1ba2",
-        "46ba15a2-1372-40fe-aee5-69e2d40779b5",
-        "cb933bff-fd4c-4258-bcc9-995610346d2a",
-        "06a04890-3cda-40f5-9e2a-0d8fbdacde7d",
-        "c450047d-3923-4be2-adcb-19e7c68cc983"
+        "dca74db0-eff7-4695-a388-11fb9110e40f",
+        "37a7351a-a7c4-4fce-91d9-c0e983aed00b",
+        "d361bc7b-8038-418d-aea0-7958120dc23b"
     ],
     "filterType": "GMScript",
     "folderName": "scribble",

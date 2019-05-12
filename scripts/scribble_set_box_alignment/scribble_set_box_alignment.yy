@@ -1,5 +1,5 @@
 {
-    "id": "90a8c8fb-06d9-4bc3-a041-77304651bcc2",
+    "id": "53b6a667-28d2-4421-8e2a-71a525a11987",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scribble_set_box_alignment",
