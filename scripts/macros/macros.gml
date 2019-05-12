@@ -3,7 +3,6 @@
 #macro UI_MENU_WIDTH 480
 #macro UI_MENU_START_Y 32
 #macro UI_MENU_START_X 32
-#macro ARRAY array_create(0)
 #macro BATTLEFIELD_SIZE 256
 #macro buffer_datatype buffer_u32
 #macro c_brown make_color_rgb(139, 69, 19)
@@ -13,7 +12,6 @@
 #macro c_health_mid c_yellow
 #macro c_pink make_color_rgb(255, 105, 180)
 #macro DEBUG true
-#macro GMS_VERSION 1
 #macro IMPORT_EXTENSION_DATA ".dddd"
 #macro IMPORT_EXTENSION_MAP ".dddm"
 #macro LOG_FILE "log.txt"
@@ -29,7 +27,6 @@
 #macro PATH_FONT ".\\data\\graphics\\fonts\\"
 #macro PATH_TILESET ".\\data\\graphics\\tilesets\\"
 #macro PAWN_ANIMATION_FRAMES_PER_SECOND 4
-#macro POKEMON_GLOBAL_SCALE 96/224
 #macro SERIALIZE_DATA 1
 #macro SERIALIZE_MAP 0
 #macro STAT_MOD_LIMIT 6
@@ -38,7 +35,6 @@
 #macro TILE_DEPTH 32
 #macro TILE_HEIGHT 32
 #macro TILE_WIDTH 32
-#macro TRAINER_GLOBAL_SCALE 1
 #macro TYPE_IMMUNE 0
 #macro TYPE_RESISTED 0.5
 #macro TYPE_WEAK 2
@@ -51,11 +47,11 @@
 #macro UI_TEXT_BOX_OFFSET_W 32
 #macro UI_TEXT_BOX_WIDTH W
 #macro UI_TEXT_OPTION_BUFFER_W 32
-#macro UI_TEXT_WIDTH W*2/3
+#macro UI_TEXT_WIDTH W * 2 / 3
 #macro USE_DUMMY_DATA true
 #macro __SCRIBBLE_DATE "2019/03/16"
 #macro __SCRIBBLE_TRY_SEQUENTIAL_GLYPH_INDEX true
-#macro __SCRIBBLE_VERSION "-3.2.3" /* the negative version is for gms1, at least until I think of something better */
+#macro __SCRIBBLE_VERSION "3.2.3" /* the negative version is for gms1, at least until I think of something better */
 #macro SCRIBBLE_ANIMATION_SPEED 0.02 /* speed of shader animation effects*/
 #macro SCRIBBLE_COMMAND_TAG_ARGUMENT ord(",") /* Character used to delimit a command parameter inside a command tag. First 127 ASCII chars only */
 #macro SCRIBBLE_COMMAND_TAG_CLOSE ord("]") /* Character used to close a command tag. First 127 ASCII chars only */

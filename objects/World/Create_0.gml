@@ -205,9 +205,9 @@ all_guids=ds_map_create();
 // arrays get resized to (n) when the data is loaded just once
 available_autotiles=array_compose(0);
 all_tilesets=array_compose(0);
-all_maps=ARRAY;
-all_event_custom=ARRAY;
-all_events=ARRAY;
+all_maps=[];
+all_event_custom=[];
+all_events=[];
 
 game_map_starting = "";
 game_player_grid = true;

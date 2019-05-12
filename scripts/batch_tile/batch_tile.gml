@@ -7,15 +7,10 @@
 
 var map = get_active_map();
 var ts_sprite = get_active_tileset().master;
+var TEXEL = 0;
 
 var buffer = argument0;
 var tile = argument1;
-if (GMS_VERSION == 1){
-    // see warning by tile_horizontal_count
-    var TEXEL = 1 / sprite_get_width(ts_sprite);
-} else {
-    var TEXEL = 0;
-}
 
 var xx = argument2 * TILE_WIDTH;
 var yy = argument3 * TILE_HEIGHT;
@@ -50,7 +45,8 @@ var color = tile.tile_color;
 var alpha = tile.tile_alpha;
 
 // TEXEL Chops off the border around the tiles to prevent annoying
-// single-pixel texture issues in GMS1. (Not a problem in GMS2.)
+// single-pixel texture issues in GMS1. (Not a problem in GMS2. Leaving the value here
+// just in case it becomes a problem again - although I doubt it will.)
 // This is not an optimal solution, but it works within the requirements
 // of this project. Do not attempt at home.
 vertex_point_complete(buffer, xx, yy, zz, nx, ny, nz, xtex + TEXEL, ytex + TEXEL, color, alpha);

@@ -18,10 +18,10 @@ for (var i=0; i<n_instances; i++){
         MoveTargets.SINGLEOPPONENT,             // target
         blob[# i, 0],                           // summary
         0,                                      // animation
-        ARRAY,                                  // effects[]
-        ARRAY,                                  // effect odds[]
+        [],                                     // effects[]
+        [],                                     // effect odds[]
         0,                                      // flags
-        ARRAY,                                  // ai codes[]
+        [],                                     // ai codes[]
         blob[# i, 0]
     );
     

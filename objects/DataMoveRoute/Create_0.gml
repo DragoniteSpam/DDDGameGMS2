@@ -1,11 +1,11 @@
 event_inherited();
 
-repeat_action=false;
-will_skip=true;
-will_wait=true;
+repeat_action = false;
+will_skip = true;
+will_wait = true;
 
 // [[action0 id, params...], [action1 id, params...], [action2 id, params]...]
-steps=ARRAY;
+steps = [];
 
 enum MoveRouteActions {
     MOVE_DOWN,                  // [id, u8 distance]

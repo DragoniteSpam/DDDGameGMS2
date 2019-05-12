@@ -28,7 +28,7 @@ y = 0;
 image_xscale = 1;
 image_yscale = 1;
 
-var _surface_array  = ARRAY;
+var _surface_array  = [];
 var _priority_queue = ds_priority_create();
 
 // the runtime version isn't available in GMS1 afaik so if you're not using 1.4.9999 ¯\_(?)_/¯

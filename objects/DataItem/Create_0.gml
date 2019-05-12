@@ -1,19 +1,3 @@
-/// @description definitions
-
-enum ItemOverworldUsability {
-    NOPE,
-    POKEMON,
-    TRAINER,
-}
-
-enum ItemBattleUsability {
-    NOPE,
-    POKEMON,
-    BALL,
-    TRAINER,
-    UNKNOWN,
-}
-
 // These work pretty much the same as move flags, but they're
 // used by the AI to assist in determining whether you need to
 // use an item or not.

@@ -23,10 +23,10 @@ event_inherited();
 // this should only be instantiated in tileset_create so don't worry
 // about populating the values right now
 picture=-1;
-autotiles=ARRAY;
+autotiles=[];
 
-autotile_positions=ARRAY;
-autotile_sizes=ARRAY;
+autotile_positions=[];
+autotile_sizes=[];
 
 // the main picture and all of the autotiles are stored on here
 master=noone;

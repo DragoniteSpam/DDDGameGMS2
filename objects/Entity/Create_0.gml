@@ -78,7 +78,7 @@ autonomous_movement_speed=3;                            // 0: 0.125, 1: 0.25, 2:
 autonomous_movement_frequency=2;                        // 0 through 4
 autonomous_movement_route=0;                            // GUID
 
-movement_routes=ARRAY;             // DataMovementRoutes
+movement_routes=[];             // DataMovementRoutes
 movement_route_mode=MoveRouteModes.AUTO;
 movement_step=0;
 movement_route_update=true;
