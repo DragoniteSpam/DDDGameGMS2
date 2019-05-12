@@ -1,32 +1,30 @@
 /// @description  void update_player(entity);
 /// @param entity
-// this script is called by World because thing is asleep. make
-// sure to prefix all of thing's instance variables with thing.
-
-var thing=argument0;
+// this script is called by World because argument0 is asleep. make
+// sure to prefix all of argument0's instance variables with argument0.
 
 if (get_press_start()){
-    World.pause_queued=PauseStages.MAIN;
+    World.pause_queued = PauseStages.MAIN;
 }
 
-if (Pause.stage==PauseStages.HIDDEN&&thing.movement_free&&World.event_node_current==noone){
-    thing.previous_xx=thing.xx;
-    thing.previous_yy=thing.yy;
-    thing.previous_zz=thing.zz;
+if (Pause.stage == PauseStages.HIDDEN && argument0.movement_free && World.event_node_current == noone){
+    argument0.previous_xx = argument0.xx;
+    argument0.previous_yy = argument0.yy;
+    argument0.previous_zz = argument0.zz;
     
     if (get_press_a()){
-        // getting the thing that you're facing would be that much
+        // getting the argument0 that you're facing would be that much
         // easier if these could map to 
-        var dir=World.direction_map[? thing.map_direction];
-        var what_is_here=map_get_at(get_active_map(), round(thing.xx+dcos(dir)), round(thing.yy-dsin(dir)), round(thing.zz));
-        for (var i=0; i<ds_list_size(what_is_here); i++){
-            var thing=what_is_here[| i];
-            var broken=false;
-            for (var j=0; j<ds_list_size(thing.object_events); j++){
-                var node=guid_get(thing.object_events[| j].event_entrypoint);
-                if (event_valid(thing, node)){
-                    cutscene_begin(node, thing);
-                    broken=true;
+        var dir = World.direction_map[? argument0.map_direction];
+        var what_is_here = map_get_at(get_active_map(), round(argument0.xx + dcos(dir)), round(argument0.yy - dsin(dir)), round(argument0.zz));
+        for (var i = 0; i < ds_list_size(what_is_here); i++){
+            var thing_here = what_is_here[| i];
+            var broken = false;
+            for (var j = 0; j < ds_list_size(thing_here.object_events); j++){
+                var node = guid_get(thing_here.object_events[| j].event_entrypoint);
+                if (event_valid(thing_here, node)){
+                    cutscene_begin(node, thing_here);
+                    broken = true;
                     break;
                 }
             }
@@ -40,22 +38,22 @@ if (Pause.stage==PauseStages.HIDDEN&&thing.movement_free&&World.event_node_curre
         // may collapse these into a smaller block of code later, but not now
         if (World.game_player_grid){
             if (Controller.left){
-                thing.target_xx--;
+                argument0.target_xx--;
             }
             if (Controller.right){
-                thing.target_xx++;
+                argument0.target_xx++;
             }
             if (Controller.up){
-                thing.target_yy--;
+                argument0.target_yy--;
             }
             if (Controller.down){
-                thing.target_yy++;
+                argument0.target_yy++;
             }
         } else {
-            var fstep=thing.mspd*dt;
-            if (Controller.ls_magnitude>Controller.gamepad_dead_zone){
-                thing.target_xx=thing.xx+fstep*dcos(Controller.ls_angle);
-                thing.target_yy=thing.yy-fstep*dsin(Controller.ls_angle);
+            var fstep = argument0.mspd * dt;
+            if (Controller.ls_magnitude > Controller.gamepad_dead_zone){
+                argument0.target_xx = argument0.xx + fstep * dcos(Controller.ls_angle);
+                argument0.target_yy = argument0.yy - fstep * dsin(Controller.ls_angle);
             }
         }
     }

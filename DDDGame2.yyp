@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "0b541ba5-a69d-48c0-b8f4-c07b74a5eb6f",
+            "Value": {
+                "id": "e74eba6e-a491-4b2e-b0be-591f4df0456c",
+                "resourcePath": "datafiles_yy\\Launcher.pdb.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "0bf935e3-cbb3-4db0-b7d0-8f59ca547e17",
             "Value": {
                 "id": "7c60e6b3-d9ff-408c-b4a9-982afcd115f9",
@@ -460,6 +468,14 @@
                 "id": "46f00fcb-6453-427c-906f-250b8f49c7e0",
                 "resourcePath": "scripts\\scribble_add_colour\\scribble_add_colour.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1cd9d611-6d75-47dd-81f5-9a9c3a5a1f4b",
+            "Value": {
+                "id": "d773fde0-bffa-4fc4-8958-c8a745e7afc2",
+                "resourcePath": "datafiles_yy\\Launcher.config.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1951,6 +1967,14 @@
             }
         },
         {
+            "Key": "899af7d3-5117-439c-8761-e40fe9d4ba79",
+            "Value": {
+                "id": "6396508b-00de-4201-b4e3-71880c127024",
+                "resourcePath": "datafiles_yy\\INIFileParser.xml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "89b69e0f-e838-49d1-929b-be3135e0bf22",
             "Value": {
                 "id": "8c6fae46-065d-4ac4-8f16-177c0d230ff9",
@@ -2959,6 +2983,14 @@
             }
         },
         {
+            "Key": "ca4a708e-a4b5-403d-8fec-873a1a4a18fe",
+            "Value": {
+                "id": "6892f4a9-1cf0-4f5d-9008-4ce558a86b79",
+                "resourcePath": "datafiles_yy\\INIFileParser.dll.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "caf72ab1-c0e5-426f-b07a-1e6e58db0aae",
             "Value": {
                 "id": "0a44bb5a-c1d8-4f24-83e3-a11a291c121f",
@@ -3332,6 +3364,14 @@
                 "id": "54707775-8917-450b-9a65-6749a9b3ee79",
                 "resourcePath": "scripts\\scribble_add_flag\\scribble_add_flag.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e33a0de1-93b3-4c9d-b297-95586695556d",
+            "Value": {
+                "id": "3ac03eb3-7dec-419a-839e-2302d893e414",
+                "resourcePath": "datafiles_yy\\Launcher.exe.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
